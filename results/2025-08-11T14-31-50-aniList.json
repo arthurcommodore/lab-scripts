@@ -1,0 +1,421 @@
+{
+  "data": {
+    "Media": {
+      "characters": {
+        "edges": [
+          {
+            "node": {
+              "description": "Yashiro Uchiha is the only known member of the Uchiha clan whose hair is not visually black. Despite his old age, Yashiro is one of the top-ranked officers in the Konoha Police Force. It has been seen through flashbacks in the anime that he did not get along well with Itachi. Some of the reasons are that he thought Itachi was a show-off and had an easy time getting into ANBU.    \u003cbr\u003e\u003cbr\u003e(Source: Narutopedia)",
+              "id": 22908,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22908-RX77NwCO2LsT.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22908-RX77NwCO2LsT.png"
+              },
+              "name": {
+                "full": "Yashiro Uchiha",
+                "native": "うちはヤシロ"
+              },
+              "siteUrl": "https://anilist.co/character/22908"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Morino, Ibiki\u0026#039;s little brother",
+              "id": 31197,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n31197-b6lffViUejVY.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n31197-b6lffViUejVY.png"
+              },
+              "name": {
+                "full": "Idate Morino",
+                "native": "森乃イダテ"
+              },
+              "siteUrl": "https://anilist.co/character/31197"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": null,
+              "id": 15145,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/15145.jpg",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/15145.jpg"
+              },
+              "name": {
+                "full": "Yotaka",
+                "native": null
+              },
+              "siteUrl": "https://anilist.co/character/15145"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Mizura is a genin from Hoshigakure",
+              "id": 15759,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/15759.jpg",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/15759.jpg"
+              },
+              "name": {
+                "full": "Mizura",
+                "native": "ミヅラ"
+              },
+              "siteUrl": "https://anilist.co/character/15759"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Teyaki Uchiha (うちはテヤキ, Uchiha Teyaki) was a member of the Uchiha clan at the time of the Uchiha Clan Massacre. He was the husband of Uruchi Uchiha.    Teyaki was the shopkeeper of the \u0026quot;Uchiha Senbei\u0026quot; (うちはせんべい) shop, the purveyor of senbei to the Uchiha clan. His shop had been in the family since the rise of Konoha. The recipe of the senbei that gave the shop its fame was a secret passed down through the generations and was closely guarded by Teyaki.    He was one of the few people that encouraged Sasuke Uchiha to be a great shinobi on his own, instead of praising only Sasuke's older brother Itachi. He was eventually killed by Itachi during his massacre of the Uchiha clan. ",
+              "id": 23143,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23143-r1SSiXcLxI7z.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23143-r1SSiXcLxI7z.png"
+              },
+              "name": {
+                "full": "Teyaki Uchiha",
+                "native": "うちはテヤキ"
+              },
+              "siteUrl": "https://anilist.co/character/23143"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": " Sakon is the twin brother of Ukon. Sakon enjoys bad-mouthing the opposition, and, like the rest of the Sound Five, he constantly refers to his enemies as \"trash\". Orochimaru noted Sakon to be the fastest and strongest member of the Sound Four, traits Sakon is very proud of. When in battle Sakon likes to prolong the fight by toying with the opponent and use unnecessarily powerful techniques. This tendency of Sakon's would cause him to slow down the rest of the group whenever he got interested in an opponent..",
+              "id": 8760,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n8760-q4mTvHasjDud.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n8760-q4mTvHasjDud.png"
+              },
+              "name": {
+                "full": "Sakon",
+                "native": "左近"
+              },
+              "siteUrl": "https://anilist.co/character/8760"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": " Ukon is the twin brother of Sakon. He usually resides in Sakon's body (where he's said to be sleeping), with only his head protruding on Sakon's back. Ukon, unlike his brother, is very impatient and prefers to finish a fight quickly.",
+              "id": 41366,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n41366-yIvp4naJdd4T.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n41366-yIvp4naJdd4T.png"
+              },
+              "name": {
+                "full": "Ukon",
+                "native": "右近"
+              },
+              "siteUrl": "https://anilist.co/character/41366"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "  Mondai and his friend Poccha came to Konoha seeking to learn its secrets. Mondai and Poccha were not trained in the shinobi arts, but they hoped they could learn enough secrets to bring their village more missions. They also hoped the fame would bring them a ton of affection from the village women. The exact location of their village is unknown, it may be within the large Fire Country, or it may be in a neighboring non-shinobi nation.    Mondai impersonated Maito Gai when they entered the village, unable to Henge, they instead wore costumes. Kakashi met the two infiltrators and easily recognized they were fakes. He reported their presence to Tsunade who decided to have fun with them, ordering Sakura, TenTen and Katsuyu to put them through gross and labor intensive missions. They two men agreed in the hopes they could gain favor with Tsunade. Unfortunately Naruto fell for the disguise of the two men and worked alongside them as training. When the two men finally had enough, they left the village and met Gai and Lee who were returning. Lee and Gai were surprised by their impersonators. Poccha and Mondai tried to attack the two, but the real Gai and Lee easily kicked them far away, ending their fun.    ",
+              "id": 17540,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17540-9SPLEKzgqIXJ.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17540-9SPLEKzgqIXJ.png"
+              },
+              "name": {
+                "full": "Mondai",
+                "native": "モンダイ"
+              },
+              "siteUrl": "https://anilist.co/character/17540"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Fukusuke Hikyakuya is hired to be the Wagarashi family\u0026#039;s runner for the Todoroki Shrine Race in the Land of Tea.   ~!Land of Tea Arc  Aoi Rokushō and Team Oboro turned out to be the bodyguard for Fukusuke. The leader of Wagarashi family, Kyūroku Wagarashi, hired them to take care of Idate Morino for him.  When it came to the race, Fukusuke was ahead thanks to Team Oboro. When it came to the next part of the race, Fukusuke tells Aoi that he\u0026#039;d better make sure Idate doesn\u0026#039;t catch up. Before sending Fukusuke on his way, Aoi grabs Fukusuke and warns him that if he threatens him again, he will break him in half.  Idate managed to catch up and outrun Fukusuke at the last minute. Fukusuke was beaten up by two members of Wagarashi family who state that he has dishonored the Wagarashi family and had better prepare for what\u0026#039;s coming to him. Fukusuke begs for forgiveness. When Kyūroku and the Tea Daimyo\u0026#039;s minister try to have Idate disqualified for assistance in getting to the checkpoint and declare Fukusuke the winner, the daimyo intervenes, stating that there is no rule against that. After the Wagarashi family was ordered to be disbanded, Fukusuke\u0026#039;s current location and status are unknown.!~",
+              "id": 17307,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17307-RJQItblCdMl3.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17307-RJQItblCdMl3.png"
+              },
+              "name": {
+                "full": "Fukusuke Hikyakuya",
+                "native": "飛脚屋フクスケ"
+              },
+              "siteUrl": "https://anilist.co/character/17307"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "A Chuunin from Leaf Village, Yajirobee and other Leaf ninja hunted for Naruto after he stole the forbidden scroll.    ",
+              "id": 17549,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17549-3ePkUPKbag9Y.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17549-3ePkUPKbag9Y.png"
+              },
+              "name": {
+                "full": "Yajirobee",
+                "native": "ヤジロベエ"
+              },
+              "siteUrl": "https://anilist.co/character/17549"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Tobio (トビオ) was in the same graduating class as the members of Team 7. He accidentally knocks into Naruto, causing Naruto to kiss Sasuke.    (Source: Narutopedia)",
+              "id": 24324,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b24324-QIuBQBsrbKIm.jpg",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b24324-QIuBQBsrbKIm.jpg"
+              },
+              "name": {
+                "full": "Tobio",
+                "native": "トビオ"
+              },
+              "siteUrl": "https://anilist.co/character/24324"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Kagari (篝) is a Genin from Amegakure.   \u003cbr\u003e\u003cbr\u003e (Source: Narutopedia)",
+              "id": 23056,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23056-Rl4Udw9fMJZe.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23056-Rl4Udw9fMJZe.png"
+              },
+              "name": {
+                "full": "Kagari",
+                "native": "篝"
+              },
+              "siteUrl": "https://anilist.co/character/23056"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Ran is a villager from the Land of Rice Fields.  (Episodes 214-215).",
+              "id": 50957,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b50957-9x3jcNarDEvu.jpg",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b50957-9x3jcNarDEvu.jpg"
+              },
+              "name": {
+                "full": "Ran",
+                "native": "ラン"
+              },
+              "siteUrl": "https://anilist.co/character/50957"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Dan was Shizune's uncle, the younger brother of one of Shizune's parents. After the death of his younger sister, he began advocating for medical ninjas to be assigned to every ninja squad. Tsunade shared a similar belief, and the two soon began dating because of it. During their time together Dan shared with Tsunade his dream of becoming Hokage, wanting the title so that he could better protect the villagers of Konoha.",
+              "id": 22876,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22876-k5juKBlTHdBu.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22876-k5juKBlTHdBu.png"
+              },
+              "name": {
+                "full": "Dan Katou",
+                "native": "加藤ダン"
+              },
+              "siteUrl": "https://anilist.co/character/22876"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Hachidai was a miner in the River Country. He and fellow workers Sangorou and Rokusuke fled Katabami Kinzan when the homicidal practices of Kurosuki's Raiga emerged. On their journey away, a fierce storm knocked them off a mountain and they fell into a river below. The awoke far downstream in the Fire Country, where they were saved by Uzumaki Naruto. Hachidai then returned with his fellow workers when a squad was sent from Konoha to investigate the proceeding at Katabami Kinzan.",
+              "id": 20278,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n20278-N0ugK1gsH0MP.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n20278-N0ugK1gsH0MP.png"
+              },
+              "name": {
+                "full": "Hachidai",
+                "native": "ハチダイ"
+              },
+              "siteUrl": "https://anilist.co/character/20278"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Haruna was the daughter of the Vegetable Country Daimyou.    ",
+              "id": 15178,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n15178-58aqp1fPkVOH.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n15178-58aqp1fPkVOH.png"
+              },
+              "name": {
+                "full": "Haruna",
+                "native": "ハルナ"
+              },
+              "siteUrl": "https://anilist.co/character/15178"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Gen\u0026#039;yuumaru (幻幽丸) was a prisoner one of Orochimaru. He is forced to fight his fellow prisoners with the understanding that the survivor will be set free. When he wins he discovers that his body will become Orochimaru\u0026#039;s next vessel. Knowing there is nothing he can do to escape this fate, Gen\u0026#039;yuumaru asks that his clan members that are also imprisoned be set free. In Part II, after Gen\u0026#039;yuumaru\u0026#039;s body begins to reject Orochimaru and he attempts to take Sasuke Uchiha\u0026#039;s body, Gen\u0026#039;yuumaru is seen in Orochimaru\u0026#039;s subconscious along with his other former host bodies\u0026#039; souls.    (Source: Narutopedia)",
+              "id": 22922,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22922-R0ON7l5XRtos.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22922-R0ON7l5XRtos.png"
+              },
+              "name": {
+                "full": "Genyuumaru",
+                "native": "幻幽丸"
+              },
+              "siteUrl": "https://anilist.co/character/22922"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Under the guidance of the Second Hokage, Tobirama Senju, Koharu and her teammates, Hiruzen and Homura, completed numerous missions and became close friends. When Hiruzen became the Third Hokage, Homura and Koharu became his councilors. With their years of experience and knowledge and their unending effort to make Konohagakure a better place, they eventually gained similar respect and social status as the Hokage himself. She holds the belief that the group is more important than any of its individual members. Because of this, she always tries to do what she thinks is the best for Konoha, even if it goes against the Hokage's or her opinion. She is also quite demure, but does not let this stop her from voicing her opinion. In fact, despite this, she is one of the few people able to put the Fifth Hokage in her place when she oversteps her authority. Like Homura, she is more militant than the Hokage she served under have been, and sometimes leans more to Danzo's point of view.",
+              "id": 22649,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22649-bX4UcmJMKRaD.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22649-bX4UcmJMKRaD.png"
+              },
+              "name": {
+                "full": "Koharu Utatane",
+                "native": "うたたねコハル"
+              },
+              "siteUrl": "https://anilist.co/character/22649"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Konoha chūnin.",
+              "id": 23759,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23759-1NZWU1mJhYbx.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23759-1NZWU1mJhYbx.png"
+              },
+              "name": {
+                "full": "Iwashi Tatami",
+                "native": "たたみイワシ"
+              },
+              "siteUrl": "https://anilist.co/character/23759"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Baiu was a Genin from Amegakure.\n\n(Source: Narutopedia)",
+              "id": 23081,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23081-0cvCI9HoWh8l.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23081-0cvCI9HoWh8l.png"
+              },
+              "name": {
+                "full": "Baiu",
+                "native": "バイウ"
+              },
+              "siteUrl": "https://anilist.co/character/23081"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Inabi Uchiha was a policeman of the Konoha Military Police and a member of the Uchiha clan.",
+              "id": 22891,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22891-opI224HGwG1x.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22891-opI224HGwG1x.png"
+              },
+              "name": {
+                "full": "Inabi Uchiha",
+                "native": "うちはイナビ"
+              },
+              "siteUrl": "https://anilist.co/character/22891"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Tanzou was a Genin from Hidden Leaf who particpated in the Chuunin exam. He and his teammates made it to the second test of the exam. While he was off finding food, his teammates decided to open their Heaven scroll. Unfortunately this served to automatically disqualify the team. When he returned he found his teammates Minoji and Shibire knocked out and their exam over.    ",
+              "id": 17551,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17551-vuCZXDXQ5MIJ.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17551-vuCZXDXQ5MIJ.png"
+              },
+              "name": {
+                "full": "Tanzou",
+                "native": "タンゾウ"
+              },
+              "siteUrl": "https://anilist.co/character/17551"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Uruchi Uchiha (うちは ウルチ, Uchiha Uruchi) was the wife of Teyaki Uchiha, and used to own a small bakery at the Uchiha compound in Konoha. She used to be one of the many people in the Uchiha clan who encouraged Sasuke to be like his big brother, Itachi. In a short conversation with Sasuke, she does not seem to pay attention to him, not knowing how old he was. She was eventually killed by Itachi (as well as the rest of the Uchiha clan; except for Sasuke who he left alive). Sasuke referred to her as an aunt and called the man who interrupted in their conversation to save Sasuke from answering, uncle. Since she is from the Uchiha clan, she should possess the Sharingan. But this is unknown as she is not using it or mentioned using it. \n\n(Source: Narutopedia)",
+              "id": 23144,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23144-vBRFMePqc5tl.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23144-vBRFMePqc5tl.png"
+              },
+              "name": {
+                "full": "Uruchi Uchiha",
+                "native": "うちはウルチ"
+              },
+              "siteUrl": "https://anilist.co/character/23144"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": null,
+              "id": 43923,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n43923-HjLXOgM7GGnB.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n43923-HjLXOgM7GGnB.png"
+              },
+              "name": {
+                "full": "Kunihisa",
+                "native": "クニヒサ"
+              },
+              "siteUrl": "https://anilist.co/character/43923"
+            },
+            "role": "SUPPORTING"
+          },
+          {
+            "node": {
+              "description": "Midare was a Genin from Amegakure.\n\n(Source: Narutopedia)",
+              "id": 23083,
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23083-nwkvsgplNBPp.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23083-nwkvsgplNBPp.png"
+              },
+              "name": {
+                "full": "Midare",
+                "native": "ミダレ"
+              },
+              "siteUrl": "https://anilist.co/character/23083"
+            },
+            "role": "SUPPORTING"
+          }
+        ],
+        "pageInfo": {
+          "currentPage": 7,
+          "hasNextPage": true,
+          "lastPage": 8,
+          "perPage": 25
+        }
+      },
+      "id": 20,
+      "title": {
+        "english": "Naruto",
+        "romaji": "NARUTO"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# .editorconfig
+
+root = true
+
+# Go files
+[*.go]
+indent_style = tab
+tab_width = 4
+
+# Templ files
+[*.templ]
+indent_style = space
+indent_size = 2
