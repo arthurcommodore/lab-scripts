@@ -1,17 +1,15 @@
 package logic
 
 import (
-	"bytes"
 	"encoding/json"
 	"fmt"
-	"net/http"
 
 	"github.com/gpt-utils/internal/logic/utils"
 )
 
 const anilistURL = "https://graphql.anilist.co"
 
-type Response struct {
+type ResponseAnilist struct {
 	Data struct {
 		Media struct {
 			ID    int `json:"id"`
@@ -47,7 +45,29 @@ type Response struct {
 	} `json:"data"`
 }
 
-func fetchAnimeCharacters(search string, page, perPage int) (*Response, error) {
+type CharacterEdge struct {
+	Role string `json:"role"`
+	Node struct {
+		ID   int `json:"id"`
+		Name struct {
+			Full   string `json:"full"`
+			Native string `json:"native"`
+		} `json:"name"`
+		Image struct {
+			Large  string `json:"large"`
+			Medium string `json:"medium"`
+		} `json:"image"`
+		Description string `json:"description"`
+		SiteURL     string `json:"siteUrl"`
+	} `json:"node"`
+}
+
+type CombinedResult struct {
+	FullResponse *ResponseAnilist `json:"fullResponse"`
+	AllEdges     []CharacterEdge  `json:"allEdges"`
+}
+
+func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, error) {
 	query := `
     query ($search: String!, $page: Int = 1, $perPage: Int = 50) {
       Media(search: $search, type: ANIME) {
@@ -94,71 +114,48 @@ func fetchAnimeCharacters(search string, page, perPage int) (*Response, error) {
 		"variables": variables,
 	}
 
-	jsonBody, err := json.Marshal(body)
+	headers := map[string]string{
+		"Content-Type": "application/json",
+	}
+
+	req, err := HTTPPostWithHeaders(anilistURL, body, headers)
 	if err != nil {
 		return nil, err
 	}
 
-	req, err := http.NewRequest("POST", anilistURL, bytes.NewBuffer(jsonBody))
+	utils.PrintResponse(req)
+
+	var response ResponseAnilist
+	err = json.Unmarshal(req, &response)
 	if err != nil {
 		return nil, err
 	}
-	req.Header.Set("Content-Type", "application/json")
-
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-	defer resp.Body.Close()
-
-	respBody := new(bytes.Buffer)
-	_, err = respBody.ReadFrom(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-
-	utils.PrintResponse(respBody.Bytes())
-
-	var response Response
-	err = json.Unmarshal(respBody.Bytes(), &response)
-	if err != nil {
-		return nil, err
-	}
-
-	utils.SaveJSONToFile(respBody.Bytes(), "aniList", "results")
 
 	return &response, nil
 }
 
-type CharacterEdge struct {
-	Role string `json:"role"`
-	Node struct {
-		ID   int `json:"id"`
-		Name struct {
-			Full   string `json:"full"`
-			Native string `json:"native"`
-		} `json:"name"`
-		Image struct {
-			Large  string `json:"large"`
-			Medium string `json:"medium"`
-		} `json:"image"`
-		Description string `json:"description"`
-		SiteURL     string `json:"siteUrl"`
-	} `json:"node"`
-}
-
-func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, error) {
+func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *ResponseAnilist, error) {
 	page := 1
 	var allEdges []CharacterEdge
+	var fullResponse *ResponseAnilist
 
 	for {
 		resp, err := fetchAnimeCharacters(search, page, perPage)
 		if err != nil {
-			return nil, err
+			return nil, nil, err
 		}
 
-		// Convertendo para seu tipo explícito CharacterEdge
+		if fullResponse == nil {
+			fullResponse = resp
+		} else {
+			// Acumula os edges no fullResponse também
+			fullResponse.Data.Media.Characters.Edges = append(
+				fullResponse.Data.Media.Characters.Edges,
+				resp.Data.Media.Characters.Edges...,
+			)
+		}
+
+		// Converte para tipo simplificado
 		for _, edge := range resp.Data.Media.Characters.Edges {
 			allEdges = append(allEdges, CharacterEdge{
 				Role: edge.Role,
@@ -205,5 +202,5 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, error
 		page++
 	}
 
-	return allEdges, nil
+	return allEdges, fullResponse, nil
 }
