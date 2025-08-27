@@ -68,7 +68,19 @@ func UpdateAnimes() {
 			AllEdges:     allEdges,
 		}
 
-		rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"$set": bson.M{"synopsis": combined.FullResponse.Data}})
+		rep.UpdateOne(
+			ctx, bson.M{"_id": anime.ID},
+			bson.M{"$set": bson.M{
+				"synopsis":        combined.FullResponse.Data.Media.Description,
+				"countryOfOrigin": combined.FullResponse.Data.Media.CountryOfOrigin,
+				"isAdult":         combined.FullResponse.Data.Media.IsAdult,
+				"episodes":        combined.FullResponse.Data.Media.Episodes,
+				"averageScore":    combined.FullResponse.Data.Media.AverageScore,
+				"type":            combined.FullResponse.Data.Media.Type,
+				"startDate":       combined.FullResponse.Data.Media.StartDate,
+				"endDate":         combined.FullResponse.Data.Media.EndDate,
+				"status":          combined.FullResponse.Data.Media.Status,
+			}})
 
 		for _, edge := range combined.AllEdges {
 			for _, character := range anime.Characters {

@@ -19,6 +19,24 @@ type ResponseAnilist struct {
 				Romaji  string `json:"romaji"`
 				English string `json:"english"`
 			} `json:"title"`
+			Description     string `json:"description"`
+			AverageScore    int    `json:"averageScore"`
+			CountryOfOrigin string `json:"countryOfOrigin"`
+			Episodes        int    `json:"episodes"`
+			Type            string `json:"type"`
+			StartDate       struct {
+				Day   int `json:"day"`
+				Month int `json:"month"`
+				Year  int `json:"year"`
+			} `json:"startDate"`
+			EndDate struct {
+				Day   int `json:"day"`
+				Month int `json:"month"`
+				Year  int `json:"year"`
+			} `json:"endDate"`
+			Status     string
+			IsAdult    bool     `json:"isAdult"`
+			Synonyms   []string `json:"synonyms"`
 			Characters struct {
 				PageInfo struct {
 					CurrentPage int  `json:"currentPage"`
