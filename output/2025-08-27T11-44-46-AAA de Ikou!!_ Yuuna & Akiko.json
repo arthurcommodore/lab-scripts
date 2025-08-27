@@ -1,0 +1,41 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 0,
+        "characters": {
+          "edges": null,
+          "pageInfo": {
+            "currentPage": 0,
+            "hasNextPage": false,
+            "lastPage": 0,
+            "perPage": 0
+          }
+        },
+        "countryOfOrigin": "",
+        "description": "",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 0
+        },
+        "episodes": 0,
+        "id": 0,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 0
+        },
+        "synonyms": null,
+        "title": {
+          "english": "",
+          "romaji": ""
+        },
+        "type": ""
+      }
+    }
+  }
+}

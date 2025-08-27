@@ -1,0 +1,41 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 47,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "A music video for A Viva Non Non by Tempalay, animated by Mirai Mizue and Hoji Tsuchiya and directed by OSRIN.",
+        "endDate": {
+          "day": 11,
+          "month": 8,
+          "year": 2021
+        },
+        "episodes": 1,
+        "id": 143551,
+        "isAdult": false,
+        "startDate": {
+          "day": 11,
+          "month": 8,
+          "year": 2021
+        },
+        "synonyms": [],
+        "title": {
+          "english": "",
+          "romaji": "A Viva Non Non"
+        },
+        "type": "ANIME"
+      }
+    }
+  }
+}

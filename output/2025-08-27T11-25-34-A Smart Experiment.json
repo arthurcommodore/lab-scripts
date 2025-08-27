@@ -1,0 +1,41 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 34,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Bonus short included on the \"Atsushi Wada Works 2002-2010\" DVD",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2006
+        },
+        "episodes": 1,
+        "id": 102158,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2006
+        },
+        "synonyms": [],
+        "title": {
+          "english": "A Smart Experiment",
+          "romaji": "Shutto Shita Jikken"
+        },
+        "type": "ANIME"
+      }
+    }
+  }
+}

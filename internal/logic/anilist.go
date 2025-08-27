@@ -5,7 +5,6 @@ import (
 	"fmt"
 
 	"github.com/gpt-utils/internal/dto"
-	"github.com/gpt-utils/internal/logic/utils"
 )
 
 const anilistURL = "https://graphql.anilist.co"
@@ -52,8 +51,8 @@ type ResponseAnilist struct {
 							Month int `json:"month"`
 							Year  int `json:"year"`
 						} `json:"dateOfBirth"`
-						Age  int `json:"age"`
-						ID   int `json:"id"`
+						Age  string `json:"age"`
+						ID   int    `json:"id"`
 						Name struct {
 							Full   string `json:"full"`
 							Native string `json:"native"`
@@ -75,8 +74,8 @@ type CharacterEdge struct {
 	Role string `json:"role"`
 	Node struct {
 		DateOfBirth dto.DateOfBirth
-		Age         int `json:"age"`
-		ID          int `json:"id"`
+		Age         string `json:"age"`
+		ID          int    `json:"id"`
 		Name        struct {
 			Full   string `json:"full"`
 			Native string `json:"native"`
@@ -177,8 +176,6 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 		return nil, err
 	}
 
-	utils.PrintResponse(req)
-
 	var response ResponseAnilist
 	err = json.Unmarshal(req, &response)
 	if err != nil {
@@ -216,8 +213,8 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *Resp
 				Role: edge.Role,
 				Node: struct {
 					DateOfBirth dto.DateOfBirth
-					Age         int `json:"age"`
-					ID          int `json:"id"`
+					Age         string `json:"age"`
+					ID          int    `json:"id"`
 					Name        struct {
 						Full   string `json:"full"`
 						Native string `json:"native"`

@@ -4,5 +4,5 @@ import "github.com/gpt-utils/scripts"
 
 func main() {
 
-	scripts.RequestAnimeList()
+	scripts.UpdateAnimes()
 }

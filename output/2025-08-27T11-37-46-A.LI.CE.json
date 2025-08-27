@@ -1,0 +1,441 @@
+{
+  "allEdges": [
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57805,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57805-PNRV01RFrAUP.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57805-PNRV01RFrAUP.png"
+        },
+        "name": {
+          "full": "Yuan",
+          "native": "ユアン"
+        },
+        "siteUrl": "https://anilist.co/character/57805"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "Alice, the youngest person ever to be sent in space in the year 2030. A lunar voyage goes bad and a rocket ship crashes back to earth, leaving Alice the only survivor. ",
+        "id": 13023,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b13023-aLJfRglle2Dc.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b13023-aLJfRglle2Dc.png"
+        },
+        "name": {
+          "full": "Alice Hayashi",
+          "native": "林亜利寿"
+        },
+        "siteUrl": "https://anilist.co/character/13023"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57807,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57807-4H3jpy2FgQYG.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57807-4H3jpy2FgQYG.png"
+        },
+        "name": {
+          "full": "Maria",
+          "native": "マリア"
+        },
+        "siteUrl": "https://anilist.co/character/57807"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57811,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57811-mNh7rEyaaHsS.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57811-mNh7rEyaaHsS.png"
+        },
+        "name": {
+          "full": "Nicolai",
+          "native": "ニコライ"
+        },
+        "siteUrl": "https://anilist.co/character/57811"
+      },
+      "role": "SUPPORTING"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57815,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57815-0QXKVsFUSdGP.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57815-0QXKVsFUSdGP.png"
+        },
+        "name": {
+          "full": "Yumi",
+          "native": "ユミ"
+        },
+        "siteUrl": "https://anilist.co/character/57815"
+      },
+      "role": "SUPPORTING"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57813,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57813-xRCIxZTyRa9J.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57813-xRCIxZTyRa9J.png"
+        },
+        "name": {
+          "full": "Nero",
+          "native": "ネロ"
+        },
+        "siteUrl": "https://anilist.co/character/57813"
+      },
+      "role": "SUPPORTING"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 57809,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57809-yBOdQK0607Gc.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57809-yBOdQK0607Gc.png"
+        },
+        "name": {
+          "full": "Casba",
+          "native": "カスバ"
+        },
+        "siteUrl": "https://anilist.co/character/57809"
+      },
+      "role": "SUPPORTING"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 333904,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+        },
+        "name": {
+          "full": "Computer no Koe",
+          "native": "コンピュータの声"
+        },
+        "siteUrl": "https://anilist.co/character/333904"
+      },
+      "role": "BACKGROUND"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 333905,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+        },
+        "name": {
+          "full": "SS10X",
+          "native": ""
+        },
+        "siteUrl": "https://anilist.co/character/333905"
+      },
+      "role": "SUPPORTING"
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 37,
+        "characters": {
+          "edges": [
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57805,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57805-PNRV01RFrAUP.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57805-PNRV01RFrAUP.png"
+                },
+                "name": {
+                  "full": "Yuan",
+                  "native": "ユアン"
+                },
+                "siteUrl": "https://anilist.co/character/57805"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Alice, the youngest person ever to be sent in space in the year 2030. A lunar voyage goes bad and a rocket ship crashes back to earth, leaving Alice the only survivor. ",
+                "id": 13023,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b13023-aLJfRglle2Dc.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b13023-aLJfRglle2Dc.png"
+                },
+                "name": {
+                  "full": "Alice Hayashi",
+                  "native": "林亜利寿"
+                },
+                "siteUrl": "https://anilist.co/character/13023"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57807,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57807-4H3jpy2FgQYG.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57807-4H3jpy2FgQYG.png"
+                },
+                "name": {
+                  "full": "Maria",
+                  "native": "マリア"
+                },
+                "siteUrl": "https://anilist.co/character/57807"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57811,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57811-mNh7rEyaaHsS.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57811-mNh7rEyaaHsS.png"
+                },
+                "name": {
+                  "full": "Nicolai",
+                  "native": "ニコライ"
+                },
+                "siteUrl": "https://anilist.co/character/57811"
+              },
+              "role": "SUPPORTING"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57815,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57815-0QXKVsFUSdGP.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57815-0QXKVsFUSdGP.png"
+                },
+                "name": {
+                  "full": "Yumi",
+                  "native": "ユミ"
+                },
+                "siteUrl": "https://anilist.co/character/57815"
+              },
+              "role": "SUPPORTING"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57813,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57813-xRCIxZTyRa9J.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57813-xRCIxZTyRa9J.png"
+                },
+                "name": {
+                  "full": "Nero",
+                  "native": "ネロ"
+                },
+                "siteUrl": "https://anilist.co/character/57813"
+              },
+              "role": "SUPPORTING"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 57809,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b57809-yBOdQK0607Gc.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b57809-yBOdQK0607Gc.png"
+                },
+                "name": {
+                  "full": "Casba",
+                  "native": "カスバ"
+                },
+                "siteUrl": "https://anilist.co/character/57809"
+              },
+              "role": "SUPPORTING"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 333904,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Computer no Koe",
+                  "native": "コンピュータの声"
+                },
+                "siteUrl": "https://anilist.co/character/333904"
+              },
+              "role": "BACKGROUND"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 333905,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "SS10X",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/333905"
+              },
+              "role": "SUPPORTING"
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Alice, the youngest person ever to be sent into space, is the only survivor when her flight crashes back to earth. Not only is she the only survivor, but she learns that she has been mysteriously catapulted 30 years to the future, where a mysterious dictator known as Nero rules the world with an iron fist and has sent his soldiers to capture, or kill her.\n\u003cbr\u003e\u003cbr\u003e\n(Source: Anime News Network)",
+        "endDate": {
+          "day": 5,
+          "month": 2,
+          "year": 2000
+        },
+        "episodes": 1,
+        "id": 3463,
+        "isAdult": false,
+        "startDate": {
+          "day": 5,
+          "month": 2,
+          "year": 2000
+        },
+        "synonyms": [
+          "alice"
+        ],
+        "title": {
+          "english": "A.LI.CE",
+          "romaji": "A・LI・CE"
+        },
+        "type": "ANIME"
+      }
+    }
+  }
+}

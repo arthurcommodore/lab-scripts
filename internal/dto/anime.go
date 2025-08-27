@@ -29,6 +29,7 @@ type Anime struct {
 	AverageScore     int
 	CountryOfOrigin  string
 	IsAdult          bool
+	AniListApi       bool
 }
 
 type StartDate struct {
@@ -61,6 +62,7 @@ type Character struct {
 	Link        string             `bson:"link" json:"link"`
 	Bio         string             `bson:"bio" json:"bio"`
 	Tags        []string           `bson:"tags" json:"tags"`
-	Age         int
+	Age         string
 	DateOfBirth DateOfBirth
+	AniListApi  bool
 }

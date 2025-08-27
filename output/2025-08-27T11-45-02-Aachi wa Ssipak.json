@@ -1,0 +1,265 @@
+{
+  "allEdges": [
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "Voice by Seung-wan Ryoo",
+        "id": 9472,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/9472.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9472.jpg"
+        },
+        "name": {
+          "full": "Aachi",
+          "native": "아치"
+        },
+        "siteUrl": "https://anilist.co/character/9472"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "Voice by Chang Jung Lim.",
+        "id": 9473,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/9473.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9473.jpg"
+        },
+        "name": {
+          "full": "Ssipak",
+          "native": "씨팍"
+        },
+        "siteUrl": "https://anilist.co/character/9473"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 16685,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/16685.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/16685.jpg"
+        },
+        "name": {
+          "full": "Pretty",
+          "native": "이쁜이"
+        },
+        "siteUrl": "https://anilist.co/character/16685"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "A cyborg who fights for the police.",
+        "id": 9471,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/9471.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9471.jpg"
+        },
+        "name": {
+          "full": "Geko",
+          "native": ""
+        },
+        "siteUrl": "https://anilist.co/character/9471"
+      },
+      "role": "SUPPORTING"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "A porn director with a vision.",
+        "id": 35205,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/35205.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/35205.jpg"
+        },
+        "name": {
+          "full": "Jimmy the Freak",
+          "native": "지미"
+        },
+        "siteUrl": "https://anilist.co/character/35205"
+      },
+      "role": "SUPPORTING"
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 58,
+        "characters": {
+          "edges": [
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Voice by Seung-wan Ryoo",
+                "id": 9472,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/9472.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9472.jpg"
+                },
+                "name": {
+                  "full": "Aachi",
+                  "native": "아치"
+                },
+                "siteUrl": "https://anilist.co/character/9472"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Voice by Chang Jung Lim.",
+                "id": 9473,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/9473.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9473.jpg"
+                },
+                "name": {
+                  "full": "Ssipak",
+                  "native": "씨팍"
+                },
+                "siteUrl": "https://anilist.co/character/9473"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 16685,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/16685.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/16685.jpg"
+                },
+                "name": {
+                  "full": "Pretty",
+                  "native": "이쁜이"
+                },
+                "siteUrl": "https://anilist.co/character/16685"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A cyborg who fights for the police.",
+                "id": 9471,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/9471.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/9471.jpg"
+                },
+                "name": {
+                  "full": "Geko",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/9471"
+              },
+              "role": "SUPPORTING"
+            },
+            {
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A porn director with a vision.",
+                "id": 35205,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/35205.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/35205.jpg"
+                },
+                "name": {
+                  "full": "Jimmy the Freak",
+                  "native": "지미"
+                },
+                "siteUrl": "https://anilist.co/character/35205"
+              },
+              "role": "SUPPORTING"
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "KR",
+        "description": "In the future the world's energy sources have run out. Consequently, human faeces have to be used as fuel for engines. Each time a person defecates, his government would reward him with an addictive drug-like candy known as the Juicy Bar, which soon becomes the root of crime and warfare.",
+        "endDate": {
+          "day": 28,
+          "month": 6,
+          "year": 2006
+        },
+        "episodes": 1,
+        "id": 2884,
+        "isAdult": false,
+        "startDate": {
+          "day": 28,
+          "month": 6,
+          "year": 2006
+        },
+        "synonyms": [
+          "Aachi and Ssipak"
+        ],
+        "title": {
+          "english": "Aachi \u0026 Ssipak",
+          "romaji": "Aachi wa Ssipak"
+        },
+        "type": "ANIME"
+      }
+    }
+  }
+}
