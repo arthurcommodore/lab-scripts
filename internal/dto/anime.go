@@ -32,11 +32,19 @@ type AnimeSeason struct {
 	Season string `bson:"season" json:"season"`
 }
 
+type DateOfBirth struct {
+	Day   int
+	Month int
+	Year  int
+}
+
 type Character struct {
-	ID        primitive.ObjectID `bson:"_id,omitempty" json:"id"`
-	Name      string             `bson:"name" json:"name"`
-	PathImage string             `bson:"pathImage" json:"pathImage"`
-	Link      string             `bson:"link" json:"link"`
-	Bio       string             `bson:"bio" json:"bio"`
-	Tags      []string           `bson:"tags" json:"tags"`
+	ID          primitive.ObjectID `bson:"_id,omitempty" json:"id"`
+	Name        string             `bson:"name" json:"name"`
+	PathImage   string             `bson:"pathImage" json:"pathImage"`
+	Link        string             `bson:"link" json:"link"`
+	Bio         string             `bson:"bio" json:"bio"`
+	Tags        []string           `bson:"tags" json:"tags"`
+	Age         int
+	DateOfBirth DateOfBirth
 }

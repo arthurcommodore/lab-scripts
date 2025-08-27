@@ -4,11 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/gpt-utils/internal/dto"
 	"github.com/gpt-utils/internal/logic/utils"
 )
 
 const anilistURL = "https://graphql.anilist.co"
 
+// ...existing code...
 type ResponseAnilist struct {
 	Data struct {
 		Media struct {
@@ -27,6 +29,12 @@ type ResponseAnilist struct {
 				Edges []struct {
 					Role string `json:"role"`
 					Node struct {
+						DateOfBirth struct {
+							Day   int `json:"day"`
+							Month int `json:"month"`
+							Year  int `json:"year"`
+						} `json:"dateOfBirth"`
+						Age  int `json:"age"`
 						ID   int `json:"id"`
 						Name struct {
 							Full   string `json:"full"`
@@ -48,8 +56,10 @@ type ResponseAnilist struct {
 type CharacterEdge struct {
 	Role string `json:"role"`
 	Node struct {
-		ID   int `json:"id"`
-		Name struct {
+		DateOfBirth dto.DateOfBirth
+		Age         int `json:"age"`
+		ID          int `json:"id"`
+		Name        struct {
 			Full   string `json:"full"`
 			Native string `json:"native"`
 		} `json:"name"`
@@ -62,6 +72,7 @@ type CharacterEdge struct {
 	} `json:"node"`
 }
 
+// ...existing code...
 type CombinedResult struct {
 	FullResponse *ResponseAnilist `json:"fullResponse"`
 	AllEdges     []CharacterEdge  `json:"allEdges"`
@@ -76,6 +87,24 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
           romaji
           english
         }
+        description
+        averageScore
+        countryOfOrigin
+        episodes
+        type
+        startDate {
+          day
+          month
+          year
+        }
+
+        endDate {
+          day
+          month
+          year
+        }
+        isAdult
+        synonyms
         characters(page: $page, perPage: $perPage) {
           pageInfo {
             currentPage
@@ -86,6 +115,12 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
           edges {
             role
             node {
+              dateOfBirth {
+                day
+                day
+                year
+              }
+              age
               id
               name {
                 full
@@ -102,6 +137,7 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
         }
       }
     }
+
     `
 	variables := map[string]interface{}{
 		"search":  search,
@@ -138,6 +174,7 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *Resp
 	page := 1
 	var allEdges []CharacterEdge
 	var fullResponse *ResponseAnilist
+	seen := make(map[int]bool)
 
 	for {
 		resp, err := fetchAnimeCharacters(search, page, perPage)
@@ -147,21 +184,23 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *Resp
 
 		if fullResponse == nil {
 			fullResponse = resp
-		} else {
-			// Acumula os edges no fullResponse também
-			fullResponse.Data.Media.Characters.Edges = append(
-				fullResponse.Data.Media.Characters.Edges,
-				resp.Data.Media.Characters.Edges...,
-			)
 		}
 
 		// Converte para tipo simplificado
 		for _, edge := range resp.Data.Media.Characters.Edges {
+
+			if seen[edge.Node.ID] {
+				continue // já temos esse personagem, pula
+			}
+			seen[edge.Node.ID] = true
+
 			allEdges = append(allEdges, CharacterEdge{
 				Role: edge.Role,
 				Node: struct {
-					ID   int `json:"id"`
-					Name struct {
+					DateOfBirth dto.DateOfBirth
+					Age         int `json:"age"`
+					ID          int `json:"id"`
+					Name        struct {
 						Full   string `json:"full"`
 						Native string `json:"native"`
 					} `json:"name"`
@@ -172,7 +211,13 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *Resp
 					Description string `json:"description"`
 					SiteURL     string `json:"siteUrl"`
 				}{
-					ID: edge.Node.ID,
+					DateOfBirth: dto.DateOfBirth{
+						Day:   edge.Node.DateOfBirth.Day,
+						Month: edge.Node.DateOfBirth.Month,
+						Year:  edge.Node.DateOfBirth.Year,
+					},
+					Age: edge.Node.Age,
+					ID:  edge.Node.ID,
 					Name: struct {
 						Full   string `json:"full"`
 						Native string `json:"native"`

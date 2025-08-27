@@ -82,6 +82,7 @@ func SendFileFtpPasv(addr, username, password, filepath string) error {
 	if err != nil {
 		return err
 	}
+
 	writer.Flush()
 	resp, err = readResp()
 	if err != nil {
@@ -94,6 +95,7 @@ func SendFileFtpPasv(addr, username, password, filepath string) error {
 	if err != nil {
 		return err
 	}
+
 	writer.Flush()
 	resp, err = readResp()
 	if err != nil {
@@ -126,6 +128,7 @@ func SendFileFtpPasv(addr, username, password, filepath string) error {
 	if err != nil {
 		return err
 	}
+
 	writer.Flush()
 	resp, err = readResp()
 	if err != nil {
