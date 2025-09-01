@@ -119,61 +119,30 @@ func UpdateAnimes() {
 		}
 
 		for _, edge := range combined.AllEdges {
+
+			var matchedCharacter dto.Character
 			for _, character := range anime.Characters {
 				if utils.CompareFirstWords(character.Name, edge.Node.Name.Full) {
+					matchedCharacter = character
+					break
+				}
+			}
 
-					_, err := rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": character.Name, "$options": "i"}}, bson.M{"$set": bson.M{
-						"characters.$.bio":         edge.Node.Description,
-						"characters.$.link":        edge.Node.SiteURL,
-						"characters.$.age":         edge.Node.Age,
-						"characters.$.dateOfBirth": edge.Node.DateOfBirth,
-						"characters.$.aniListApi":  true,
-					}})
+			if matchedCharacter.Name != "" {
+				_, err := rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
+					"characters.$.bio":         edge.Node.Description,
+					"characters.$.link":        edge.Node.SiteURL,
+					"characters.$.age":         edge.Node.Age,
+					"characters.$.dateOfBirth": edge.Node.DateOfBirth,
+					"characters.$.aniListApi":  true,
+				}})
 
-					if err != nil {
-						log.Fatalf("update character erro if CompareFirstWords: %v", err)
-						continue
-					}
+				if err != nil {
+					log.Fatalf("update character erro if CompareFirstWords: %v", err)
+					continue
+				}
 
-					if character.PathImage == "" {
-
-						uploads = append(uploads, struct {
-							URL  string
-							Path string
-						}{
-							URL:  edge.Node.Image.Large,
-							Path: edge.Node.Name.Full,
-						})
-
-						_, err = rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": character.Name, "$options": "i"}}, bson.M{"$set": bson.M{
-							"characters.$.PathImage": edge.Node.Image.Large,
-						}})
-						if err != nil {
-							log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
-							continue
-						}
-					}
-
-				} else {
-
-					_, err = rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{
-						"$push": bson.M{
-							"characters": dto.Character{
-								Name:        edge.Node.Name.Full,
-								Age:         edge.Node.Age,
-								DateOfBirth: edge.Node.DateOfBirth,
-								Bio:         edge.Node.Description,
-								PathImage:   edge.Node.Image.Large,
-								Link:        edge.Node.SiteURL,
-								AniListApi:  true,
-							},
-						},
-					})
-
-					if err != nil {
-						log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
-						continue
-					}
+				if matchedCharacter.PathImage == "" {
 
 					uploads = append(uploads, struct {
 						URL  string
@@ -182,7 +151,42 @@ func UpdateAnimes() {
 						URL:  edge.Node.Image.Large,
 						Path: edge.Node.Name.Full,
 					})
+
+					_, err = rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
+						"characters.$.PathImage": edge.Node.Image.Large,
+					}})
+					if err != nil {
+						log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
+						continue
+					}
 				}
+			} else {
+				_, err = rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{
+					"$push": bson.M{
+						"characters": dto.Character{
+							Name:        edge.Node.Name.Full,
+							Age:         edge.Node.Age,
+							DateOfBirth: edge.Node.DateOfBirth,
+							Bio:         edge.Node.Description,
+							PathImage:   edge.Node.Image.Large,
+							Link:        edge.Node.SiteURL,
+							AniListApi:  true,
+						},
+					},
+				})
+
+				if err != nil {
+					log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
+					continue
+				}
+
+				uploads = append(uploads, struct {
+					URL  string
+					Path string
+				}{
+					URL:  edge.Node.Image.Large,
+					Path: edge.Node.Name.Full,
+				})
 			}
 		}
 	}
