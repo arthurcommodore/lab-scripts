@@ -1,0 +1,131 @@
+{
+  "allEdges": [
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 26,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "17-",
+        "description": "__Occupation:__ Shogi Player\n__Height:__ 170cm (5'6'')\n\nHe is the main protagonist, whose progression is explored through the series. He is a teenage professional shogi player, currently ranked at 5th-dan. He is widely lauded in the shogi community as the fifth shogi player to become a professional in middle school. Using his salary combined with his life savings, he lives in his own apartment while juggling between his official matches and high school. By the time the story begins, Rei is also a frequent visitor of the Kawamoto residence, where the family treats him as one of their own despite his initial reluctance to become close with them.",
+        "id": 21044,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b21044-K0pEhdOEmAwG.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b21044-K0pEhdOEmAwG.png"
+        },
+        "name": {
+          "full": "Rei Kiriyama",
+          "native": "桐山零"
+        },
+        "siteUrl": "https://anilist.co/character/21044"
+      },
+      "role": "MAIN"
+    },
+    {
+      "node": {
+        "DateOfBirth": {
+          "Day": 6,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "13-",
+        "description": "__Occupation:__ Student\n\nHinata Kawamoto, often called Hina, is the middle child of the Kawamoto siblings and a middle school student whose positive attitude inspires [Rei](https://anilist.co/character/21044/) to try to overcome his depression.\n",
+        "id": 24312,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b24312-A39sjFFj3Zrg.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b24312-A39sjFFj3Zrg.png"
+        },
+        "name": {
+          "full": "Hinata Kawamoto",
+          "native": "川本ひなた"
+        },
+        "siteUrl": "https://anilist.co/character/24312"
+      },
+      "role": "SUPPORTING"
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Status": "",
+        "averageScore": 68,
+        "characters": {
+          "edges": [
+            {
+              "node": {
+                "age": "17-",
+                "dateOfBirth": {
+                  "day": 26,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "__Occupation:__ Shogi Player\n__Height:__ 170cm (5'6'')\n\nHe is the main protagonist, whose progression is explored through the series. He is a teenage professional shogi player, currently ranked at 5th-dan. He is widely lauded in the shogi community as the fifth shogi player to become a professional in middle school. Using his salary combined with his life savings, he lives in his own apartment while juggling between his official matches and high school. By the time the story begins, Rei is also a frequent visitor of the Kawamoto residence, where the family treats him as one of their own despite his initial reluctance to become close with them.",
+                "id": 21044,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b21044-K0pEhdOEmAwG.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b21044-K0pEhdOEmAwG.png"
+                },
+                "name": {
+                  "full": "Rei Kiriyama",
+                  "native": "桐山零"
+                },
+                "siteUrl": "https://anilist.co/character/21044"
+              },
+              "role": "MAIN"
+            },
+            {
+              "node": {
+                "age": "13-",
+                "dateOfBirth": {
+                  "day": 6,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "__Occupation:__ Student\n\nHinata Kawamoto, often called Hina, is the middle child of the Kawamoto siblings and a middle school student whose positive attitude inspires [Rei](https://anilist.co/character/21044/) to try to overcome his depression.\n",
+                "id": 24312,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b24312-A39sjFFj3Zrg.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b24312-A39sjFFj3Zrg.png"
+                },
+                "name": {
+                  "full": "Hinata Kawamoto",
+                  "native": "川本ひなた"
+                },
+                "siteUrl": "https://anilist.co/character/24312"
+              },
+              "role": "SUPPORTING"
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "A CGI music video of Sangatsu no Lion set to Bump of Chicken's 'Fighter' single. The website states that the collaboration started because the mangaka Umino Chika is a fan of Bump of Chicken and the members of Bump of Chicken are fans of Sangatsu no Lion. A special edition of the manga's 10th compiled volume shipped on November 28 with this single.\n\u003cbr\u003e\u003cbr\u003e\n(Source: Anime News Network)",
+        "endDate": {
+          "day": 8,
+          "month": 12,
+          "year": 2014
+        },
+        "episodes": 1,
+        "id": 21587,
+        "isAdult": false,
+        "startDate": {
+          "day": 8,
+          "month": 12,
+          "year": 2014
+        },
+        "synonyms": [],
+        "title": {
+          "english": "March comes in like a lion meets Bump of Chicken",
+          "romaji": "3-gatsu no Lion meets BUMP OF CHICKEN"
+        },
+        "type": "ANIME"
+      }
+    }
+  }
+}

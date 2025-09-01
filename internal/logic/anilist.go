@@ -22,7 +22,7 @@ type ResponseAnilist struct {
 			AverageScore    int    `json:"averageScore"`
 			CountryOfOrigin string `json:"countryOfOrigin"`
 			Episodes        int    `json:"episodes"`
-			Type            string `json:"type"`
+			Format          string `json:"type"`
 			StartDate       struct {
 				Day   int `json:"day"`
 				Month int `json:"month"`
@@ -98,7 +98,7 @@ type CombinedResult struct {
 func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, error) {
 	query := `
     query ($search: String!, $page: Int = 1, $perPage: Int = 50) {
-      Media(search: $search, type: ANIME) {
+      Media(search: $search, type: ANIME, isAdult: false) {
         id
         title {
           romaji
@@ -108,13 +108,12 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
         averageScore
         countryOfOrigin
         episodes
-        type
+        format
         startDate {
           day
           month
           year
         }
-
         endDate {
           day
           month
@@ -130,11 +129,22 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
             hasNextPage
           }
           edges {
-            role
+             voiceActors {
+				id
+				name {
+					full
+				}
+				image {
+					large
+				}
+				language
+				siteUrl
+				}
+			}
             node {
               dateOfBirth {
                 day
-                day
+                month
                 year
               }
               age

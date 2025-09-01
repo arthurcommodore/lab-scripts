@@ -47,29 +47,15 @@ func UpdateAnimes() {
 	collection := client.Database("animeSearch").Collection("animes")
 	rep := logic.NewQueryAnimeMongo(collection)
 
-	uploadAndDownload := func(url, path string) error {
-
-		err = logic.DownloadImage(url, fmt.Sprintf("output/%s.jpg", path))
-		if err != nil {
-			log.Fatalf("Falha fazer download da imagem: %v", err)
-		}
-
-		addr := os.Getenv("FTP_ADDR")
-		user := os.Getenv("FTP_USER")
-		password := os.Getenv("FTP_PASSWORD")
-		err = logic.SendFileFtpPasv(addr, user, password, fmt.Sprintf("output/%s.jpg", path))
-
-		return err
-	}
-
-	animes, err := rep.ListPageAnime(ctx, 1, 5, bson.M{"aniListApi": bson.M{"$ne": true}})
+	animes, err := rep.ListPageAnime(ctx, 1, 15, bson.M{"aniListApi": bson.M{"$ne": true}})
 	if err != nil {
 		log.Fatalf("Falha ao listar Anime: %v", err)
 		return
 	}
 
 	for _, anime := range animes {
-		if len(anime.Title) == 0 {
+		if len(anime.Title) < 5 {
+			rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"$set": bson.M{"aniListNotFound": true, "aniListApi": true}})
 			continue
 		}
 
@@ -78,6 +64,11 @@ func UpdateAnimes() {
 		allEdges, fullResponse, err := logic.FetchAllAnimeCharacters(anime.Title, 25)
 		if err != nil {
 			log.Fatalf("Falha FetchAllAnimeCharacters: %v", err)
+			continue
+		}
+
+		if allEdges == nil && fullResponse.Data.Media.Description == "" {
+			fmt.Println("Not found")
 			continue
 		}
 
@@ -93,7 +84,7 @@ func UpdateAnimes() {
 		}
 
 		safeTitle := sanitizeFileName(anime.Title)
-		_, err = utils.SaveJSONToFile(jsonData, safeTitle, "/home/daym/Documentos/gpt-utils/output")
+		_, err = utils.SaveJSONToFile(jsonData, safeTitle, "output")
 		if err != nil {
 			log.Fatalf("Erro ao salvar arquivo: %v", err)
 		}
@@ -106,7 +97,7 @@ func UpdateAnimes() {
 				"isAdult":         combined.FullResponse.Data.Media.IsAdult,
 				"episodes":        combined.FullResponse.Data.Media.Episodes,
 				"averageScore":    combined.FullResponse.Data.Media.AverageScore,
-				"type":            combined.FullResponse.Data.Media.Type,
+				"type":            combined.FullResponse.Data.Media.Format,
 				"startDate":       combined.FullResponse.Data.Media.StartDate,
 				"endDate":         combined.FullResponse.Data.Media.EndDate,
 				"status":          combined.FullResponse.Data.Media.Status,
@@ -149,11 +140,11 @@ func UpdateAnimes() {
 						Path string
 					}{
 						URL:  edge.Node.Image.Large,
-						Path: edge.Node.Name.Full,
+						Path: fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 					})
 
 					_, err = rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
-						"characters.$.PathImage": edge.Node.Image.Large,
+						"characters.$.PathImage": fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 					}})
 					if err != nil {
 						log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
@@ -168,7 +159,7 @@ func UpdateAnimes() {
 							Age:         edge.Node.Age,
 							DateOfBirth: edge.Node.DateOfBirth,
 							Bio:         edge.Node.Description,
-							PathImage:   edge.Node.Image.Large,
+							PathImage:   fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 							Link:        edge.Node.SiteURL,
 							AniListApi:  true,
 						},
@@ -185,18 +176,36 @@ func UpdateAnimes() {
 					Path string
 				}{
 					URL:  edge.Node.Image.Large,
-					Path: edge.Node.Name.Full,
+					Path: fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 				})
 			}
 		}
 	}
 
+	addr := os.Getenv("FTP_ADDR")
+	user := os.Getenv("FTP_USER")
+	password := os.Getenv("FTP_PASSWORD")
+
+	ftpClient, err := logic.NewFtpClient(addr, user, password)
+	if err != nil {
+		panic(err)
+	}
+	defer ftpClient.Close()
+
 	for _, up := range uploads {
-		err := uploadAndDownload(up.URL, up.Path)
+		err = logic.DownloadImage(up.URL, fmt.Sprintf("/home/daym/Documentos/aniListImages/%s", up.Path))
 		if err != nil {
-			log.Printf("Falha download image: %v", err)
-			continue
+			log.Fatal(err)
+			return
 		}
-		fmt.Println("Upload concluído com sucesso!")
+
+		fmt.Printf("Download %s\n", up.Path)
+		if err := ftpClient.UploadFile(fmt.Sprintf("/home/daym/Documentos/aniListImages/%s", up.Path)); err != nil {
+			log.Fatal(err)
+			return
+		}
+		fmt.Println("send to ftp")
+
+		time.Sleep(2)
 	}
 }

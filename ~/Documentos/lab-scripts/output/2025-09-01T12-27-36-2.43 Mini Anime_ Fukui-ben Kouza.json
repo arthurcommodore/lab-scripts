@@ -4,7 +4,7 @@
     "data": {
       "Media": {
         "Status": "",
-        "averageScore": 47,
+        "averageScore": 43,
         "characters": {
           "edges": [],
           "pageInfo": {
@@ -15,24 +15,24 @@
           }
         },
         "countryOfOrigin": "JP",
-        "description": "A music video for A Viva Non Non by Tempalay, animated by Mirai Mizue and Hoji Tsuchiya and directed by OSRIN.",
+        "description": "Mini anime about the Fukui dialect, released on the 2.43 Twitter.",
         "endDate": {
-          "day": 11,
-          "month": 8,
+          "day": 26,
+          "month": 2,
           "year": 2021
         },
-        "episodes": 1,
-        "id": 143551,
+        "episodes": 8,
+        "id": 128527,
         "isAdult": false,
         "startDate": {
-          "day": 11,
-          "month": 8,
+          "day": 7,
+          "month": 1,
           "year": 2021
         },
         "synonyms": [],
         "title": {
           "english": "",
-          "romaji": "A Viva Non Non"
+          "romaji": "2.43 Mini Anime: Fukui-ben Kouza"
         },
         "type": "ANIME"
       }

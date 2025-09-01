@@ -30,6 +30,7 @@ type Anime struct {
 	CountryOfOrigin  string
 	IsAdult          bool
 	AniListApi       bool
+	AniListNotFound  bool
 }
 
 type StartDate struct {

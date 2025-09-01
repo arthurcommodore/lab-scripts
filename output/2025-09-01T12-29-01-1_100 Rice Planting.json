@@ -4,7 +4,7 @@
     "data": {
       "Media": {
         "Status": "",
-        "averageScore": 39,
+        "averageScore": 44,
         "characters": {
           "edges": [],
           "pageInfo": {
@@ -15,24 +15,24 @@
           }
         },
         "countryOfOrigin": "JP",
-        "description": "Short film by Yoriko Mizushiri.",
+        "description": "A 1/100 scale of rice planting in a field done with paper stop-motion.",
         "endDate": {
-          "day": 0,
-          "month": 0,
-          "year": 2008
+          "day": 26,
+          "month": 6,
+          "year": 2016
         },
         "episodes": 1,
-        "id": 136492,
+        "id": 102528,
         "isAdult": false,
         "startDate": {
-          "day": 0,
-          "month": 0,
-          "year": 2008
+          "day": 26,
+          "month": 6,
+          "year": 2016
         },
         "synonyms": [],
         "title": {
-          "english": "",
-          "romaji": "A Sea Doesn't Tell Much"
+          "english": "1/100 Rice Planting",
+          "romaji": "1/100 Kenchiku Mokei-you Tenkei Set"
         },
         "type": "ANIME"
       }
