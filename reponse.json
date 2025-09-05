@@ -1,0 +1,2638 @@
+{
+  "data": {
+    "Media": {
+      "id": 20,
+      "title": {
+        "romaji": "NARUTO",
+        "english": "Naruto"
+      },
+      "studios": {
+        "nodes": [
+          {
+            "name": "Studio Pierrot"
+          },
+          {
+            "name": "TV Tokyo"
+          },
+          {
+            "name": "Aniplex"
+          },
+          {
+            "name": "Viz Media"
+          },
+          {
+            "name": "Shueisha"
+          },
+          {
+            "name": "KSS"
+          },
+          {
+            "name": "SME Visual Works"
+          },
+          {
+            "name": "Rakuonsha"
+          }
+        ]
+      },
+      "description": "Naruto Uzumaki, a hyperactive and knuckle-headed ninja, lives in Konohagakure, the Hidden Leaf village. Moments prior to his birth, a huge demon known as the Kyuubi, the Nine-tailed Fox, attacked Konohagakure and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the 4th Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto. <br><br>\nShunned because of the presence of the Kyuubi inside him, Naruto struggles to find his place in the village. He strives to become the Hokage of Konohagakure, and he meets many friends and foes along the way. <br><br>\n(Source: MAL Rewrite)",
+      "averageScore": 79,
+      "countryOfOrigin": "JP",
+      "episodes": 220,
+      "format": "TV",
+      "startDate": {
+        "day": 3,
+        "month": 10,
+        "year": 2002
+      },
+      "endDate": {
+        "day": 8,
+        "month": 2,
+        "year": 2007
+      },
+      "isAdult": false,
+      "synonyms": [
+        "נארוטו",
+        "ناروتو",
+        "火影忍者",
+        "นารูโตะ นินจาจอมคาถา",
+        "Наруто"
+      ],
+      "characters": {
+        "pageInfo": {
+          "currentPage": 1,
+          "lastPage": 8,
+          "perPage": 25,
+          "hasNextPage": true
+        },
+        "edges": [
+          {
+            "voiceActors": [
+              {
+                "id": 95001,
+                "name": {
+                  "full": "Tomokazu Seki"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95001-vm0RtZhmlzhK.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95001"
+              },
+              {
+                "id": 95010,
+                "name": {
+                  "full": "Johnny Yong Bosch"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95010"
+              },
+              {
+                "id": 106537,
+                "name": {
+                  "full": "Ricardo Bautista"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106537-EXMQh9GchWPA.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/106537"
+              },
+              {
+                "id": 100084,
+                "name": {
+                  "full": "Rodrigo Andreatto"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n100084-6eGQQuuH1O8P.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/100084"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 23215,
+              "name": {
+                "full": "Sagi",
+                "native": "サギ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23215-psvpC0r5tkkI.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23215-psvpC0r5tkkI.png"
+              },
+              "description": "Sagi was the son of Owashi and the twin brother of Toki. ",
+              "siteUrl": "https://anilist.co/character/23215"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95006,
+                "name": {
+                  "full": "Toshiyuki Morikawa"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95006"
+              },
+              {
+                "id": 109757,
+                "name": {
+                  "full": "Won Hyeong Choi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14757.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109757"
+              },
+              {
+                "id": 95654,
+                "name": {
+                  "full": "Tony Oliver"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95654-iX4zn8eYCaRS.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95654"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 25,
+                "month": 1,
+                "year": null
+              },
+              "age": "24",
+              "id": 2535,
+              "name": {
+                "full": "Minato Namikaze",
+                "native": "波風ミナト"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b2535-Xq9WKNPJQEt3.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b2535-Xq9WKNPJQEt3.png"
+              },
+              "description": "__Height:__ 179.2cm (5'10.6\")\n\nMinato Namikaze was the Fourth Hokage of Konohagakure and the man responsible for sealing the nine-tailed demon fox inside Naruto Uzumaki when he was born. Doing so cost him his life, and before dying he asked that the villagers not see Naruto as the monster within him, instead wanting him to be viewed as a hero, a request ignored by the villagers. \"Namikaze\" translates literally as \"Wave wind\". \"Minato\" translates as \"Harbor\" or \"Port\".    ~!Minato shares a number of traits with Naruto, namely in appearance and attitude. Such comparisons are common throughout the first part of the series, and in the second as well. The second part of the series reveals that Naruto is his son, hence the comparisons, born to Kushina Uzumaki. In his youth Minato, along with two other unknown Genin, was a student of Jiraiya. Prior to becoming Hokage, he was also the sensei of Kakashi Hatake, Obito Uchiha, and Rin. !~ Minato is said to be the greatest ninja Konoha had ever produced, with natural talent that had not been seen in many years. He created several distinctive techniques, including the Hiraishin no Jutsu, which essentially allowed him to teleport to any location with the use of a special seal. By attaching the seal to a kunai or an enemy, Minato could teleport to the location of the seal unnoticed, allowing him to wipe out nearby opponents almost instantly. This ability led to his title as \"Konoha's Yellow Flash\", and it caused him to be seen as so dangerous that a flee-on-sight order was given in regards to him during the Third Ninja War. He also created the Rasengan, a technique that does not rely on hand seals but instead uses a concentration of spinning chakra in one's palm that causes immense damage to its victim on contact. Later in the series it is revealed that technique is actually incomplete. Minato had planned to add his own nature manipulation training to the Rasengan, making it even more powerful, but could not manage to prior to his death.   ~!Later during the war he is resurrected by Orochimaru with Edo Tensei alongside all the deceased Hokage on Sasuke's demand.!~",
+              "siteUrl": "https://anilist.co/character/2535"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95006,
+                "name": {
+                  "full": "Toshiyuki Morikawa"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95006-hoLuiZANeD3Q.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95006"
+              },
+              {
+                "id": 95648,
+                "name": {
+                  "full": "Makoto Tsumura"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95648-rMpzJIsJ1bxk.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95648"
+              },
+              {
+                "id": 96462,
+                "name": {
+                  "full": "Irwin Daayán"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96462-PWlPtfZ1sHX7.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/96462"
+              },
+              {
+                "id": 100476,
+                "name": {
+                  "full": "Keith Silverstein"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n100476-2k3NOkUNC6gZ.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/100476"
+              },
+              {
+                "id": 109931,
+                "name": {
+                  "full": "Yeong Jae Pyo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14931.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109931"
+              },
+              {
+                "id": 116199,
+                "name": {
+                  "full": "Felipe Zilse"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n116199-HOkD2ThElDib.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/116199"
+              },
+              {
+                "id": 156130,
+                "name": {
+                  "full": "Paolo Sesana"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n156130-yJUVNuEcXemU.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/156130"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 15,
+                "month": 6,
+                "year": null
+              },
+              "age": "15",
+              "id": 3438,
+              "name": {
+                "full": "Kimimaro Kaguya",
+                "native": "君麻呂"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b3438-h1fxTDdwew0h.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b3438-h1fxTDdwew0h.png"
+              },
+              "description": "\nKimimaro was the fifth member of the Sound Four, thus temporarily changing their group name to the Sound Five. The original four were forced to accept him against their will, as Kimimaro's combat abilities exceeded all of their skills combined. He was the sole survivor of the Kaguya clan, who could manipulate their bodies' skeletal frame. The Kaguya clan was wiped out when they attacked Kirigakure, seemingly for no reason other than the desire to kill. Having underestimated their opponent's defenses, they were slaughtered to the last man, with only Kimimaro surviving.  NOTE: Though some fans believe that his full name was Kimimaro Kaguya, the second databook only said his name as Kimimaro.  Kimimaro was referred to by Orochimaru as the most powerful member of the clan, having \"abilities that even that war-loving clan feared\". Because of this, he was locked away in a cage for most of his life, only released occasionally when needed to fight other clans.\n\nLike many of Orochimaru's closest followers, Kimimaro was branded with a cursed seal, which gives him greater power at the expense of his free will. When in his level 2 form, his appearance is similar to that of a dinosaur, with dark gray skin, six large bone spines on the back of his chest, and a long bone spiked tail. He also possesses a great deal of control over his cursed seal, as he is able to control its spread throughout his body without fully activating it. Kimimaro was apparently friends with Jugo at one point, and his control over his cursed seal impressed the latter. Karin claims that Kimimaro was the only one who could stop Jugo without getting hurt.   ~! Kimimaro succumbed to his disease and died in the middle of his fight with Gaara during the Sasuke Retrieval Arc, moments before he was about to deliver the finishing blow to Gaara and Lee.!~  ",
+              "siteUrl": "https://anilist.co/character/3438"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95007,
+                "name": {
+                  "full": "Eiji Yanagisawa"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95007"
+              },
+              {
+                "id": 110323,
+                "name": {
+                  "full": "Gileno Santoro"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/15323.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/110323"
+              },
+              {
+                "id": 108323,
+                "name": {
+                  "full": "Affonso Amajones"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n108323-gPvXawqV6veh.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/108323"
+              },
+              {
+                "id": 95355,
+                "name": {
+                  "full": "Wally Wingert"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/355.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95355"
+              },
+              {
+                "id": 232410,
+                "name": {
+                  "full": "Ulises Zavala"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n232410-ZNSOyFA2EHO7.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/232410"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 17535,
+              "name": {
+                "full": "Genzou",
+                "native": "ゲンゾウ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17535-OQe2yMFsZfRX.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17535-OQe2yMFsZfRX.png"
+              },
+              "description": "Genzou serves as the photographer at the Ninja Academy.    ",
+              "siteUrl": "https://anilist.co/character/17535"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95010,
+                "name": {
+                  "full": "Johnny Yong Bosch"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95010"
+              },
+              {
+                "id": 95125,
+                "name": {
+                  "full": "Hiroaki Hirata"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95125-NeFFiJupoDVj.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95125"
+              },
+              {
+                "id": 103548,
+                "name": {
+                  "full": "Jan-David Rönfeldt"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/8548.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/103548"
+              },
+              {
+                "id": 105093,
+                "name": {
+                  "full": "Tamás Arany"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/10093.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/105093"
+              },
+              {
+                "id": 109821,
+                "name": {
+                  "full": "Han Choi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14821.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109821"
+              },
+              {
+                "id": 182222,
+                "name": {
+                  "full": "Rafael Pacheco"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182222-0Fz9qcwIYdVr.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182222"
+              },
+              {
+                "id": 103609,
+                "name": {
+                  "full": "Márcio Araújo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n103609-le01QWguLrUK.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/103609"
+              },
+              {
+                "id": 184112,
+                "name": {
+                  "full": "Márcio Marconato"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n184112-ozJrHfIbhtFM.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/184112"
+              },
+              {
+                "id": 102974,
+                "name": {
+                  "full": "Wellington Lima"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/102974"
+              },
+              {
+                "id": 262180,
+                "name": {
+                  "full": "Tomasz Błasiak"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n262180-f2LbCG1RL9rS.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/262180"
+              },
+              {
+                "id": 105572,
+                "name": {
+                  "full": "Luca Sandri"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/10572.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/105572"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 17,
+                "month": 7,
+                "year": null
+              },
+              "age": "29-30 (Part I)",
+              "id": 3735,
+              "name": {
+                "full": "Genma Shiranui",
+                "native": "不知火ゲンマ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n3735-IRx14wSYNVSE.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n3735-IRx14wSYNVSE.png"
+              },
+              "description": "__Height:__ 181 cm (5'11'')  \n__Affiliation:__ Konohagakure \n__Current Rank:__ Special Jonin Previous \n__Occupation:__ Examiner  \n\nGenma Shiranui replaces Hayate Gekko as examiner of the main matches of the Chunin Exams after Hayate is killed. \"Shiranui\" means \"phosphorescent light\". Genma is often seen with a senbon in his mouth. He uses this as a weapon, spitting it out at the enemy to attack them, or to deflect ranged weapon attacks. When the invasion of Konoha begins, Genma battles Baki off-screen, presumably to a draw since both of them come out of the fight relatively unscathed. He later appears with Raido Namiashi to confront the Sound Four, who are forced to go level 2 of their cursed seals to defeat them. The Sound Four later comment that if it hadn't been for their cursed seals, Genma and Raido would have defeated them.",
+              "siteUrl": "https://anilist.co/character/3735"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95010,
+                "name": {
+                  "full": "Johnny Yong Bosch"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95010"
+              },
+              {
+                "id": 101237,
+                "name": {
+                  "full": "Takuo Kawamura"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/6237.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/101237"
+              },
+              {
+                "id": 209539,
+                "name": {
+                  "full": "Reinaldo Rodrigues"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n209539-EP3cEM76diHm.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/209539"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 11,
+                "month": 2,
+                "year": null
+              },
+              "age": "19",
+              "id": 15179,
+              "name": {
+                "full": "Shigure",
+                "native": "シグレ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n15179-OhSKh438SeNm.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n15179-OhSKh438SeNm.png"
+              },
+              "description": "Shigure is a rain Genin from Amegakure. He specailises in using his Chakra control to use needles hidden in umbrellas.    Shigure and his team had the unfortunate luck of confronting Gaara&#039;s team during the Chunin Exam. Shigure sought their scroll and underestimated Gaara&#039;s power. Shigure attempted to use his sprinking needles technique but Gaara&#039;s sand protected him. Gaara then took the opportunity to confine Shigure and his team using the desert coffin technique.",
+              "siteUrl": "https://anilist.co/character/15179"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95010,
+                "name": {
+                  "full": "Johnny Yong Bosch"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95010-56EByXYI2PjI.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95010"
+              },
+              {
+                "id": 105270,
+                "name": {
+                  "full": "Toshitaka Hirano"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n105270-kKPhl7gL9S6p.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/105270"
+              },
+              {
+                "id": 109489,
+                "name": {
+                  "full": "Dado Monteiro"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14489.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/109489"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 23156,
+              "name": {
+                "full": "Shibire",
+                "native": "ツビレ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23156-RuQi2S8iJWwK.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23156-RuQi2S8iJWwK.png"
+              },
+              "description": "Shibire is a Genin from Konohagakure. He and the rest of Team Shibire made it to the second phase of the Chūnin Exams. When they started to lose hope in completing the round, he and Minoji decided to read their scroll, leaving them knocked out and unable to complete the exams.   <br><br> (Source: Narutopedia)",
+              "siteUrl": "https://anilist.co/character/23156"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95012,
+                "name": {
+                  "full": "Steven Blum"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95012"
+              },
+              {
+                "id": 95103,
+                "name": {
+                  "full": "Kujira"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95103-u0gfczhE9neg.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95103"
+              },
+              {
+                "id": 95130,
+                "name": {
+                  "full": "Yuriko Yamaguchi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95130-GoO41ve3YWQw.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95130"
+              },
+              {
+                "id": 95276,
+                "name": {
+                  "full": "Sachiko Kojima"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95276-uj7NdE0RLmEU.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95276"
+              },
+              {
+                "id": 95316,
+                "name": {
+                  "full": "Mayumi Yamaguchi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95316-sp5oQEI6tURH.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95316"
+              },
+              {
+                "id": 96293,
+                "name": {
+                  "full": "Gabriele Calindri"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96293-QmhYngY200fT.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96293"
+              },
+              {
+                "id": 102797,
+                "name": {
+                  "full": "Balázs Láng"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7797.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102797"
+              },
+              {
+                "id": 103514,
+                "name": {
+                  "full": "Erik Schäffler"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n103514-SLUG7taLCcYk.png"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/103514"
+              },
+              {
+                "id": 106869,
+                "name": {
+                  "full": "Renato Soares"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106869-gR1b1qAARPPs.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/106869"
+              },
+              {
+                "id": 109869,
+                "name": {
+                  "full": "Jeong-Gu Lee"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n109869-eS8uBA2POwkX.png"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109869"
+              },
+              {
+                "id": 182560,
+                "name": {
+                  "full": "José Arenas"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182560-6gJStzZ9SZnX.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182560"
+              },
+              {
+                "id": 163442,
+                "name": {
+                  "full": "Peppino Capotondi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n163442-kXYYssDU4Qud.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/163442"
+              },
+              {
+                "id": 277481,
+                "name": {
+                  "full": "Modest Ruciński"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n277481-ZbBlV1lzhFVU.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/277481"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 27,
+                "month": 10,
+                "year": null
+              },
+              "age": "50-51",
+              "id": 2455,
+              "name": {
+                "full": "Orochimaru",
+                "native": "大蛇丸"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n2455-V9tLMS3TIgJW.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n2455-V9tLMS3TIgJW.png"
+              },
+              "description": "__Height:__ 179.4cm-172.0cm\n__Affiliations:__ Konohagakure (Leaf), Root, Akatsuki, Otagakure (Sound)\n__Classification:__ Sannin, Sage, S-rank, Missing-nin\n\nOrochimaru is a major antagonist of the Naruto series. They are a missing ninja from Konohagakure, who is recognized as one of the most powerful ninjas and known as one of the \"Legendary Sannin\" (Legendary Three Ninja), which was a title that was given to them and their former teammates, Jiraiya and Tsunade, by Hanzou during the Second Shinobi World War. Their main goals are to capture Uchiha Sasuke as his new body to gain possession of the Sharingan and to destroy Konoha.",
+              "siteUrl": "https://anilist.co/character/2455"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95012,
+                "name": {
+                  "full": "Steven Blum"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95012"
+              },
+              {
+                "id": 95598,
+                "name": {
+                  "full": "Shuuichi Ikeda"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95598-IZBrsaxRsACg.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95598"
+              },
+              {
+                "id": 96461,
+                "name": {
+                  "full": "Mario Castañeda"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96461-Oa02kFQ4wXPL.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/96461"
+              },
+              {
+                "id": 179060,
+                "name": {
+                  "full": "Luiz Laffey"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n179060-BvD1u2WGdCON.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/179060"
+              },
+              {
+                "id": 163983,
+                "name": {
+                  "full": "Enrico Maggi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n163983-oEMm29iuw3A4.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/163983"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 17546,
+              "name": {
+                "full": "Sazanami",
+                "native": "サザナミ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n17546-zdnPQ3ZdKJjz.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n17546-zdnPQ3ZdKJjz.png"
+              },
+              "description": "A simple blacksmith, Sazanami lived in a small hut bordering two countries. He was hired to make a katana and left to deliver it on the eve of a nearby village festival. When he arrived to deliver the sword, he found the family of three dead by the hands of Gosunkugi. He attempted to battle the man, but he fled. The villagers arrived quickly thereafter to find Sazanami by the corpses. They accused him of the murder and he fled.    ",
+              "siteUrl": "https://anilist.co/character/17546"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95012,
+                "name": {
+                  "full": "Steven Blum"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95012"
+              },
+              {
+                "id": 107157,
+                "name": {
+                  "full": "Yukihiro Misono"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/12157.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/107157"
+              },
+              {
+                "id": 106531,
+                "name": {
+                  "full": "Guilherme Lopes"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106531-vOxd4fxQt9UL.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/106531"
+              },
+              {
+                "id": 182439,
+                "name": {
+                  "full": "Leonardo García"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182439-QCsVTcSuOXKi.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182439"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 22881,
+              "name": {
+                "full": "Kuromaru",
+                "native": "黒丸"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22881-PbDQA2Py9bCL.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22881-PbDQA2Py9bCL.png"
+              },
+              "description": "Kuromaru (黒丸) is the canine companion of Tsume Inuzuka. Kuromaru has a wolfish appearance and is missing his left ear and right eye. As his name suggests, his fur is black. He is able to talk. He helps Tsume protect Konoha during both invasions of the village.    <br><br>(Source: Narutopedia)",
+              "siteUrl": "https://anilist.co/character/22881"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95012,
+                "name": {
+                  "full": "Steven Blum"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95012-jnlK6VyCTf9P.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95012"
+              },
+              {
+                "id": 95357,
+                "name": {
+                  "full": "Unshou Ishizuka"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95357-umndcceko65h.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95357"
+              },
+              {
+                "id": 96236,
+                "name": {
+                  "full": "Diego Sabre"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96236-2gQfODFDwIAT.png"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96236"
+              },
+              {
+                "id": 102868,
+                "name": {
+                  "full": "Gábor Maday"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7868.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102868"
+              },
+              {
+                "id": 102974,
+                "name": {
+                  "full": "Wellington Lima"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/102974"
+              },
+              {
+                "id": 104908,
+                "name": {
+                  "full": "Mathieu Moreau"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n104908-SQCbXPyxFPUf.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/104908"
+              },
+              {
+                "id": 109827,
+                "name": {
+                  "full": "Wan gyeong Seong"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14827.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109827"
+              },
+              {
+                "id": 112747,
+                "name": {
+                  "full": "Zvika Shwarzberg"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/17747.jpg"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/112747"
+              },
+              {
+                "id": 182551,
+                "name": {
+                  "full": "Ricardo Tejedo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182551-z5pxnDy9L0DJ.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182551"
+              },
+              {
+                "id": 146268,
+                "name": {
+                  "full": "Clemens Gerhard"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/146268"
+              },
+              {
+                "id": 277546,
+                "name": {
+                  "full": "Tomasz Marzecki"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n277546-K33vC4iVOcuJ.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/277546"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 15,
+                "month": 8,
+                "year": null
+              },
+              "age": null,
+              "id": 728,
+              "name": {
+                "full": "Zabuza Momochi",
+                "native": "桃地再不斬"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b728-zHw77BzLzQKT.jpg",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b728-zHw77BzLzQKT.jpg"
+              },
+              "description": "Zabuza was born in Kirigakure. During one of Kirigakure's annual events of pitting graduating ninja against each other, Zabuza singlehandedly killed all of his peers, bringing an end to the ritual and causing him to be called the \"Demon of the Hidden Mist\". Zabuza would go on to become one of the Seven Shinobi Swordsmen of the Mist where he acquired his zanbatō, and also became a member of the Kirigakure ANBU. At some point in time, Zabuza found a young boy named Haku wandering the countryside and offered to take Haku in as his tool. Haku accepted and became loyal to Zabuza, learning from Zabuza and protecting him whenever necessary. Z\n\nBeing from Kirigakure, Zabuza excels in water-oriented jutsu, some of which are exclusive to him. In addition to the offensive capabilities of his water jutsu, Zabuza is very skilled in assassinations.",
+              "siteUrl": "https://anilist.co/character/728"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95015,
+                "name": {
+                  "full": "Junko Takeuchi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95015"
+              },
+              {
+                "id": 101964,
+                "name": {
+                  "full": "Tobias Pippig"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/6964.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/101964"
+              },
+              {
+                "id": 102094,
+                "name": {
+                  "full": "Eduardo Garza"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102094-IK5XCbLdQNrZ.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/102094"
+              },
+              {
+                "id": 116713,
+                "name": {
+                  "full": "Jean-Pierre Denuit"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/21713.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/116713"
+              },
+              {
+                "id": 117475,
+                "name": {
+                  "full": "Javier Balas"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/22475.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/117475"
+              },
+              {
+                "id": 116185,
+                "name": {
+                  "full": "Agatha Paulita"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n116185-uOcvnPm5MgUJ.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/116185"
+              },
+              {
+                "id": 273589,
+                "name": {
+                  "full": "Jamie Simone"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n273589-RF3b80jv4Img.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/273589"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 4799,
+              "name": {
+                "full": "Akamaru",
+                "native": "赤丸"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n4799-gwSQJlSqWnST.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n4799-gwSQJlSqWnST.png"
+              },
+              "description": "Akamaru is the nin-dog of Inuzuka Kiba. He is his best friend and plays an important part in all of Kiba's attacks. As a puppy, he is either in Kiba's jacket or on his head, but he later grows to be so large that Kiba can ride him. He has very good senses, even for a dog, and can communicate with Kiba.   Akamaru's name means \"red\" (with \"maru\" at the end, which is simply an ending for a boy's name. Other males in the show share the suffix). When he eats a soldier pill, his fur turns a dark red color.",
+              "siteUrl": "https://anilist.co/character/4799"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95015,
+                "name": {
+                  "full": "Junko Takeuchi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95015"
+              },
+              {
+                "id": 95264,
+                "name": {
+                  "full": "Colleen O'Shaughnessey"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95264-t2i84EKOw71G.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95264"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 23569,
+              "name": {
+                "full": "Guruko",
+                "native": "グルコ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n23569-mlluAVANQu3f.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n23569-mlluAVANQu3f.png"
+              },
+              "description": "Kakashi's ninken.",
+              "siteUrl": "https://anilist.co/character/23569"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95015,
+                "name": {
+                  "full": "Junko Takeuchi"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95015-QwI9K4FRe4Cq.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95015"
+              },
+              {
+                "id": 95609,
+                "name": {
+                  "full": "Maile Flanagan"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95609-pxXj5Wah2x70.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95609"
+              },
+              {
+                "id": 95727,
+                "name": {
+                  "full": "Ema Kogure"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95727-qwSGmin4kQ7D.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95727"
+              },
+              {
+                "id": 96290,
+                "name": {
+                  "full": "Leonardo Graziano"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1290.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96290"
+              },
+              {
+                "id": 96634,
+                "name": {
+                  "full": "Carole Baillien"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1634.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/96634"
+              },
+              {
+                "id": 96686,
+                "name": {
+                  "full": "Isabel Martiñón"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/1686.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/96686"
+              },
+              {
+                "id": 101964,
+                "name": {
+                  "full": "Tobias Pippig"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/6964.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/101964"
+              },
+              {
+                "id": 102780,
+                "name": {
+                  "full": "Botond Előd"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7780.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102780"
+              },
+              {
+                "id": 103241,
+                "name": {
+                  "full": "Úrsula Bezerra"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/8241.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/103241"
+              },
+              {
+                "id": 106636,
+                "name": {
+                  "full": "Tuval Shafir"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106636-xb4VGUU3d9gT.jpg"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/106636"
+              },
+              {
+                "id": 117475,
+                "name": {
+                  "full": "Javier Balas"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/22475.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/117475"
+              },
+              {
+                "id": 218963,
+                "name": {
+                  "full": "Adam Pluciński"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n218963-KzfYLvXUUHNS.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/218963"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 10,
+                "month": 10,
+                "year": null
+              },
+              "age": "12-17 (Naruto), 27- (Boruto)",
+              "id": 17,
+              "name": {
+                "full": "Naruto Uzumaki",
+                "native": "うずまきナルト"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b17-phjcWCkRuIhu.png"
+              },
+              "description": "__Height__: 145-180 cm \n__Family:__ ~![Minato Namikaze](https://anilist.co/character/2535) (father), [Kushina Uzumaki](https://anilist.co/character/7302) (mother), [Jiraiya](https://anilist.co/character/2423) (godfather)  !~\n\nBorn in Konohagakure, a ninja village hidden in the leaves, Naruto Uzumaki was destined for greatness. When born, a powerful [nine-tailed demon fox](https://anilist.co/character/7407) attacked his village. With a wave of its tail, the demon fox could raise tsunamis and shatter mountains. In a valiant attempt to save the village from destruction, the Fourth Hokage and leader of the Hidden Leaf Village sealed the demon fox within Naruto's newborn body. This was his final act, for the battle with the fox cost him his life.  Despite the Fourth Hokage's dying wish that Naruto is viewed as a hero for serving as the container for the demon (a  _Jinchuuriki_), the adult villagers of Konoha harbored a fierce hatred for him, with many believing that Naruto and the demons were one and the same. Cast aside as an inhuman monster, Naruto was outcast and ostracised by the villagers for reasons he could not understand. The children his age could only ever follow their parents' example; and they too came to harbor a fierce hatred for Naruto.  Naruto eventually came to accept that he would live and die alone, and his external response was to perform harmless pranks on the village. Coy, raffish, and full of life, Naruto soon came to display a somewhat unexpected determination to succeed and be accepted by others. Upon being assigned to \"Team Seven\" as a Genin-ranked ninja, his true potential soon became outwardly apparent.  Vowing to become Hokage one day and using his will to never give in, Naruto saves the village from invading forces and earns his acceptance. Eventually, Naruto learns to harness the power of the Demon Fox sealed inside him to perform acts of strength far beyond what any other human is capable of.  In all, Naruto is an admirable character whose sheer determination to succeed despite the odds, earns him respect and devotion from his fellow villagers.",
+              "siteUrl": "https://anilist.co/character/17"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95016,
+                "name": {
+                  "full": "Noriaki Sugiyama"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95016-03m7lAUZBMDv.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95016"
+              },
+              {
+                "id": 95225,
+                "name": {
+                  "full": "Yuri Lowenthal"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95225-CbmI6oDkbbkL.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95225"
+              },
+              {
+                "id": 96292,
+                "name": {
+                  "full": "Alessandro Rigotti"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96292-kTw0ZhitcmeW.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96292"
+              },
+              {
+                "id": 100141,
+                "name": {
+                  "full": "Robson Kumode"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n100141-mKGvtGeugjhx.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/100141"
+              },
+              {
+                "id": 101499,
+                "name": {
+                  "full": "Yeong-seon Kim"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n101499-aHFkv5mYhE5m.png"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/101499"
+              },
+              {
+                "id": 102002,
+                "name": {
+                  "full": "Jannik Endemann"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102002-3Xk1bkO1hWkN.png"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/102002"
+              },
+              {
+                "id": 102694,
+                "name": {
+                  "full": "Víctor Ugarte"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102694-xWqlc4cFqipg.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/102694"
+              },
+              {
+                "id": 102814,
+                "name": {
+                  "full": "Szabolcs Pálmai"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7814.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102814"
+              },
+              {
+                "id": 106968,
+                "name": {
+                  "full": "Daniel Magon"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106968-5hrA7h8N6sMS.png"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/106968"
+              },
+              {
+                "id": 109823,
+                "name": {
+                  "full": "Mi Na Yun"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14823.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109823"
+              },
+              {
+                "id": 110559,
+                "name": {
+                  "full": "Adolfo Moreno"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/15559.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/110559"
+              },
+              {
+                "id": 115080,
+                "name": {
+                  "full": "Christophe Hespel"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/20080.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/115080"
+              },
+              {
+                "id": 230525,
+                "name": {
+                  "full": "Marcin Przybylski"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230525-6HYCYMmeL9ts.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230525"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 23,
+                "month": 7,
+                "year": null
+              },
+              "age": "12-17 (Naruto) 27- (Boruto)",
+              "id": 13,
+              "name": {
+                "full": "Sasuke Uchiha",
+                "native": "うちはサスケ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b13-SISLEw1oAD7a.png"
+              },
+              "description": "__Height__: 153.2-182 cm\n\nWhen Sasuke was young his clan was murdered by his older brother, Itachi. With his parents and family now gone his brother spared him and left him to survive by himself. He told Sasuke to hate him. Sasuke applied to the ninja academy when he was young in order to get strong and avenge his clan by killing his brother. As he made friends on the way he forgot that this was his initial purpose. After his fight with Naruto he believes he's been wasting his time 'playing ninja' with the people of the leaf village. His new goal is to get stronger so he can avenge his clan by killing Itachi.  As a wielder of the Sharingan (the kekkei genkai of the Uchiha clan), he learns to use Chidori and has a vast knowledge of the various Fire Jutsus.",
+              "siteUrl": "https://anilist.co/character/13"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95017,
+                "name": {
+                  "full": "Akira Ishida"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95017-GSRcmQ97a8ZT.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95017"
+              },
+              {
+                "id": 95317,
+                "name": {
+                  "full": "Liam O'Brien"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95317-1H9A9jxTNsCP.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95317"
+              },
+              {
+                "id": 96267,
+                "name": {
+                  "full": "Luigi Rosa"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96267-I6paUN1vrxxA.png"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96267"
+              },
+              {
+                "id": 102094,
+                "name": {
+                  "full": "Eduardo Garza"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102094-IK5XCbLdQNrZ.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/102094"
+              },
+              {
+                "id": 102827,
+                "name": {
+                  "full": "Csongor Szalay"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7827.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102827"
+              },
+              {
+                "id": 104937,
+                "name": {
+                  "full": "Tony Beck"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n104937-yzBT4LiZik5C.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/104937"
+              },
+              {
+                "id": 106521,
+                "name": {
+                  "full": "Yuri Chesman"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106521-GUVA3QJQyx64.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/106521"
+              },
+              {
+                "id": 110291,
+                "name": {
+                  "full": "Chea Eun Han"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/15291.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/110291"
+              },
+              {
+                "id": 141768,
+                "name": {
+                  "full": "Robert Kotulla"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n141768-JuDGbugsgMHW.png"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/141768"
+              },
+              {
+                "id": 230530,
+                "name": {
+                  "full": "Łukasz Lewandowski"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230530-Dbuxcx2ElmmK.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230530"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 19,
+                "month": 1,
+                "year": null
+              },
+              "age": "12-",
+              "id": 1662,
+              "name": {
+                "full": "Gaara",
+                "native": "我愛羅"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b1662-4E5J0LX9jZKZ.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b1662-4E5J0LX9jZKZ.png"
+              },
+              "description": " __Height:__ 146 cm\n\nGaara was introduced in the series in Chuunin Exams arc, as a violent shinobi from Konoha's allied country, the Wind country. He came to Konoha with his siblings Temari and Kankuro, and with his mentor Baki, to participate in Chuunin exams.  From the first look, he was shown as merciless and violent individual. Due to his hard childhood, and lack of love, Gaara grew up hating everybody around him, loving only himself.   In fateful incident about 6 years before the main story time, he made himself a tattoo of Japanese Kanji letter \"Ai\", which stands for \"Love\". In Gaara's case, that Love was for himself, as he was \"Demon loving only himself\".  Gaara's point of view dramatically changed after a clash with Naruto, who taught him the true meaning of loving others. Since then, Gaara always feels in debt to Naruto, and tries to help him as much as he can.  Like Naruto, Gaara is a Jinchuuriki who holds within him the one tailed beast, Ichibi no Shukaku. Gaara also relates to Naruto in that in his early years, Gaara was often repelled by other children, and feared by Suna's citizens due to the incredible power he possessed.",
+              "siteUrl": "https://anilist.co/character/1662"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95018,
+                "name": {
+                  "full": "Hidekatsu Shibata"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95018-HXJMMED74SVO.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95018"
+              },
+              {
+                "id": 95990,
+                "name": {
+                  "full": "Steve Kramer"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95990-YWt5nzmqPAwB.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95990"
+              },
+              {
+                "id": 96240,
+                "name": {
+                  "full": "Mario Scarabelli"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96240-skGulG7kauYH.png"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96240"
+              },
+              {
+                "id": 102830,
+                "name": {
+                  "full": "Ottó Szokolai"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7830.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102830"
+              },
+              {
+                "id": 103519,
+                "name": {
+                  "full": "Wolf Frass"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n103519-GJxUjiS287uk.png"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/103519"
+              },
+              {
+                "id": 185305,
+                "name": {
+                  "full": "Hélio Vaccari"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n185305-Ye71SSuy89Vz.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/185305"
+              },
+              {
+                "id": 189455,
+                "name": {
+                  "full": "César Arias"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n189455-kB6gS0q59dsI.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/189455"
+              },
+              {
+                "id": 230531,
+                "name": {
+                  "full": "Tadeusz Borowski"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230531-VAkB6B75AFEv.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230531"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 8,
+                "month": 2,
+                "year": null
+              },
+              "age": "68-69",
+              "id": 7571,
+              "name": {
+                "full": "Hiruzen Sarutobi",
+                "native": "猿飛ヒルゼン"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n7571-fKldLuBWUtCO.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n7571-fKldLuBWUtCO.png"
+              },
+              "description": "The Third Hokage is a former student of the First Hokage and Second Hokage. Because of his surname, Sarutobi, the First and Second called him \"Saru\". He is the father of Asuma Sarutobi and the grandfather of Konohamaru. The Third was called The Professor due to his vast knowledge of jutsu, purportedly knowing all the jutsu within Konoha, and also as the \"God of Shinobi\"  due to his immense power.  Information taken from Wikipedia.",
+              "siteUrl": "https://anilist.co/character/7571"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95019,
+                "name": {
+                  "full": "Crispin Freeman"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95019"
+              },
+              {
+                "id": 95371,
+                "name": {
+                  "full": "Kenji Hamada"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95371-nyA7w7nPrlPr.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95371"
+              },
+              {
+                "id": 203651,
+                "name": {
+                  "full": "João Ângelo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n203651-v1kZCDZudomS.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/203651"
+              },
+              {
+                "id": 184397,
+                "name": {
+                  "full": "Octavio Rojas"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n184397-AVFS6OxXj0aI.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/184397"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 10697,
+              "name": {
+                "full": "Shibi Aburame",
+                "native": "油女シビ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n10697-do0MOW9cKUnY.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n10697-do0MOW9cKUnY.png"
+              },
+              "description": "Shibi is Shino's father. He is just as stoic as (if not even more so than) his son. He is a self-possessed figure, and the pride of Aburame. Shibi, like all members of his clan, has his eyes obscured by dark glasses which feature a single tassel hanging down from one-side.",
+              "siteUrl": "https://anilist.co/character/10697"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95019,
+                "name": {
+                  "full": "Crispin Freeman"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95019"
+              },
+              {
+                "id": 95157,
+                "name": {
+                  "full": "Nobuo Tobita"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95157-td6WhlGehuDJ.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95157"
+              },
+              {
+                "id": 96657,
+                "name": {
+                  "full": "Javier Rivero"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96657-yNkbAKYrp7rA.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/96657"
+              },
+              {
+                "id": 104937,
+                "name": {
+                  "full": "Tony Beck"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n104937-yzBT4LiZik5C.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/104937"
+              },
+              {
+                "id": 140681,
+                "name": {
+                  "full": "Christian Rudolf"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n140681-DrSMvvchjPIj.png"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/140681"
+              },
+              {
+                "id": 154552,
+                "name": {
+                  "full": "César Marchetti"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n154552-Q4131HeYuUYB.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/154552"
+              },
+              {
+                "id": 230530,
+                "name": {
+                  "full": "Łukasz Lewandowski"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230530-Dbuxcx2ElmmK.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230530"
+              },
+              {
+                "id": 96092,
+                "name": {
+                  "full": "Claudio Ridolfo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96092-B1dDueqtjW1e.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96092"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 10791,
+              "name": {
+                "full": "Ebisu",
+                "native": "エビス"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n10791-YRA5IXwEQRsW.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n10791-YRA5IXwEQRsW.png"
+              },
+              "description": "Ebisu is an elite Jounin tutor; he also serves as the personal tutor to the Third Hokage's grandson Konohamaru. Like many in the village Ebisu saw Naruto as the Kyuubi himself. Over time though Naruto's hard work impressed Ebisu and he acknowledged that Naruto could be a good role model for Konohamaru.",
+              "siteUrl": "https://anilist.co/character/10791"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95019,
+                "name": {
+                  "full": "Crispin Freeman"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95019"
+              },
+              {
+                "id": 95412,
+                "name": {
+                  "full": "Hideo Ishikawa"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95412-czaGpvAm5pWx.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95412"
+              },
+              {
+                "id": 95774,
+                "name": {
+                  "full": "Simone D'Andrea"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95774-VV3pJui4Ee1T.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/95774"
+              },
+              {
+                "id": 106998,
+                "name": {
+                  "full": "Guy Rushiniak"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/11998.jpg"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/106998"
+              },
+              {
+                "id": 109781,
+                "name": {
+                  "full": "Ja hyeong Gu"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14781.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109781"
+              },
+              {
+                "id": 141776,
+                "name": {
+                  "full": "Sascha Draeger"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/141776"
+              },
+              {
+                "id": 182553,
+                "name": {
+                  "full": "Héctor Emmanuel Gómez"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182553-kBLVWVuLSK7y.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182553"
+              },
+              {
+                "id": 209539,
+                "name": {
+                  "full": "Reinaldo Rodrigues"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n209539-EP3cEM76diHm.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/209539"
+              },
+              {
+                "id": 286109,
+                "name": {
+                  "full": "Zbigniew Konopka"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n286109-todhYHhOf79r.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/286109"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 9,
+                "month": 6,
+                "year": null
+              },
+              "age": "17-21",
+              "id": 14,
+              "name": {
+                "full": "Itachi Uchiha",
+                "native": "うちはイタチ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b14-9Kb1E5oel1ke.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b14-9Kb1E5oel1ke.png"
+              },
+              "description": "__Height:__ 175 cm\n\nItachi Uchiha is a missing-nin from Konohagakure, and a prominent member of Akatsuki, partnered with Kisame Hoshigaki. He is [Sasuke Uchiha's](https://anilist.co/character/13/Sasuke-Uchiha) older brother.  Ever since his first appearance, Itachi had always been mysterious, and had acted as though he was hiding his true self. While flashbacks to his past showed that he was a compassionate brother and person, his later acts and claims made it seem that this was mostly just an act.\n ",
+              "siteUrl": "https://anilist.co/character/14"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95019,
+                "name": {
+                  "full": "Crispin Freeman"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95019-o7SDOiPsPXKs.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95019"
+              },
+              {
+                "id": 96414,
+                "name": {
+                  "full": "Masahiko Tanaka"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96414-0dvcgzJwFZO4.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/96414"
+              },
+              {
+                "id": 185362,
+                "name": {
+                  "full": "Mauro Castro"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n185362-vCZnscDiDG7o.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/185362"
+              },
+              {
+                "id": 199294,
+                "name": {
+                  "full": "Ricardo Brust"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n199294-ALZ45Jgn1mcp.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/199294"
+              },
+              {
+                "id": 115248,
+                "name": {
+                  "full": "Davide Albano"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/20248.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/115248"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 22920,
+              "name": {
+                "full": "Rasa",
+                "native": "羅砂"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n22920-MZPUrxk6WQ8V.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n22920-MZPUrxk6WQ8V.png"
+              },
+              "description": "The Fourth Kazekage was the previous leader of Sunagakure. He is the father of [Temari](https://anilist.co/character/2174), [Kankuro](https://anilist.co/character/4694), and [Gaara](https://anilist.co/character/1662), and husband of [Karura](https://anilist.co/character/22248).\n\n(Source: Narutopedia)",
+              "siteUrl": "https://anilist.co/character/22920"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95021,
+                "name": {
+                  "full": "Kazuhiko Inoue"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95021-9qAoAn6GNZ3S.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95021"
+              },
+              {
+                "id": 95349,
+                "name": {
+                  "full": "Dave Wittenberg"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95349-ZeWKAJFiOL7W.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95349"
+              },
+              {
+                "id": 96289,
+                "name": {
+                  "full": "Claudio Moneta"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96289-6WavF68OhjWa.png"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96289"
+              },
+              {
+                "id": 96628,
+                "name": {
+                  "full": "Lionel Bourguet"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96628-wsDg4SqBD7bD.jpg"
+                },
+                "languageV2": "French",
+                "siteUrl": "https://anilist.co/staff/96628"
+              },
+              {
+                "id": 102768,
+                "name": {
+                  "full": "Rodrigo Crespo"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7768.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102768"
+              },
+              {
+                "id": 102786,
+                "name": {
+                  "full": "Nándor Holl"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7786.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102786"
+              },
+              {
+                "id": 103515,
+                "name": {
+                  "full": "Martin May"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/8515.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/103515"
+              },
+              {
+                "id": 103882,
+                "name": {
+                  "full": "Élcio Sodré"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n103882-5ARxuNV5TBBu.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/103882"
+              },
+              {
+                "id": 109925,
+                "name": {
+                  "full": "Won Il Son"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/14925.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/109925"
+              },
+              {
+                "id": 182554,
+                "name": {
+                  "full": "Alfonso Obregón"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n182554-YnvwrQGTSIjB.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/182554"
+              },
+              {
+                "id": 230528,
+                "name": {
+                  "full": "January Brunov"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/default.jpg"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230528"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 15,
+                "month": 9,
+                "year": null
+              },
+              "age": "25-29",
+              "id": 85,
+              "name": {
+                "full": "Kakashi Hatake",
+                "native": "はたけカカシ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b85-mkVBh2yjxjmx.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b85-mkVBh2yjxjmx.png"
+              },
+              "description": "__Height:__ 180 cm (5'11\")\n\nKakashi Hatake is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan and the Copy Ninja, he is one of Konoha's most talented ninjas, regularly looked to for advice and leadership despite his personal dislike of responsibility.\n\nKakashi has an ongoing, albeit slightly one-sided, rivalry with Might Guy, with Guy constantly proclaiming that Kakashi is his rival, and considering his and Kakashi's subordinates rivals. Kakashi, however, seems indifferent to their rivalry, which annoys Guy to no end. \n\nThough he evasively says that he has \"many hobbies\" when asked about himself, he is commonly seen reading of \"Icha Icha Paradise\" (literally \"Make Out Paradise\"), an adult and probably pornographic novel that is a runaway bestseller in the Naruto world. Kakashi most prominently reads it while training and speaking with his team, and is later seen reading the second known volume in the series, \"Icha Icha Violence\" (literally \"Make Out Violence\").",
+              "siteUrl": "https://anilist.co/character/85"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95022,
+                "name": {
+                  "full": "Shinichirou Miki"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95022-BXggjIr4KHqd.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95022"
+              },
+              {
+                "id": 96544,
+                "name": {
+                  "full": "Michael Reisz"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96544-GBjc928knN51.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/96544"
+              },
+              {
+                "id": 102800,
+                "name": {
+                  "full": "Tamás Markovics"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7800.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102800"
+              },
+              {
+                "id": 106869,
+                "name": {
+                  "full": "Renato Soares"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106869-gR1b1qAARPPs.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/106869"
+              },
+              {
+                "id": 112165,
+                "name": {
+                  "full": "Yuval Segal"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n112165-PeiXmHxeo20w.jpg"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/112165"
+              },
+              {
+                "id": 105021,
+                "name": {
+                  "full": "José Gilberto Vilchis"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n105021-Bn6vy2ClY3uX.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/105021"
+              },
+              {
+                "id": 230530,
+                "name": {
+                  "full": "Łukasz Lewandowski"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230530-Dbuxcx2ElmmK.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230530"
+              },
+              {
+                "id": 153004,
+                "name": {
+                  "full": "Felipe Grinnan"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n153004-CgGmVAsohWRg.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/153004"
+              },
+              {
+                "id": 96087,
+                "name": {
+                  "full": "Gianluca Iacono"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n96087-FUVmdkMXQmE5.png"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/96087"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 21,
+                "month": 10,
+                "year": null
+              },
+              "age": "26",
+              "id": 19253,
+              "name": {
+                "full": "Mizuki Touji",
+                "native": "ミズキ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n19253-XVrATfy9w1ZW.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n19253-XVrATfy9w1ZW.png"
+              },
+              "description": "__Hair:__ Light-Gray \n__Eyes:__ Black \n__Height:__ 180 cm  \n__Weight:__ 69.4 kg  \n__Status:__ Chunin   \n\nA Chunin level ninja, Mizuki was a former teacher at the Ninja Academy. After Naruto fails to graduate from the Academy, Mizuki tells Naruto that there is another way to graduate, and tricks him into stealing the forbidden scroll of sealings for him.  But as fate would have it, Mizuki shows up and pins Iruka to the wooden shack behind him. Mizuki then tells Naruto the truth about his past, the fact that he is the Demon Fox. Mizuki then attempts to kill both Naruto and Iruka, but luckily, Naruto uses the skill he learned from the scroll, Shadow Clone Jutsu, to create clones of himself which defeat Mizuki easily.  After that incident, Mizuki was imprisoned in the Konoha Strict Correctional Facility. Mizuki later on leads a prison revolt and sends the brothers, Fuujin and Raijin, to Orochimaru. During his escape, Mizuki remembers back to when Orochimaru gave him a cursed seal after a mission in which he killed his comrade. He was defeated by Naruto's Rasengan.  Mizuki is from the Village Hidden in the Leaves, and his technique is the Transformation Jutsu.",
+              "siteUrl": "https://anilist.co/character/19253"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95026,
+                "name": {
+                  "full": "Travis Willingham"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95026-8rP8eX7zsekz.jpg"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95026"
+              },
+              {
+                "id": 95095,
+                "name": {
+                  "full": "Junichi Suwabe"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95095-DvSjTQnqcgXP.png"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95095"
+              },
+              {
+                "id": 102974,
+                "name": {
+                  "full": "Wellington Lima"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102974-PW4xc2DMIK0d.png"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/102974"
+              },
+              {
+                "id": 199499,
+                "name": {
+                  "full": "Óscar Bonfiglio"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n199499-lqOjW4M40OeY.png"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/199499"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": null,
+                "month": null,
+                "year": null
+              },
+              "age": null,
+              "id": 10524,
+              "name": {
+                "full": "Seimei",
+                "native": "セイメイ"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/n10524-UOTcnEOQCUix.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/n10524-UOTcnEOQCUix.png"
+              },
+              "description": "Semei was the Creator from the village Takumi no Sato hundred Years ago. But now he returns thanks to the villagers and Gaaras used powers. Because of his amor gaaras attacks seem useless but the sandspear give him the rest and sends him beck where Semei came from",
+              "siteUrl": "https://anilist.co/character/10524"
+            }
+          },
+          {
+            "voiceActors": [
+              {
+                "id": 95027,
+                "name": {
+                  "full": "Yukari Tamura"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95027-Zm9onZDUN7ih.jpg"
+                },
+                "languageV2": "Japanese",
+                "siteUrl": "https://anilist.co/staff/95027"
+              },
+              {
+                "id": 95263,
+                "name": {
+                  "full": "Danielle Judovits"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n95263-Gly3Gt6ZKCOr.png"
+                },
+                "languageV2": "English",
+                "siteUrl": "https://anilist.co/staff/95263"
+              },
+              {
+                "id": 102259,
+                "name": {
+                  "full": "Gaby Ugarte"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n102259-jCeOk0tKKk6i.jpg"
+                },
+                "languageV2": "Spanish",
+                "siteUrl": "https://anilist.co/staff/102259"
+              },
+              {
+                "id": 102842,
+                "name": {
+                  "full": "Tamara Zsigmond"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/7842.jpg"
+                },
+                "languageV2": "Hungarian",
+                "siteUrl": "https://anilist.co/staff/102842"
+              },
+              {
+                "id": 106595,
+                "name": {
+                  "full": "Jussara Marques"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n106595-Cx9Afvxjg0ah.jpg"
+                },
+                "languageV2": "Portuguese",
+                "siteUrl": "https://anilist.co/staff/106595"
+              },
+              {
+                "id": 110129,
+                "name": {
+                  "full": "Sin Jeong Han"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/15129.jpg"
+                },
+                "languageV2": "Korean",
+                "siteUrl": "https://anilist.co/staff/110129"
+              },
+              {
+                "id": 112727,
+                "name": {
+                  "full": "Naama Uzan"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/17727.jpg"
+                },
+                "languageV2": "Hebrew",
+                "siteUrl": "https://anilist.co/staff/112727"
+              },
+              {
+                "id": 136569,
+                "name": {
+                  "full": "Saskia Bellahn"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n136569-kbC8OPXctAvZ.jpg"
+                },
+                "languageV2": "German",
+                "siteUrl": "https://anilist.co/staff/136569"
+              },
+              {
+                "id": 230532,
+                "name": {
+                  "full": "Brygida Turowska"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n230532-sUe0MI123ThX.png"
+                },
+                "languageV2": "Polish",
+                "siteUrl": "https://anilist.co/staff/230532"
+              },
+              {
+                "id": 119595,
+                "name": {
+                  "full": "Beatrice Caggiula"
+                },
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/staff/large/n119595-mSjuz5Ni4dcK.jpg"
+                },
+                "languageV2": "Italian",
+                "siteUrl": "https://anilist.co/staff/119595"
+              }
+            ],
+            "node": {
+              "dateOfBirth": {
+                "day": 9,
+                "month": 3,
+                "year": null
+              },
+              "age": "14 (I), 17 (II)",
+              "id": 3710,
+              "name": {
+                "full": "Tenten",
+                "native": "テンテン"
+              },
+              "image": {
+                "large": "https://s4.anilist.co/file/anilistcdn/character/large/b3710-OmDNYKi0Xfjk.png",
+                "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b3710-OmDNYKi0Xfjk.png"
+              },
+              "description": "__Height__: 164 cm  \n__Rank__: Genin (I); Chuunin (II)  \n\nTenten specializes in weaponry, and according to Guy she can hit a bullseye 100 out of 100 times, although her more powerful enemies can often block her attacks.  In battle she summons varying types of weapons from the scrolls she carries with her. In Part I she has many scrolls that serve this purpose, but in Part II she has consolidated her arsenal into a single large scroll. The weapons predominately consist of steel projectiles and an assortment of close-combat weapons, though she is seen using a crossbow in the anime and even a spiked bomb in Part II.",
+              "siteUrl": "https://anilist.co/character/3710"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

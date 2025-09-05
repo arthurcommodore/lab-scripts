@@ -7,30 +7,35 @@ import (
 )
 
 type Anime struct {
-	ID               primitive.ObjectID `bson:"_id,omitempty" json:"id"`
-	Title            string             `bson:"title" json:"title"`
-	Status           string             `bson:"status" json:"status"`
-	StartDate        StartDate
-	EndDate          EndDate
-	Type             string      `bson:"type" json:"type"`
-	Episodes         int         `bson:"episodes" json:"episodes"`
-	Sources          []string    `bson:"sources" json:"sources"`
-	Characters       []Character `bson:"characters" json:"characters"`
-	Tags             []string    `bson:"tags" json:"tags"`
-	Synopsis         string      `bson:"synopsis" json:"synopsis"`
-	Synonyms         []string    `bson:"synonyms" json:"synonyms"`
-	Relations        []string    `bson:"relations" json:"relations"`
-	PathImage        string      `bson:"pathImage" json:"pathImage"`
-	CreatedAt        time.Time   `bson:"createdAt" json:"createdAt"`
-	UpdatedAt        time.Time   `bson:"updatedAt" json:"updatedAt"`
-	Version          int         `bson:"__v" json:"__v"`
-	ChatGpt          bool
-	ChatGptDontFound bool
-	AverageScore     int
-	CountryOfOrigin  string
-	IsAdult          bool
-	AniListApi       bool
-	AniListNotFound  bool
+	ID                primitive.ObjectID `bson:"_id,omitempty" json:"id"`
+	Title             string             `bson:"title" json:"title"`
+	Status            string             `bson:"status" json:"status"`
+	StartDate         StartDate
+	EndDate           EndDate
+	Type              string `bson:"type" json:"type"`
+	Episodes          int    `bson:"episodes" json:"episodes"`
+	Format            string
+	Sources           []string    `bson:"sources" json:"sources"`
+	Characters        []Character `bson:"characters" json:"characters"`
+	Tags              []string    `bson:"tags" json:"tags"`
+	Synopsis          string      `bson:"synopsis" json:"synopsis"`
+	Synonyms          []string    `bson:"synonyms" json:"synonyms"`
+	Relations         []string    `bson:"relations" json:"relations"`
+	PathImage         string      `bson:"pathImage" json:"pathImage"`
+	CreatedAt         time.Time   `bson:"createdAt" json:"createdAt"`
+	UpdatedAt         time.Time   `bson:"updatedAt" json:"updatedAt"`
+	Version           int         `bson:"__v" json:"__v"`
+	ChatGpt           bool
+	ChatGptDontFound  bool
+	AverageScore      int
+	CountryOfOrigin   string
+	Source            string
+	Duration          int
+	IsAdult           bool
+	AniListApi        bool
+	AniListNotFound   bool
+	StreamingEpisodes []StreamingEpisode
+	Studios           []Studio
 }
 
 type StartDate struct {
@@ -66,4 +71,35 @@ type Character struct {
 	Age         string
 	DateOfBirth DateOfBirth
 	AniListApi  bool
+	VoiceActors VoiceActor
+}
+
+type VoiceActor struct {
+	ID          primitive.ObjectID
+	Name        string
+	Image       string
+	LanguageV2  string
+	SiteUrl     string
+	HomeTown    string
+	Gender      string
+	Age         string
+	DateOfBirth DateOfBirth
+	DateOfDeath struct {
+		day   string
+		month string
+		year  string
+	}
+}
+
+type Studio struct {
+	ID      primitive.ObjectID
+	Name    string
+	SiteUrl string
+}
+
+type StreamingEpisode struct {
+	ID        primitive.ObjectID
+	Site      string
+	Title     string
+	PathImage string
 }

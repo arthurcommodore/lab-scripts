@@ -1,0 +1,202 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 2,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam 0083: Stardust Memory",
+                "Native": "機動戦士ガンダム0083 STARDUST MEMORY",
+                "Romaji": "Kidou Senshi Gundam 0083: STARDUST MEMORY",
+                "UserPreferred": "Kidou Senshi Gundam 0083: STARDUST MEMORY"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam: Char's Counterattack",
+                "Native": "機動戦士ガンダム 逆襲のシャア",
+                "Romaji": "Kidou Senshi Gundam: Gyakushuu no Char",
+                "UserPreferred": "Kidou Senshi Gundam: Gyakushuu no Char"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam F91",
+                "Native": "機動戦士ガンダムF91",
+                "Romaji": "Kidou Senshi Gundam F91",
+                "UserPreferred": "Kidou Senshi Gundam F91"
+              }
+            },
+            {
+              "Title": {
+                "English": "Turn A Gundam",
+                "Native": "∀ガンダム",
+                "Romaji": "∀ Gundam",
+                "UserPreferred": "∀ Gundam"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam Seed Destiny",
+                "Native": "機動戦士ガンダムSEED DESTINY",
+                "Romaji": "Kidou Senshi Gundam SEED DESTINY",
+                "UserPreferred": "Kidou Senshi Gundam SEED DESTINY"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam 00",
+                "Native": "機動戦士ガンダム00",
+                "Romaji": "Kidou Senshi Gundam 00",
+                "UserPreferred": "Kidou Senshi Gundam 00"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam Wing: Endless Waltz",
+                "Native": "新機動戦記ガンダムW Endless Waltz",
+                "Romaji": "Shin Kidou Senki Gundam Wing: Endless Waltz",
+                "UserPreferred": "Shin Kidou Senki Gundam Wing: Endless Waltz"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Zeta Gundam",
+                "Native": "機動戦士Zガンダム",
+                "Romaji": "Kidou Senshi Zeta Gundam",
+                "UserPreferred": "Kidou Senshi Zeta Gundam"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam Seed",
+                "Native": "機動戦士ガンダムSEED",
+                "Romaji": "Kidou Senshi Gundam SEED",
+                "UserPreferred": "Kidou Senshi Gundam SEED"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam ZZ",
+                "Native": "機動戦士ガンダムZZ",
+                "Romaji": "Kidou Senshi Gundam Double Zeta",
+                "UserPreferred": "Kidou Senshi Gundam Double Zeta"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Fighter G Gundam",
+                "Native": "機動武闘伝Gガンダム",
+                "Romaji": "Kidou Butouden G Gundam",
+                "UserPreferred": "Kidou Butouden G Gundam"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam Wing",
+                "Native": "新機動戦記ガンダムW",
+                "Romaji": "Shin Kidou Senki Gundam Wing",
+                "UserPreferred": "Shin Kidou Senki Gundam Wing"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam 0080: War in the Pocket",
+                "Native": "機動戦士ガンダム 0080 ポケットの中の戦争",
+                "Romaji": "Kidou Senshi Gundam 0080: Pocket no Naka no Sensou",
+                "UserPreferred": "Kidou Senshi Gundam 0080: Pocket no Naka no Sensou"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam: The 08th MS Team",
+                "Native": "機動戦士ガンダム 第08MS小隊",
+                "Romaji": "Kidou Senshi Gundam: Dai 08 MS Shotai",
+                "UserPreferred": "Kidou Senshi Gundam: Dai 08 MS Shotai"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Victory Gundam",
+                "Native": "機動戦士Vガンダム",
+                "Romaji": "Kidou Senshi Victory Gundam",
+                "UserPreferred": "Kidou Senshi Victory Gundam"
+              }
+            },
+            {
+              "Title": {
+                "English": "After War Gundam X",
+                "Native": "機動新世紀ガンダムX",
+                "Romaji": "Kidou Shin Seiki Gundam X",
+                "UserPreferred": "Kidou Shin Seiki Gundam X"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam UC",
+                "Native": "機動戦士ガンダムUC",
+                "Romaji": "Kidou Senshi Gundam UC",
+                "UserPreferred": "Kidou Senshi Gundam UC"
+              }
+            },
+            {
+              "Title": {
+                "English": "Mobile Suit Gundam",
+                "Native": "機動戦士ガンダム",
+                "Romaji": "Kidou Senshi Gundam",
+                "UserPreferred": "Kidou Senshi Gundam"
+              }
+            }
+          ]
+        },
+        "Source": "",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "Sunrise",
+              "SiteUrl": "https://anilist.co/studio/14"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "30th GUNDAM PERFECT MISSION",
+          "Romaji": "30th GUNDAM PERFECT MISSION",
+          "UserPreferred": "30th GUNDAM PERFECT MISSION"
+        },
+        "averageScore": 61,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "A special that celebrates the 30th anniversary of Gundam.",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2009
+        },
+        "episodes": 1,
+        "id": 7113,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2009
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

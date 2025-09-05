@@ -1,0 +1,66 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 10,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "A Thirty-Year Old's Health and Physical Education",
+                "Native": "30歳の保健体育",
+                "Romaji": "30-sai no Hoken Taiiku",
+                "UserPreferred": "30-sai no Hoken Taiiku"
+              }
+            }
+          ]
+        },
+        "Source": "OTHER",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "Gathering",
+              "SiteUrl": "https://anilist.co/studio/400"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "30歳の保健体育",
+          "Romaji": "30-sai no Hoken Taiiku Specials",
+          "UserPreferred": "30-sai no Hoken Taiiku Specials"
+        },
+        "averageScore": 54,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "DVD specials.\u003cbr\u003e\u003cbr\u003e\nEpisode 1 -  \u0026#26391;\u0026#35501;\u0026#23569;\u0026#24180; (Lecture Shounen): \u003cbr\u003e\nMacaron's special training by Kuu-chan.\u003cbr\u003e\u003cbr\u003e\nEpisode 2 - \u0026#26391;\u0026#35501;\u0026#20804;\u0026#24351; (Lecture brothers): \u003cbr\u003e\nMacaron's special training by his brother Daigorou.\u003cbr\u003e\u003cbr\u003e\nEpisode 3 - \u0026#12418;\u0026#12358;\u0026#19968;\u0026#12388;\u0026#12398;\u0026#12456;\u0026#12531;\u0026#12487;\u0026#12451;\u0026#12531;\u0026#12464;~\u0026#22234;\u0026#12431;\u0026#12428;\u0026#12398;\u0026#23433;\u0026#34276;\u0026#12394;\u0026#12388;~ (Another ending ~ Natsu Andou's imprisonment):",
+        "endDate": {
+          "day": 23,
+          "month": 9,
+          "year": 2011
+        },
+        "episodes": 3,
+        "id": 12131,
+        "isAdult": false,
+        "startDate": {
+          "day": 22,
+          "month": 7,
+          "year": 2011
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

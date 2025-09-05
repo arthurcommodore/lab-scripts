@@ -14,12 +14,13 @@ import (
 	"github.com/gpt-utils/internal/logic/utils"
 	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 const max = 1000000
 
 func sanitizeFileName(name string) string {
-	invalid := []string{"/", "\\", ":", "*", "?", "\"", "<", ">", "|"}
+	invalid := []string{"/", "\\", ":", "*", "?", "\"", "<", ">", "|", ".", "^", "$", "-"}
 	for _, c := range invalid {
 		name = strings.ReplaceAll(name, c, "_")
 	}
@@ -28,7 +29,12 @@ func sanitizeFileName(name string) string {
 
 func UpdateAnimes() {
 
-	var uploads []struct {
+	var uploadsCharacters []struct {
+		URL  string
+		Path string
+	}
+
+	var uploadEpisodes []struct {
 		URL  string
 		Path string
 	}
@@ -59,8 +65,6 @@ func UpdateAnimes() {
 			continue
 		}
 
-		time.Sleep(3500 * time.Millisecond)
-
 		allEdges, fullResponse, err := logic.FetchAllAnimeCharacters(anime.Title, 25)
 		if err != nil {
 			log.Fatalf("Falha FetchAllAnimeCharacters: %v", err)
@@ -68,13 +72,32 @@ func UpdateAnimes() {
 		}
 
 		if allEdges == nil && fullResponse.Data.Media.Description == "" {
-			fmt.Println("Not found")
+			fmt.Println("Not Found")
 			continue
 		}
 
-		combined := logic.CombinedResult{
+		combined := logic.CombinedResultAniList{
 			FullResponse: fullResponse,
 			AllEdges:     allEdges,
+		}
+
+		var docStreamingEpisodes []dto.StreamingEpisode
+		for _, ep := range combined.FullResponse.Data.Media.StreamingEpisodes {
+			uploadEpisodes = append(uploadEpisodes, struct {
+				URL  string
+				Path string
+			}{
+				URL:  ep.Thumbnail,
+				Path: fmt.Sprintf("%s.jpg", sanitizeFileName(ep.Title)),
+			})
+
+			doc := dto.StreamingEpisode{
+				ID:        primitive.NewObjectID(),
+				Site:      ep.Site,
+				PathImage: fmt.Sprintf("%s.jpg", sanitizeFileName(ep.Title)),
+				Title:     ep.Title,
+			}
+			docStreamingEpisodes = append(docStreamingEpisodes, doc)
 		}
 
 		jsonData, err := json.MarshalIndent(combined, "", "  ")
@@ -92,16 +115,22 @@ func UpdateAnimes() {
 		_, err = rep.UpdateOne(
 			ctx, bson.M{"_id": anime.ID},
 			bson.M{"$set": bson.M{
-				"synopsis":        combined.FullResponse.Data.Media.Description,
-				"countryOfOrigin": combined.FullResponse.Data.Media.CountryOfOrigin,
-				"isAdult":         combined.FullResponse.Data.Media.IsAdult,
-				"episodes":        combined.FullResponse.Data.Media.Episodes,
-				"averageScore":    combined.FullResponse.Data.Media.AverageScore,
-				"type":            combined.FullResponse.Data.Media.Format,
-				"startDate":       combined.FullResponse.Data.Media.StartDate,
-				"endDate":         combined.FullResponse.Data.Media.EndDate,
-				"status":          combined.FullResponse.Data.Media.Status,
-				"aniListApi":      true,
+				"synopsis":          combined.FullResponse.Data.Media.Description,
+				"countryOfOrigin":   combined.FullResponse.Data.Media.CountryOfOrigin,
+				"isAdult":           combined.FullResponse.Data.Media.IsAdult,
+				"episodes":          combined.FullResponse.Data.Media.Episodes,
+				"averageScore":      combined.FullResponse.Data.Media.AverageScore,
+				"type":              combined.FullResponse.Data.Media.Format,
+				"startDate":         combined.FullResponse.Data.Media.StartDate,
+				"endDate":           combined.FullResponse.Data.Media.EndDate,
+				"status":            combined.FullResponse.Data.Media.Status,
+				"source":            combined.FullResponse.Data.Media.Source,
+				"duration":          combined.FullResponse.Data.Media.Duration,
+				"streamingEpisodes": docStreamingEpisodes,
+				"studios":           combined.FullResponse.Data.Media.Studios.Nodes,
+				"format":            combined.FullResponse.Data.Media.Format,
+				"relations":         combined.FullResponse.Data.Media.Relations.Nodes,
+				"aniListApi":        true,
 			}})
 
 		if err != nil {
@@ -125,6 +154,7 @@ func UpdateAnimes() {
 					"characters.$.link":        edge.Node.SiteURL,
 					"characters.$.age":         edge.Node.Age,
 					"characters.$.dateOfBirth": edge.Node.DateOfBirth,
+					"characters.$.voiceActors": edge.VoiceActors,
 					"characters.$.aniListApi":  true,
 				}})
 
@@ -135,7 +165,7 @@ func UpdateAnimes() {
 
 				if matchedCharacter.PathImage == "" {
 
-					uploads = append(uploads, struct {
+					uploadsCharacters = append(uploadsCharacters, struct {
 						URL  string
 						Path string
 					}{
@@ -171,7 +201,7 @@ func UpdateAnimes() {
 					continue
 				}
 
-				uploads = append(uploads, struct {
+				uploadsCharacters = append(uploadsCharacters, struct {
 					URL  string
 					Path string
 				}{
@@ -182,18 +212,29 @@ func UpdateAnimes() {
 		}
 	}
 
+	uploadImages(uploadsCharacters)
+	uploadImages(uploadEpisodes)
+
+	time.Sleep(3 * time.Second)
+}
+
+func uploadImages(uploads []struct {
+	URL  string
+	Path string
+}) {
 	addr := os.Getenv("FTP_ADDR")
 	user := os.Getenv("FTP_USER")
 	password := os.Getenv("FTP_PASSWORD")
 
 	ftpClient, err := logic.NewFtpClient(addr, user, password)
 	if err != nil {
-		panic(err)
+		log.Fatal(err)
 	}
+
 	defer ftpClient.Close()
 
 	for _, up := range uploads {
-		err = logic.DownloadImage(up.URL, fmt.Sprintf("/home/daym/Documentos/aniListImages/%s", up.Path))
+		err := logic.DownloadImage(up.URL, fmt.Sprintf("/home/daym/Documentos/aniListImages/%s", up.Path))
 		if err != nil {
 			log.Fatal(err)
 			return
@@ -206,6 +247,6 @@ func UpdateAnimes() {
 		}
 		fmt.Println("send to ftp")
 
-		time.Sleep(2)
+		time.Sleep(1 * time.Second)
 	}
 }

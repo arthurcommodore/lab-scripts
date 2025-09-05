@@ -13,17 +13,28 @@ const anilistURL = "https://graphql.anilist.co"
 type ResponseAnilist struct {
 	Data struct {
 		Media struct {
-			ID    int `json:"id"`
-			Title struct {
-				Romaji  string `json:"romaji"`
-				English string `json:"english"`
-			} `json:"title"`
+			ID      int `json:"id"`
+			Title   Title
+			Studios struct {
+				Nodes []struct {
+					Name    string
+					SiteUrl string
+				}
+			}
 			Description     string `json:"description"`
 			AverageScore    int    `json:"averageScore"`
 			CountryOfOrigin string `json:"countryOfOrigin"`
+			Source          string
+			Duration        int
 			Episodes        int    `json:"episodes"`
 			Format          string `json:"type"`
-			StartDate       struct {
+			Relations       struct {
+				Nodes []struct {
+					Title Title
+				}
+			}
+			StreamingEpisodes []StreamingEpisode
+			StartDate         struct {
 				Day   int `json:"day"`
 				Month int `json:"month"`
 				Year  int `json:"year"`
@@ -44,8 +55,9 @@ type ResponseAnilist struct {
 					HasNextPage bool `json:"hasNextPage"`
 				} `json:"pageInfo"`
 				Edges []struct {
-					Role string `json:"role"`
-					Node struct {
+					Role        string `json:"role"`
+					VoiceActors []VoiceActor
+					Node        struct {
 						DateOfBirth struct {
 							Day   int `json:"day"`
 							Month int `json:"month"`
@@ -70,9 +82,40 @@ type ResponseAnilist struct {
 	} `json:"data"`
 }
 
+type StreamingEpisode struct {
+	Site      string
+	Thumbnail string
+	Title     string
+	Url       string
+}
+
+type VoiceActor struct {
+	name struct {
+		full string
+	}
+	image struct {
+		large string
+	}
+	languageV2  string
+	siteUrl     string
+	homeTown    string
+	gender      string
+	age         int
+	dateOfBirth struct {
+		day   int
+		month int
+		year  int
+	}
+	dateOfDeath struct {
+		day   int
+		month int
+		year  int
+	}
+}
 type CharacterEdge struct {
-	Role string `json:"role"`
-	Node struct {
+	Role        string `json:"role"`
+	VoiceActors []VoiceActor
+	Node        struct {
 		DateOfBirth dto.DateOfBirth
 		Age         string `json:"age"`
 		ID          int    `json:"id"`
@@ -90,9 +133,16 @@ type CharacterEdge struct {
 }
 
 // ...existing code...
-type CombinedResult struct {
+type CombinedResultAniList struct {
 	FullResponse *ResponseAnilist `json:"fullResponse"`
 	AllEdges     []CharacterEdge  `json:"allEdges"`
+}
+
+type Title struct {
+	English       string
+	Native        string
+	Romaji        string
+	UserPreferred string
 }
 
 func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, error) {
@@ -101,14 +151,40 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
       Media(search: $search, type: ANIME, isAdult: false) {
         id
         title {
-          romaji
-          english
-        }
+			romaji
+			english
+			userPreferred
+			native
+		}
+		studios {
+			nodes {
+				name
+				siteUrl
+			}
+		}
         description
         averageScore
         countryOfOrigin
+		source
+		duration
         episodes
         format
+		relations {
+			nodes {
+				title {
+					english
+					native
+					romaji
+					userPreferred 
+				}
+			}
+		}
+		streamingEpisodes {
+			site
+			thumbnail
+			title
+			url 
+		}
         startDate {
           day
           month
@@ -129,18 +205,29 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
             hasNextPage
           }
           edges {
-             voiceActors {
-				id
+            voiceActors {
 				name {
 					full
 				}
 				image {
 					large
 				}
-				language
+				languageV2
 				siteUrl
+				homeTown
+				gender
+				age
+				dateOfBirth {
+					day
+					month
+					year 
 				}
-			}
+				dateOfDeath {
+					day
+					month
+					year
+				}
+        	}
             node {
               dateOfBirth {
                 day
@@ -148,7 +235,6 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
                 year
               }
               age
-              id
               name {
                 full
                 native
@@ -164,7 +250,6 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
         }
       }
     }
-
     `
 	variables := map[string]interface{}{
 		"search":  search,
@@ -185,7 +270,6 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 	if err != nil {
 		return nil, err
 	}
-
 	var response ResponseAnilist
 	err = json.Unmarshal(req, &response)
 	if err != nil {
@@ -215,12 +299,13 @@ func FetchAllAnimeCharacters(search string, perPage int) ([]CharacterEdge, *Resp
 		for _, edge := range resp.Data.Media.Characters.Edges {
 
 			if seen[edge.Node.ID] {
-				continue // já temos esse personagem, pula
+				continue
 			}
 			seen[edge.Node.ID] = true
 
 			allEdges = append(allEdges, CharacterEdge{
-				Role: edge.Role,
+				Role:        edge.Role,
+				VoiceActors: edge.VoiceActors,
 				Node: struct {
 					DateOfBirth dto.DateOfBirth
 					Age         string `json:"age"`

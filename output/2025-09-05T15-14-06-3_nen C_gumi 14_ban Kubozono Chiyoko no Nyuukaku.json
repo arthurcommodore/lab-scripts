@@ -1,0 +1,54 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 4,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "OTHER",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "3年C組14番窪園チヨコの入閣",
+          "Romaji": "3-Nen C-Gumi 14-Ban Kubozono Chiyoko no Nyuukaku",
+          "UserPreferred": "3-Nen C-Gumi 14-Ban Kubozono Chiyoko no Nyuukaku"
+        },
+        "averageScore": 47,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Music video for the song \"3-Nen C-Gumi 14-Ban Kubozono Chiyoko no Nyuukaku\" by siinamota (Shina Mota) from the CD album 'Kokegane no Uta.' Directed by Kenshiro Morii at Studio Moriken.\n",
+        "endDate": {
+          "day": 3,
+          "month": 3,
+          "year": 2013
+        },
+        "episodes": 1,
+        "id": 104543,
+        "isAdult": false,
+        "startDate": {
+          "day": 3,
+          "month": 3,
+          "year": 2013
+        },
+        "synonyms": [
+          "Year 3 Class C-14, Chiyoko Kubozono's Joining of the Cabinet"
+        ],
+        "type": ""
+      }
+    }
+  }
+}
