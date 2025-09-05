@@ -1,0 +1,54 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 24,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "제 목: 아장닷컴",
+          "Romaji": "A-jang.com",
+          "UserPreferred": "A-jang.com"
+        },
+        "averageScore": 0,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "KR",
+        "description": "The spirit world, the real world and the Internet cyber world maintain peace and harmony by the Dimension stone, which was created by the three deities named Dragon King, Zeus and Zoolu. One day, Doddery had a date therefore he switched the stone guard duty with the Super Baby by bribing him with milk. A-jang fights hard with LuPin and Pigu till the end but in that process something goes wrong with the Dimension Stone and due to that unusual energy Spirit world becomes chaotic. Many spirits including LuPin and Pigu falls into cyber space and A-jang just manages to escape. \u003cbr\u003e\u003cbr\u003e\n(Source: tvkanald.rs)",
+        "endDate": {
+          "day": 22,
+          "month": 12,
+          "year": 2001
+        },
+        "episodes": 13,
+        "id": 9433,
+        "isAdult": false,
+        "startDate": {
+          "day": 22,
+          "month": 11,
+          "year": 2001
+        },
+        "synonyms": [
+          "Ahjangdatkeom"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

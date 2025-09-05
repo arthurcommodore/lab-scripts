@@ -1,0 +1,59 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 6,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "MADHOUSE",
+              "SiteUrl": "https://anilist.co/studio/11"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "48x61 四拾八x六拾壱",
+          "Romaji": "48x61",
+          "UserPreferred": "48x61"
+        },
+        "averageScore": 48,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "48x61 is a short movie made by the famous director Rintaro (Astro Boy, Metropolis, ...) for the Japanese manga artist and director Katsuhiro Otomo (Akira, Mushishi, ...). It was produced by Studio Madhouse. This movie was made when Rintaro was 61 years old and Katsuhiro 48 years old.",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2002
+        },
+        "episodes": 1,
+        "id": 10979,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2002
+        },
+        "synonyms": [
+          "48x61 (Rintaro x Katsuhiro Otomo)"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

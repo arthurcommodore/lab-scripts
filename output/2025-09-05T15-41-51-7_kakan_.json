@@ -1,0 +1,54 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 4,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "7日間.",
+          "Romaji": "7-kakan.",
+          "UserPreferred": "7-kakan."
+        },
+        "averageScore": 48,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Music video directed and animated by Ryuusee for the song \u003ci\u003e7-kakan\u003c/i\u003e by saji (previously known as phatmans after school).",
+        "endDate": {
+          "day": 9,
+          "month": 7,
+          "year": 2015
+        },
+        "episodes": 1,
+        "id": 102444,
+        "isAdult": false,
+        "startDate": {
+          "day": 9,
+          "month": 7,
+          "year": 2015
+        },
+        "synonyms": [
+          "Phatmas after School - 7kakan"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 2,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "6 SONGS",
+          "Romaji": "6 SONGS",
+          "UserPreferred": "6 SONGS"
+        },
+        "averageScore": 41,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Music video directed by Ryoji Yamada for \u003ci\u003e6 SONGS\u003c/i\u003e by Mattia Coletti \u0026 Oh Shu.",
+        "endDate": {
+          "day": 14,
+          "month": 9,
+          "year": 2016
+        },
+        "episodes": 1,
+        "id": 139507,
+        "isAdult": false,
+        "startDate": {
+          "day": 14,
+          "month": 9,
+          "year": 2016
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

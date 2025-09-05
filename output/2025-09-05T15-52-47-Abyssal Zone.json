@@ -1,0 +1,52 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 3,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "Abyssal Zone",
+          "Native": "Abyssal Zone",
+          "Romaji": "Abyssal Zone",
+          "UserPreferred": "Abyssal Zone"
+        },
+        "averageScore": 0,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Music video for the song \u003ci\u003eAbyssal Zone\u003c/i\u003e by Nornis.",
+        "endDate": {
+          "day": 23,
+          "month": 6,
+          "year": 2022
+        },
+        "episodes": 1,
+        "id": 152308,
+        "isAdult": false,
+        "startDate": {
+          "day": 23,
+          "month": 6,
+          "year": 2022
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

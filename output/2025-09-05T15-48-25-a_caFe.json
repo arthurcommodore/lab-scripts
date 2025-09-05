@@ -1,0 +1,52 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 1,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "a_caFe",
+          "Romaji": "a_caFe",
+          "UserPreferred": "a_caFe"
+        },
+        "averageScore": 38,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "A short independent animation by Kazuhiro Hotchi.",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2002
+        },
+        "episodes": 1,
+        "id": 104490,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2002
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 8,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "Geidai Animation",
+              "SiteUrl": "https://anilist.co/studio/6405"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "A brightening life",
+          "Romaji": "A brightening life",
+          "UserPreferred": "A brightening life"
+        },
+        "averageScore": 41,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "It’s an underground world.  Up on the ground there are many people coming and going. There lives a garbage bag in underground. He has no work, no home and no family. This is a story that a dirty black garbage bag gains a new life through the various experiences.\n\u003cbr\u003e\u003cbr\u003e\n1st Year Work 2010 by Aki Kono, Tokyo University of the Arts, Graduate School of Film and New Media, Department of Animation.\n\u003cbr\u003e\u003cbr\u003e\n(Source: Geidai Animation)",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2010
+        },
+        "episodes": 1,
+        "id": 104412,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2010
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

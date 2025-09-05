@@ -27,38 +27,52 @@ func sanitizeFileName(name string) string {
 	return name
 }
 
+var client = logic.GetDB() // deve retornar *mongo.Client
+var collection = client.Database("animeSearch").Collection("animes")
+var rep = logic.NewQueryAnimeMongo(collection)
+
+var uploadsCharacters []struct {
+	URL  string
+	Path string
+}
+
+var uploadEpisodes []struct {
+	URL  string
+	Path string
+}
+
+type Upload struct {
+	URL  string
+	Path string
+}
+
+func newUpload(url, name string) Upload {
+	return Upload{
+		URL:  url,
+		Path: fmt.Sprintf("%s.jpg", sanitizeFileName(name)),
+	}
+}
+
 func UpdateAnimes() {
 
-	var uploadsCharacters []struct {
-		URL  string
-		Path string
-	}
-
-	var uploadEpisodes []struct {
-		URL  string
-		Path string
-	}
-
-	ctx := context.TODO()
+	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	defer cancel()
 
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatalf("Falha ao carregar env: %v", err)
+		log.Println("Erro iniciar updateAnime")
 		return
 	}
 
 	logic.Connect("mongodb://localhost:27017/animeSearch")
 
-	client := logic.GetDB() // deve retornar *mongo.Client
-	collection := client.Database("animeSearch").Collection("animes")
-	rep := logic.NewQueryAnimeMongo(collection)
-
-	animes, err := rep.ListPageAnime(ctx, 1, 15, bson.M{"aniListApi": bson.M{"$ne": true}})
+	animes, err := rep.ListPageAnime(ctx, 1, max, bson.M{"aniListApi": bson.M{"$ne": true}})
 	if err != nil {
 		log.Fatalf("Falha ao listar Anime: %v", err)
 		return
 	}
 
+	count := 0
 	for _, anime := range animes {
 		if len(anime.Title) < 5 {
 			rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"$set": bson.M{"aniListNotFound": true, "aniListApi": true}})
@@ -66,6 +80,9 @@ func UpdateAnimes() {
 		}
 
 		allEdges, fullResponse, err := logic.FetchAllAnimeCharacters(anime.Title, 25)
+		time.Sleep(3 * time.Second)
+		count++
+
 		if err != nil {
 			log.Fatalf("Falha FetchAllAnimeCharacters: %v", err)
 			continue
@@ -138,68 +155,44 @@ func UpdateAnimes() {
 			continue
 		}
 
-		for _, edge := range combined.AllEdges {
+		updateCharacters(ctx, allEdges, anime)
 
-			var matchedCharacter dto.Character
-			for _, character := range anime.Characters {
-				if utils.CompareFirstWords(character.Name, edge.Node.Name.Full) {
-					matchedCharacter = character
-					break
-				}
+		if count > 15 {
+			uploadImages(uploadsCharacters)
+			uploadImages(uploadEpisodes)
+			count = 0
+		}
+	}
+}
+
+func updateCharacters(ctx context.Context, edges []logic.CharacterEdge, anime dto.Anime) {
+	for _, edge := range edges {
+
+		var matchedCharacter dto.Character
+
+		for _, character := range anime.Characters {
+			if utils.CompareFirstWords(character.Name, edge.Node.Name.Full) {
+				matchedCharacter = character
+				break
+			}
+		}
+
+		if matchedCharacter.Name != "" {
+			_, err := rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
+				"characters.$.bio":         edge.Node.Description,
+				"characters.$.link":        edge.Node.SiteURL,
+				"characters.$.age":         edge.Node.Age,
+				"characters.$.dateOfBirth": edge.Node.DateOfBirth,
+				"characters.$.voiceActors": edge.VoiceActors,
+				"characters.$.aniListApi":  true,
+			}})
+
+			if err != nil {
+				log.Fatalf("update character erro if CompareFirstWords: %v", err)
+				continue
 			}
 
-			if matchedCharacter.Name != "" {
-				_, err := rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
-					"characters.$.bio":         edge.Node.Description,
-					"characters.$.link":        edge.Node.SiteURL,
-					"characters.$.age":         edge.Node.Age,
-					"characters.$.dateOfBirth": edge.Node.DateOfBirth,
-					"characters.$.voiceActors": edge.VoiceActors,
-					"characters.$.aniListApi":  true,
-				}})
-
-				if err != nil {
-					log.Fatalf("update character erro if CompareFirstWords: %v", err)
-					continue
-				}
-
-				if matchedCharacter.PathImage == "" {
-
-					uploadsCharacters = append(uploadsCharacters, struct {
-						URL  string
-						Path string
-					}{
-						URL:  edge.Node.Image.Large,
-						Path: fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
-					})
-
-					_, err = rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
-						"characters.$.PathImage": fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
-					}})
-					if err != nil {
-						log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
-						continue
-					}
-				}
-			} else {
-				_, err = rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{
-					"$push": bson.M{
-						"characters": dto.Character{
-							Name:        edge.Node.Name.Full,
-							Age:         edge.Node.Age,
-							DateOfBirth: edge.Node.DateOfBirth,
-							Bio:         edge.Node.Description,
-							PathImage:   fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
-							Link:        edge.Node.SiteURL,
-							AniListApi:  true,
-						},
-					},
-				})
-
-				if err != nil {
-					log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
-					continue
-				}
+			if matchedCharacter.PathImage == "" {
 
 				uploadsCharacters = append(uploadsCharacters, struct {
 					URL  string
@@ -208,14 +201,40 @@ func UpdateAnimes() {
 					URL:  edge.Node.Image.Large,
 					Path: fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 				})
+
+				_, err = rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
+					"characters.$.PathImage": fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
+				}})
+				if err != nil {
+					log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
+					continue
+				}
 			}
+		} else {
+			_, err := rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{
+				"$push": bson.M{
+					"characters": dto.Character{
+						Name:        edge.Node.Name.Full,
+						Age:         edge.Node.Age,
+						DateOfBirth: edge.Node.DateOfBirth,
+						Bio:         edge.Node.Description,
+						PathImage:   fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
+						Link:        edge.Node.SiteURL,
+						AniListApi:  true,
+					},
+				},
+			})
+
+			if err != nil {
+				log.Fatalf("Falha ao atualizar characters.PathImage|Link: %v", err)
+				continue
+			}
+
+			uploadsCharacters = append(uploadsCharacters,
+				newUpload(edge.Node.Image.Large, utils.SanitizeFilename(edge.Node.Name.Full, "_")),
+			)
 		}
 	}
-
-	uploadImages(uploadsCharacters)
-	uploadImages(uploadEpisodes)
-
-	time.Sleep(3 * time.Second)
 }
 
 func uploadImages(uploads []struct {

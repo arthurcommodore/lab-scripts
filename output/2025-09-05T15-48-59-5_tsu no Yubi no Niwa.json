@@ -1,0 +1,55 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 5,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "The garden of five fingers",
+          "Native": "五つの指の庭",
+          "Romaji": "Itsutsu no Oyubi no Niwa",
+          "UserPreferred": "Itsutsu no Oyubi no Niwa"
+        },
+        "averageScore": 0,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "A stop motion animation using several phenakistoscopes of polyhedron and other materials. Five “Egg birds” appears in the artificial garden.\n\u003cbr\u003e\u003cbr\u003e\n(Source: Kraut Film)",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 1988
+        },
+        "episodes": 1,
+        "id": 169764,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 1988
+        },
+        "synonyms": [
+          "5つの指の庭 ",
+          "5-tsu no Yubi no Niwa"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 2,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "个乃ち七允ムく七 (Abstract) feat. Alkama",
+          "Romaji": "Abstract feat. Alkama",
+          "UserPreferred": "Abstract feat. Alkama"
+        },
+        "averageScore": 45,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Abstract stop-motion short film using \"lightning doodles\" by Tochka.\n\u003cbr\u003e\u003cbr\u003e\nIt won 1st place in the Evoke 2017 Animation Competition.\n",
+        "endDate": {
+          "day": 19,
+          "month": 8,
+          "year": 2017
+        },
+        "episodes": 1,
+        "id": 102699,
+        "isAdult": false,
+        "startDate": {
+          "day": 19,
+          "month": 8,
+          "year": 2017
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

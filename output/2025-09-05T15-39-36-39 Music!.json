@@ -1,0 +1,107 @@
+{
+  "allEdges": [
+    {
+      "VoiceActors": [
+        {}
+      ],
+      "node": {
+        "DateOfBirth": {
+          "Day": 31,
+          "Month": 8,
+          "Year": 0
+        },
+        "age": "16",
+        "description": "__Height:__ 158 cm (5'2\")\n\nThe first Japanese VOCALOID to be both developed and distributed by Crypton Future Media, Inc.. She was initially released in August 2007 for the VOCALOID2 engine and was the first member of the Character Vocal Series, as well as the seventh VOCALOID overall and the second VOCALOID2 vocal released to be released for the engine. Her voice is provided by the Japanese voice actress [Saki Fujita](https://anilist.co/staff/95504/Saki-Fujita).\n\nThere have since been numerous installments, such as additional voice libraries dubbed 'Append', as well as an upgrade for the VOCALOID3 engine, which contained an English vocal release. She received a VOCALOID4 update to her Japanese and English voicebanks in August 2016, as well as a Mandarin Chinese voicebank in September 2017.\n\nMiku is considered the most popular and well known Vocaloid and the first to become a pop idol. The name of the title and the character of the software were chosen by combining Hatsu (初, first), Ne (音, sound), and Miku (未来, future) thus meaning \"the first sound from the future.\" Her name was based on her concept of that when a sound is first spoken.\n\nWhen KEI illustrated Miku, he was given a color scheme to work with (based on the YAMAHA synthesizers' signature blue-green colour) and was asked to draw Miku as an android. Crypton also provided KEI with Miku's detailed concepts, however, Crypton said it was not easy to explain what a \"Vocaloid\" was to him. KEI said he could not create an image of a \"singing computer\" at first, as he did not even know what a \"synthesizer\" was. It took him more than a month to complete the commission. ",
+        "id": 0,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b7156-ElNl8t269bUs.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b7156-ElNl8t269bUs.jpg"
+        },
+        "name": {
+          "full": "Miku Hatsune",
+          "native": "初音ミク"
+        },
+        "siteUrl": "https://anilist.co/character/7156"
+      },
+      "role": ""
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 4,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "",
+          "Native": "39みゅーじっく！",
+          "Romaji": "39 Music!",
+          "UserPreferred": "39 Music!"
+        },
+        "averageScore": 71,
+        "characters": {
+          "edges": [
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "16",
+                "dateOfBirth": {
+                  "day": 31,
+                  "month": 8,
+                  "year": 0
+                },
+                "description": "__Height:__ 158 cm (5'2\")\n\nThe first Japanese VOCALOID to be both developed and distributed by Crypton Future Media, Inc.. She was initially released in August 2007 for the VOCALOID2 engine and was the first member of the Character Vocal Series, as well as the seventh VOCALOID overall and the second VOCALOID2 vocal released to be released for the engine. Her voice is provided by the Japanese voice actress [Saki Fujita](https://anilist.co/staff/95504/Saki-Fujita).\n\nThere have since been numerous installments, such as additional voice libraries dubbed 'Append', as well as an upgrade for the VOCALOID3 engine, which contained an English vocal release. She received a VOCALOID4 update to her Japanese and English voicebanks in August 2016, as well as a Mandarin Chinese voicebank in September 2017.\n\nMiku is considered the most popular and well known Vocaloid and the first to become a pop idol. The name of the title and the character of the software were chosen by combining Hatsu (初, first), Ne (音, sound), and Miku (未来, future) thus meaning \"the first sound from the future.\" Her name was based on her concept of that when a sound is first spoken.\n\nWhen KEI illustrated Miku, he was given a color scheme to work with (based on the YAMAHA synthesizers' signature blue-green colour) and was asked to draw Miku as an android. Crypton also provided KEI with Miku's detailed concepts, however, Crypton said it was not easy to explain what a \"Vocaloid\" was to him. KEI said he could not create an image of a \"singing computer\" at first, as he did not even know what a \"synthesizer\" was. It took him more than a month to complete the commission. ",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b7156-ElNl8t269bUs.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b7156-ElNl8t269bUs.jpg"
+                },
+                "name": {
+                  "full": "Miku Hatsune",
+                  "native": "初音ミク"
+                },
+                "siteUrl": "https://anilist.co/character/7156"
+              },
+              "role": ""
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Official music video for the event Magical Mirai 2016, with art by Mago and music by Mikito-P, performed by Miku Hatsune.",
+        "endDate": {
+          "day": 29,
+          "month": 6,
+          "year": 2016
+        },
+        "episodes": 1,
+        "id": 128951,
+        "isAdult": false,
+        "startDate": {
+          "day": 29,
+          "month": 6,
+          "year": 2016
+        },
+        "synonyms": [
+          "Sankyuu Music!",
+          "Miku Music!"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

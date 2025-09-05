@@ -1,0 +1,59 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 2,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "Geidai Animation",
+              "SiteUrl": "https://anilist.co/studio/6405"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "ああ／良い",
+          "Romaji": "aaH / Hee",
+          "UserPreferred": "aaH / Hee"
+        },
+        "averageScore": 30,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "When the mind says aah, the body says hee. I dance around the confusion and the consensus, and my whole life is getting composed of these dances. \u003cbr\u003e\u003cbr\u003e\n 1st year work 2014 by Shishi Yamazaki, Tokyo University of the Arts, Graduate School of Film and New Media, Department of Animation. \u003cbr\u003e\u003cbr\u003e\n(Source: Geidai Animation)",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2014
+        },
+        "episodes": 1,
+        "id": 106566,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2014
+        },
+        "synonyms": [
+          "aa / ii"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 3,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "ORIGINAL",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": []
+        },
+        "Title": {
+          "English": "A Smart Experiment",
+          "Native": "シュッとした実験",
+          "Romaji": "Shutto Shita Jikken",
+          "UserPreferred": "Shutto Shita Jikken"
+        },
+        "averageScore": 34,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Bonus short included on the \"Atsushi Wada Works 2002-2010\" DVD",
+        "endDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2006
+        },
+        "episodes": 1,
+        "id": 102158,
+        "isAdult": false,
+        "startDate": {
+          "day": 0,
+          "month": 0,
+          "year": 2006
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

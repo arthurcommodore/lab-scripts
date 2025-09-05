@@ -1,0 +1,57 @@
+{
+  "allEdges": null,
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 112,
+        "Relations": {
+          "Nodes": []
+        },
+        "Source": "OTHER",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "WAO World",
+              "SiteUrl": "https://anilist.co/studio/318"
+            }
+          ]
+        },
+        "Title": {
+          "English": "Symphony in August",
+          "Native": "8月のシンフォニー ―渋谷 2002～2003",
+          "Romaji": "8-gatsu no Symphony: Shibuya 2002-2003",
+          "UserPreferred": "8-gatsu no Symphony: Shibuya 2002-2003"
+        },
+        "averageScore": 58,
+        "characters": {
+          "edges": [],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Based on the autobiography of the singer Kawashima Ai. The name of the book is \"Saigo no Kotoba (The Last Words)\" and it follows Kawashima Ai's life after her mother's death.\u003cbr\u003e\nThe story chronicles her journey to make her dream come true to be a singer and, among other things, how she used to perform for free on Tokyo's streets. ",
+        "endDate": {
+          "day": 22,
+          "month": 8,
+          "year": 2009
+        },
+        "episodes": 1,
+        "id": 6670,
+        "isAdult": false,
+        "startDate": {
+          "day": 22,
+          "month": 8,
+          "year": 2009
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}

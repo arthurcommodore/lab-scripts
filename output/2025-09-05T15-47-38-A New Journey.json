@@ -1,0 +1,577 @@
+{
+  "allEdges": [
+    {
+      "VoiceActors": [],
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master—unable to prove his innocence, he was forced to slay his own brother in self defense. Even after his master's true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade.",
+        "id": 0,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200017-cm5iSZwXb9ji.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200017-cm5iSZwXb9ji.png"
+        },
+        "name": {
+          "full": "Yasuo",
+          "native": "康夫"
+        },
+        "siteUrl": "https://anilist.co/character/200017"
+      },
+      "role": ""
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 1,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "Kin of the Stained Blade",
+                "Native": "乘风归",
+                "Romaji": "Chen Feng Gui",
+                "UserPreferred": "Chen Feng Gui"
+              }
+            },
+            {
+              "Title": {
+                "English": "Lunar Beast",
+                "Native": "月球兽",
+                "Romaji": "Yueqiu Shou",
+                "UserPreferred": "Yueqiu Shou"
+              }
+            },
+            {
+              "Title": {
+                "English": "Light \u0026 Shadow",
+                "Native": "光与蚀",
+                "Romaji": "Guang Yu Shi",
+                "UserPreferred": "Guang Yu Shi"
+              }
+            },
+            {
+              "Title": {
+                "English": "",
+                "Native": "瓦洛兰小镇",
+                "Romaji": "Waluolan Xiao Zhen",
+                "UserPreferred": "Waluolan Xiao Zhen"
+              }
+            }
+          ]
+        },
+        "Source": "VIDEO_GAME",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "P.A.WORKS",
+              "SiteUrl": "https://anilist.co/studio/132"
+            }
+          ]
+        },
+        "Title": {
+          "English": "A New Journey",
+          "Native": "A New Journey",
+          "Romaji": "A New Journey",
+          "UserPreferred": "A New Journey"
+        },
+        "averageScore": 57,
+        "characters": {
+          "edges": [
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master—unable to prove his innocence, he was forced to slay his own brother in self defense. Even after his master's true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200017-cm5iSZwXb9ji.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200017-cm5iSZwXb9ji.png"
+                },
+                "name": {
+                  "full": "Yasuo",
+                  "native": "康夫"
+                },
+                "siteUrl": "https://anilist.co/character/200017"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "9998+",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Ornn is the Freljordian spirit of forging and craftsmanship. He works in the solitude of a massive smithy, hammered out from the lava caverns beneath the volcano Hearth-Home. There he stokes bubbling cauldrons of molten rock to purify ores and fashion items of unsurpassed quality. When other deities—especially Volibear—walk the earth and meddle in mortal affairs, Ornn arises to put these impetuous beings back in their place, either with his trusty hammer or the fiery power of the mountains themselves.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200018-hFyO2Suiie7l.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200018-hFyO2Suiie7l.jpg"
+                },
+                "name": {
+                  "full": "Ornn",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200018"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "31-36",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionia's magical and martial traditions to drive out Noxian invaders. During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200019-u576isvOayKD.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200019-u576isvOayKD.png"
+                },
+                "name": {
+                  "full": "Zed",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200019"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Once a swordmaster in the warhosts of Noxus, Riven is an expatriate in a land she previously tried to conquer. She rose through the ranks on the strength of her conviction and brutal efficiency, and was rewarded with a legendary runic blade and a warband of her own. However, on the Ionian front, Riven's faith in her homeland was tested and ultimately broken. Having severed all ties to the empire, she now seeks to find her place in a shattered world, even as rumors abound that Noxus itself has been reforged...",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200020-dDHVXQbCJumJ.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200020-dDHVXQbCJumJ.jpg"
+                },
+                "name": {
+                  "full": "Riven",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200020"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200021-z9ZtcHtm3SkD.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200021-z9ZtcHtm3SkD.png"
+                },
+                "name": {
+                  "full": "Ahri",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200021"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200022-2Lgmk16AEFo2.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200022-2Lgmk16AEFo2.jpg"
+                },
+                "name": {
+                  "full": "Caitlyn",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200022"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200023-Yh6cmplLJUy1.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200023-Yh6cmplLJUy1.png"
+                },
+                "name": {
+                  "full": "Zoe",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200023"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200024-HrwcEmlfoz2O.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200024-HrwcEmlfoz2O.png"
+                },
+                "name": {
+                  "full": "Blitzcrank",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200024"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "18",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there's a threat to his friends he'll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200025-TAIjDYdwpRcH.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200025-TAIjDYdwpRcH.jpg"
+                },
+                "name": {
+                  "full": "Ekko",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200025"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b200026-DqpVHVKqMhre.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b200026-DqpVHVKqMhre.png"
+                },
+                "name": {
+                  "full": "Braum",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/200026"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Undeterred by even the most dangerous and threatening of obstacles, Teemo scouts the world with boundless enthusiasm and a cheerful spirit. A yordle with an unwavering sense of morality, he takes pride in following the Bandle Scout's Code, sometimes with such eagerness that he is unaware of the broader consequences of his actions. Though some say the existence of the Scouts is questionable, one thing is for certain: Teemo's conviction is nothing to be trifled with.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207364-OklGByC84Asv.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207364-OklGByC84Asv.png"
+                },
+                "name": {
+                  "full": "Teemo",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207364"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city's depths. Warwick is drawn to blood, and driven mad by its scent. None who spill it can escape him.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207365-LU6Dg5UqFO7c.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207365-LU6Dg5UqFO7c.png"
+                },
+                "name": {
+                  "full": "Warwick",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207365"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207366-Ry9vqd414lxm.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207366-Ry9vqd414lxm.jpg"
+                },
+                "name": {
+                  "full": "Ashe",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207366"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207367-b1oqE9f4ROB2.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207367-b1oqE9f4ROB2.jpg"
+                },
+                "name": {
+                  "full": "Miss Fortune",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207367"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Conflicted between her celestial and mortal natures, Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207368-lijXEYW6vWs5.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207368-lijXEYW6vWs5.png"
+                },
+                "name": {
+                  "full": "Morgana",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207368"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A master of Ionia's ancient martial arts, Lee Sin is a principled fighter who channels the essence of the dragon spirit to face any challenge. Though he lost his sight many years ago, the warrior-monk has devoted his life to protecting his homeland against any who would dare upset its sacred balance. Enemies who underestimate his meditative demeanor will endure his fabled burning fists and blazing roundhouse kicks.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207369-AAtT7S6UiW4T.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207369-AAtT7S6UiW4T.png"
+                },
+                "name": {
+                  "full": "Lee Sin",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207369"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b207370-GB0TeklImaeU.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b207370-GB0TeklImaeU.png"
+                },
+                "name": {
+                  "full": "Neeko",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/207370"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "1098+",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "An enthusiastic master of dark sorcery, Veigar has embraced powers that few mortals dare approach. As a free-spirited inhabitant of Bandle City, he longed to push beyond the limitations of yordle magic, and turned instead to arcane texts that had been hidden away for thousands of years. Now a stubborn creature with an endless fascination for the mysteries of the universe, Veigar is often underestimated by others—but even though he believes himself truly evil, he possesses an inner morality that leads some to question his deeper motivations.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b212969-2GN4JJXzIbZy.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b212969-2GN4JJXzIbZy.png"
+                },
+                "name": {
+                  "full": "Veigar",
+                  "native": "Veigar"
+                },
+                "siteUrl": "https://anilist.co/character/212969"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Something has awoken in Runeterra. Something ancient. Something terrible. The ageless horror known as Fiddlesticks stalks the edges of mortal society, drawn to areas thick with paranoia where it feeds upon terrorized victims. Wielding a jagged scythe, the haggard, makeshift creature reaps fear itself, shattering the minds of those unlucky enough to survive in its wake. Beware the sounding of the crow, or the whispering of the shape that appears almost human… Fiddlesticks has returned.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b212970-9kH076fFQ67H.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b212970-9kH076fFQ67H.png"
+                },
+                "name": {
+                  "full": "Fiddlesticks",
+                  "native": "Fiddlesticks"
+                },
+                "siteUrl": "https://anilist.co/character/212970"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Separate, but never parted, Kindred represents the twin essences of death. Lamb's bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred's nature vary across Runeterra, every mortal must choose the true face of their death.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b212971-2Q1sjty1WsRC.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b212971-2Q1sjty1WsRC.png"
+                },
+                "name": {
+                  "full": "Kindred",
+                  "native": "千珏"
+                },
+                "siteUrl": "https://anilist.co/character/212971"
+              },
+              "role": ""
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "League of Legends commercial animated by P.A. Works, published on League of Legends YouTube channel.",
+        "endDate": {
+          "day": 18,
+          "month": 1,
+          "year": 2019
+        },
+        "episodes": 1,
+        "id": 110291,
+        "isAdult": false,
+        "startDate": {
+          "day": 18,
+          "month": 1,
+          "year": 2019
+        },
+        "synonyms": [
+          " Season 2019: A New Journey | League of Legends"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "allEdges": [
+    {
+      "VoiceActors": [
+        {},
+        {},
+        {}
+      ],
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 0,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233709-20XBYLG8F6Mh.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233709-20XBYLG8F6Mh.png"
+        },
+        "name": {
+          "full": "Jingheng Lin",
+          "native": "林静恒"
+        },
+        "siteUrl": "https://anilist.co/character/233709"
+      },
+      "role": ""
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 18,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "",
+                "Native": "残次品",
+                "Romaji": "Can Ci Pin",
+                "UserPreferred": "Can Ci Pin"
+              }
+            }
+          ]
+        },
+        "Source": "OTHER",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "LX Animation Studio",
+              "SiteUrl": "https://anilist.co/studio/6383"
+            },
+            {
+              "Name": "bilibili",
+              "SiteUrl": "https://anilist.co/studio/6389"
+            }
+          ]
+        },
+        "Title": {
+          "English": "The Defective",
+          "Native": "残次品·放逐星空",
+          "Romaji": "Can Ci Pin: Fangzhu Xingkong",
+          "UserPreferred": "Can Ci Pin: Fangzhu Xingkong"
+        },
+        "averageScore": 62,
+        "characters": {
+          "edges": [
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233709-20XBYLG8F6Mh.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233709-20XBYLG8F6Mh.png"
+                },
+                "name": {
+                  "full": "Jingheng Lin",
+                  "native": "林静恒"
+                },
+                "siteUrl": "https://anilist.co/character/233709"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233710-v6uDjKSzRxSt.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233710-v6uDjKSzRxSt.png"
+                },
+                "name": {
+                  "full": "Bixing Lu",
+                  "native": "陆必行"
+                },
+                "siteUrl": "https://anilist.co/character/233710"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233712-L2iWrR37rmNG.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233712-L2iWrR37rmNG.png"
+                },
+                "name": {
+                  "full": "Duyan Ying",
+                  "native": "独眼鹰"
+                },
+                "siteUrl": "https://anilist.co/character/233712"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233711-aYLjhHOLTXL6.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233711-aYLjhHOLTXL6.png"
+                },
+                "name": {
+                  "full": "Lu Zhan",
+                  "native": "湛卢"
+                },
+                "siteUrl": "https://anilist.co/character/233711"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233715-RccGE39NsAqk.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233715-RccGE39NsAqk.png"
+                },
+                "name": {
+                  "full": "Jingshu Lin",
+                  "native": "林静姝"
+                },
+                "siteUrl": "https://anilist.co/character/233715"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Wulff",
+                  "native": "伍尔夫"
+                },
+                "siteUrl": "https://anilist.co/character/233714"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233716-YxhHRpmeuSjj.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233716-YxhHRpmeuSjj.png"
+                },
+                "name": {
+                  "full": "Gordon",
+                  "native": "格登"
+                },
+                "siteUrl": "https://anilist.co/character/233716"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Bohe",
+                  "native": "薄荷"
+                },
+                "siteUrl": "https://anilist.co/character/233719"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233718-6WVsUt8oknQl.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233718-6WVsUt8oknQl.jpg"
+                },
+                "name": {
+                  "full": "White",
+                  "native": "怀特"
+                },
+                "siteUrl": "https://anilist.co/character/233718"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Douji",
+                  "native": "斗鸡"
+                },
+                "siteUrl": "https://anilist.co/character/233721"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233722-gyntvB3yJVDN.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233722-gyntvB3yJVDN.jpg"
+                },
+                "name": {
+                  "full": "Yuan Yiren",
+                  "native": "源异人"
+                },
+                "siteUrl": "https://anilist.co/character/233722"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233720-U0lP94eiW9y6.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233720-U0lP94eiW9y6.png"
+                },
+                "name": {
+                  "full": "Penny",
+                  "native": "佩妮"
+                },
+                "siteUrl": "https://anilist.co/character/233720"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233723-579rSBLKF8el.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233723-579rSBLKF8el.jpg"
+                },
+                "name": {
+                  "full": "Zhizhu",
+                  "native": "蜘蛛"
+                },
+                "siteUrl": "https://anilist.co/character/233723"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b233724-u2Yvg6sUovzw.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b233724-u2Yvg6sUovzw.jpg"
+                },
+                "name": {
+                  "full": "Kailai Qingwang",
+                  "native": "凯莱亲王"
+                },
+                "siteUrl": "https://anilist.co/character/233724"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Niao Shaonian",
+                  "native": "鸟少年"
+                },
+                "siteUrl": "https://anilist.co/character/233726"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Ling Ling Yi",
+                  "native": "零零一"
+                },
+                "siteUrl": "https://anilist.co/character/233727"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Zhouliu",
+                  "native": "周六"
+                },
+                "siteUrl": "https://anilist.co/character/233725"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Chou Dajie",
+                  "native": "臭大姐"
+                },
+                "siteUrl": "https://anilist.co/character/233761"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Pang Dajie",
+                  "native": "胖大姐"
+                },
+                "siteUrl": "https://anilist.co/character/233763"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/default.jpg"
+                },
+                "name": {
+                  "full": "Laotai",
+                  "native": "老太"
+                },
+                "siteUrl": "https://anilist.co/character/233762"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [
+                {},
+                {},
+                {}
+              ],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b302768-vzYP4v22TZLi.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b302768-vzYP4v22TZLi.png"
+                },
+                "name": {
+                  "full": "Huang Jingshu",
+                  "native": "黄景树"
+                },
+                "siteUrl": "https://anilist.co/character/302768"
+              },
+              "role": ""
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "CN",
+        "description": "The series follows Lu Bixing and Lin Jingheng, two very different men caught up in a futuristic dystopia where mind-link tech known as Eden controls society. One out of every hundred people can’t interface with Eden and are deemed “defective” as outcasts. These two will work together to fight against this unjust world.\n\u003cbr\u003e\u003cbr\u003e\n(Source: Funimation)",
+        "endDate": {
+          "day": 5,
+          "month": 11,
+          "year": 2021
+        },
+        "episodes": 16,
+        "id": 115833,
+        "isAdult": false,
+        "startDate": {
+          "day": 30,
+          "month": 7,
+          "year": 2021
+        },
+        "synonyms": [
+          "Imperfections",
+          "Access Denied"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

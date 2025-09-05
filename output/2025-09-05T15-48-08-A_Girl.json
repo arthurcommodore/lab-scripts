@@ -1,0 +1,189 @@
+{
+  "allEdges": [
+    {
+      "VoiceActors": [],
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 0,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/b189624-D3XwSnaS7Xjd.png",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b189624-D3XwSnaS7Xjd.png"
+        },
+        "name": {
+          "full": "Mariko",
+          "native": "マリ子"
+        },
+        "siteUrl": "https://anilist.co/character/189624"
+      },
+      "role": ""
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 31,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "",
+                "Native": "A-Girl",
+                "Romaji": "A-Girl",
+                "UserPreferred": "A-Girl"
+              }
+            }
+          ]
+        },
+        "Source": "MANGA",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "MADHOUSE",
+              "SiteUrl": "https://anilist.co/studio/11"
+            },
+            {
+              "Name": "Shueisha",
+              "SiteUrl": "https://anilist.co/studio/6570"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "A-Girl",
+          "Romaji": "A-Girl",
+          "UserPreferred": "A-Girl"
+        },
+        "averageScore": 55,
+        "characters": {
+          "edges": [
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b189624-D3XwSnaS7Xjd.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b189624-D3XwSnaS7Xjd.png"
+                },
+                "name": {
+                  "full": "Mariko",
+                  "native": "マリ子"
+                },
+                "siteUrl": "https://anilist.co/character/189624"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Mariko's abusive boyfriend.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b219184-f0UlLRcKeDLo.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b219184-f0UlLRcKeDLo.png"
+                },
+                "name": {
+                  "full": "Goshima",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/219184"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b219186-HjNgZPGt3sBa.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b219186-HjNgZPGt3sBa.jpg"
+                },
+                "name": {
+                  "full": "Ichirou Natsume",
+                  "native": "夏目一朗"
+                },
+                "siteUrl": "https://anilist.co/character/219186"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Mayu is a girl who hangs out with Mariko",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b219187-NI2ryj0heGg0.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b219187-NI2ryj0heGg0.jpg"
+                },
+                "name": {
+                  "full": "Mayu",
+                  "native": "マユ"
+                },
+                "siteUrl": "https://anilist.co/character/219187"
+              },
+              "role": ""
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "Sisters Mariko and Mayu, along with Mariko's bad-tempered boyfriend, become involved with Ichiro, an arrogant, womanizing male model.\u003cbr\u003e\u003cbr\u003e\nA-Girl has very few lines of dialogue and is performed against a background of Japanese pop songs composed by Okada Tooru and sung in English! by SEIKA. Intertiles provide continuity, like in old silent films.",
+        "endDate": {
+          "day": 24,
+          "month": 9,
+          "year": 1993
+        },
+        "episodes": 1,
+        "id": 5447,
+        "isAdult": false,
+        "startDate": {
+          "day": 24,
+          "month": 9,
+          "year": 1993
+        },
+        "synonyms": [
+          "エー・ガール"
+        ],
+        "type": ""
+      }
+    }
+  }
+}

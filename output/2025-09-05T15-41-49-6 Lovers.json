@@ -1,0 +1,369 @@
+{
+  "allEdges": [
+    {
+      "VoiceActors": [],
+      "node": {
+        "DateOfBirth": {
+          "Day": 0,
+          "Month": 0,
+          "Year": 0
+        },
+        "age": "",
+        "description": "",
+        "id": 0,
+        "image": {
+          "large": "https://s4.anilist.co/file/anilistcdn/character/large/89663-psJIq3dBZTck.jpg",
+          "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/89663-psJIq3dBZTck.jpg"
+        },
+        "name": {
+          "full": "Natsuo Washizawa",
+          "native": "鷲沢 夏生"
+        },
+        "siteUrl": "https://anilist.co/character/89663"
+      },
+      "role": ""
+    }
+  ],
+  "fullResponse": {
+    "data": {
+      "Media": {
+        "Duration": 4,
+        "Relations": {
+          "Nodes": [
+            {
+              "Title": {
+                "English": "",
+                "Native": "テンカウント",
+                "Romaji": "Ten Count",
+                "UserPreferred": "Ten Count"
+              }
+            },
+            {
+              "Title": {
+                "English": "ZE",
+                "Native": "是―ZE―",
+                "Romaji": "ZE",
+                "UserPreferred": "ZE"
+              }
+            },
+            {
+              "Title": {
+                "English": "Ten Count",
+                "Native": "テンカウント",
+                "Romaji": "Ten Count",
+                "UserPreferred": "Ten Count"
+              }
+            },
+            {
+              "Title": {
+                "English": "",
+                "Native": "恋愛ルビの正しいふりかた",
+                "Romaji": "Renai Rubi no Tadashii Furikata",
+                "UserPreferred": "Renai Rubi no Tadashii Furikata"
+              }
+            },
+            {
+              "Title": {
+                "English": "",
+                "Native": "クロネコ彼氏の愛し方",
+                "Romaji": "Kuroneko Kareshi no Aishikata",
+                "UserPreferred": "Kuroneko Kareshi no Aishikata"
+              }
+            },
+            {
+              "Title": {
+                "English": "Candy Color Paradox",
+                "Native": "飴色パラドックス",
+                "Romaji": "Ameiro Paradox",
+                "UserPreferred": "Ameiro Paradox"
+              }
+            },
+            {
+              "Title": {
+                "English": "Hey, Class President!",
+                "Native": "生徒会長に忠告",
+                "Romaji": "Seitokaichou ni Chuukoku",
+                "UserPreferred": "Seitokaichou ni Chuukoku"
+              }
+            }
+          ]
+        },
+        "Source": "MANGA",
+        "Status": "",
+        "StreamingEpisodes": [],
+        "Studios": {
+          "Nodes": [
+            {
+              "Name": "Soft Garage",
+              "SiteUrl": "https://anilist.co/studio/254"
+            }
+          ]
+        },
+        "Title": {
+          "English": "",
+          "Native": "6 LOVERS",
+          "Romaji": "6 LOVERS",
+          "UserPreferred": "6 LOVERS"
+        },
+        "averageScore": 51,
+        "characters": {
+          "edges": [
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/89663-psJIq3dBZTck.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/89663-psJIq3dBZTck.jpg"
+                },
+                "name": {
+                  "full": "Natsuo Washizawa",
+                  "native": "鷲沢 夏生"
+                },
+                "siteUrl": "https://anilist.co/character/89663"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Genma is first introduced as the estranged son of a deceased relative of the Mitous, the late Seima Mitou, which was Himi\u0026#039;s previous master. ",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/48363.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/48363.jpg"
+                },
+                "name": {
+                  "full": "Yashiro Genma",
+                  "native": "八代幻"
+                },
+                "siteUrl": "https://anilist.co/character/48363"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "31",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "Occupation: Secretary\n\u003cbr\u003e\nShirotani works in the Tosawa Corporation. He suffers from mysophobia since he was a child. He has short strawberry blonde hair. His eyes are in a light shade of brown and he has a mole under his right eye. Outside he wears a suit with gloves, many times covered with long beige jacket\n\u003cbr\u003e\nHe is seen as rude, inconsiderate or even arrogant person, but he really has a low self-esteem and deeply cares about others. He tries to stay away from people because he doesn't want to hurt anybody with his mysophobia; which is why he blamed himself so much when his boss got hurt in an accident. This traumatic experience and Kurose Riku's help made Shirotani work on his mysophobia. He's currently trying exposure therapy with Kurose's help, who is also a counsellor in a clinic called Shimada Psychosomatics.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b120888-ZYhx3NFJyMLX.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b120888-ZYhx3NFJyMLX.png"
+                },
+                "name": {
+                  "full": "Tadaomi Shirotani",
+                  "native": "城谷忠臣"
+                },
+                "siteUrl": "https://anilist.co/character/120888"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A kamisama that used to belong to Mitou Seima, who treasured him and put him above everything else. After Mitou Seima passed away, Himi was given to Genma as his kamisama. His wish is for someone to carry on the house of his previous master Mitou Seima.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/46093.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/46093.jpg"
+                },
+                "name": {
+                  "full": "Himi",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/46093"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "26",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "A psychiatrist currently curing Shirotani from his mysophobia.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b120887-T2FXD9wdXBEi.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b120887-T2FXD9wdXBEi.png"
+                },
+                "name": {
+                  "full": "Riku Kurose",
+                  "native": ""
+                },
+                "siteUrl": "https://anilist.co/character/120887"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/28628.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/28628.jpg"
+                },
+                "name": {
+                  "full": "Yuuzou Kokusai",
+                  "native": "国斉 祐三"
+                },
+                "siteUrl": "https://anilist.co/character/28628"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/20668.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/20668.jpg"
+                },
+                "name": {
+                  "full": "Yasuhiro Chiga",
+                  "native": "知賀 泰広"
+                },
+                "siteUrl": "https://anilist.co/character/20668"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "",
+                "dateOfBirth": {
+                  "day": 0,
+                  "month": 0,
+                  "year": 0
+                },
+                "description": "",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/89662-lRe5HpwI6Jtv.jpg",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/89662-lRe5HpwI6Jtv.jpg"
+                },
+                "name": {
+                  "full": "Suzuki Hiroshi",
+                  "native": "鈴木 弘"
+                },
+                "siteUrl": "https://anilist.co/character/89662"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "25-",
+                "dateOfBirth": {
+                  "day": 2,
+                  "month": 4,
+                  "year": 0
+                },
+                "description": "Satoshi Onoe, an aspiring journalist that is passionate about politics is unwillingly placed under the \"Movement of Celebrities and Pop Culture\" due to an absent staff member. In this section, he is ironically given a partnership with Motoharu Kaburagi. He reminisces the day when he and Kaburagi attended the same department of a journalism company and through Onoe's hard work, Kaburagi seemed to beat him through every section to be published on DASH magazine ergo counting him as his rival. And being partnered with Kaburagi seemed to only thicken his harboring hatred.\n\nAfter partnering with Kaburagi, Onoe is puzzled by Kaburagi's character because he is quite different towards women than when he's working with him. And unlike Kaburagi, Onoe has his dignity and even calls him a liar for using inappropriate tactics to gain information and evidence. Over time, Onoe is gradually willing to know more about Kaburagi and soon realizes that he is much different than he was given the impression. He eventually becomes attracted to Kaburagi and becomes more bashful around him. This stirs up Kaburagi and becomes increasingly attracted to Onoe's honesty. Though Onoe is an honest man, it confuses Kaburagi because he cannot identify whether Onoe is sarcastic or not; as a result he takes everything Onoe says seriously at the start of their intimate relationship because he knows Onoe rarely lies. Onoe is very attracted to Kaburagi and is easily jealous when it comes to him thus being toiled in assumptions whenever a women gets close to Kaburagi.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b79165-nO3srVLmLr2D.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b79165-nO3srVLmLr2D.png"
+                },
+                "name": {
+                  "full": "Satoshi Onoe",
+                  "native": "尾上聡"
+                },
+                "siteUrl": "https://anilist.co/character/79165"
+              },
+              "role": ""
+            },
+            {
+              "VoiceActors": [],
+              "node": {
+                "age": "25-",
+                "dateOfBirth": {
+                  "day": 14,
+                  "month": 3,
+                  "year": 0
+                },
+                "description": "Motoharu Kaburagi is Onoe's colleague whom at first, Onoe despised. At first, Onoe despised Kaburagi because he had caught what-he-thought-was-his-girlfriend hugging Kaburagi in the office. Ironically, he was soon moved into a new section of journalism, working alongside Kaburagi.\n\nHis character is introduced as an attractive, quite popular and cool photographer. Often you may see him smoking whether he's on the job or not (most of the times he smokes when reflecting on something). He attracts attention from women everywhere and anywhere he goes, inevitably redeeming himself a \"womanizer\" status. Despite his appearance, Kaburagi is dedicated and serious about his job. He is steadfast when it comes to capturing evidence on a scoop, even so much as to lend his body and deceive his subjects to gain information. Though he is deceitful and shameless for the sake of his job, Kaburagi identifies that he is \"fake\" but towards Onoe he is honest and blunt. Kaburagi is captivated by Onoe's honesty and often embarrasses Onoe by teasing. And he may not look it, but he can be quite jealous over Onoe (especially when it comes to Onoe \u0026amp; his friend, Masa).\n\nHe has a younger sister named Noriko.",
+                "id": 0,
+                "image": {
+                  "large": "https://s4.anilist.co/file/anilistcdn/character/large/b79161-aLzK0d6XU4hT.png",
+                  "medium": "https://s4.anilist.co/file/anilistcdn/character/medium/b79161-aLzK0d6XU4hT.png"
+                },
+                "name": {
+                  "full": "Motoharu Kaburagi",
+                  "native": "蕪木元治"
+                },
+                "siteUrl": "https://anilist.co/character/79161"
+              },
+              "role": ""
+            }
+          ],
+          "pageInfo": {
+            "currentPage": 1,
+            "hasNextPage": false,
+            "lastPage": 1,
+            "perPage": 25
+          }
+        },
+        "countryOfOrigin": "JP",
+        "description": "The July issue of Dear+ has announced that a series of manga serialized in the magazine will get anime adaptations in celebration of the magazine's 20th anniversary. These anime will be collected into an \"in motion\" animation series titled 6 Lovers.",
+        "endDate": {
+          "day": 20,
+          "month": 3,
+          "year": 2021
+        },
+        "episodes": 6,
+        "id": 129046,
+        "isAdult": false,
+        "startDate": {
+          "day": 20,
+          "month": 3,
+          "year": 2021
+        },
+        "synonyms": [],
+        "type": ""
+      }
+    }
+  }
+}
