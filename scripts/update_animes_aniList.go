@@ -15,6 +15,7 @@ import (
 	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 const max = 1000000
@@ -27,18 +28,32 @@ func sanitizeFileName(name string) string {
 	return name
 }
 
-var client = logic.GetDB() // deve retornar *mongo.Client
-var collection = client.Database("animeSearch").Collection("animes")
-var rep = logic.NewQueryAnimeMongo(collection)
+var (
+	client     *mongo.Client
+	collection *mongo.Collection
+	rep        *logic.RepositoryMongo
 
-var uploadsCharacters []struct {
-	URL  string
-	Path string
-}
+	uploadsCharacters []struct {
+		URL  string
+		Path string
+	}
+	uploadEpisodes []struct {
+		URL  string
+		Path string
+	}
+)
 
-var uploadEpisodes []struct {
-	URL  string
-	Path string
+func init() {
+	// conecta e inicializa o client só uma vez
+	logic.Connect("mongodb://localhost:27017/animeSearch")
+
+	client = logic.GetDB()
+	if client == nil {
+		log.Fatal("Mongo client retornou nil em GetDB()")
+	}
+
+	collection = client.Database("animeSearch").Collection("animes")
+	rep = logic.NewQueryAnimeMongo(collection)
 }
 
 type Upload struct {
@@ -74,6 +89,10 @@ func UpdateAnimes() {
 
 	count := 0
 	for _, anime := range animes {
+
+		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+		defer cancel()
+
 		if len(anime.Title) < 5 {
 			rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"$set": bson.M{"aniListNotFound": true, "aniListApi": true}})
 			continue
@@ -146,7 +165,6 @@ func UpdateAnimes() {
 				"streamingEpisodes": docStreamingEpisodes,
 				"studios":           combined.FullResponse.Data.Media.Studios.Nodes,
 				"format":            combined.FullResponse.Data.Media.Format,
-				"relations":         combined.FullResponse.Data.Media.Relations.Nodes,
 				"aniListApi":        true,
 			}})
 
@@ -214,6 +232,7 @@ func updateCharacters(ctx context.Context, edges []logic.CharacterEdge, anime dt
 			_, err := rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{
 				"$push": bson.M{
 					"characters": dto.Character{
+						ID:          primitive.NewObjectID(),
 						Name:        edge.Node.Name.Full,
 						Age:         edge.Node.Age,
 						DateOfBirth: edge.Node.DateOfBirth,

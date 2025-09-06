@@ -20,7 +20,6 @@ type Anime struct {
 	Tags              []string    `bson:"tags" json:"tags"`
 	Synopsis          string      `bson:"synopsis" json:"synopsis"`
 	Synonyms          []string    `bson:"synonyms" json:"synonyms"`
-	Relations         []string    `bson:"relations" json:"relations"`
 	PathImage         string      `bson:"pathImage" json:"pathImage"`
 	CreatedAt         time.Time   `bson:"createdAt" json:"createdAt"`
 	UpdatedAt         time.Time   `bson:"updatedAt" json:"updatedAt"`

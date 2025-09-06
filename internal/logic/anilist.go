@@ -21,18 +21,13 @@ type ResponseAnilist struct {
 					SiteUrl string
 				}
 			}
-			Description     string `json:"description"`
-			AverageScore    int    `json:"averageScore"`
-			CountryOfOrigin string `json:"countryOfOrigin"`
-			Source          string
-			Duration        int
-			Episodes        int    `json:"episodes"`
-			Format          string `json:"type"`
-			Relations       struct {
-				Nodes []struct {
-					Title Title
-				}
-			}
+			Description       string `json:"description"`
+			AverageScore      int    `json:"averageScore"`
+			CountryOfOrigin   string `json:"countryOfOrigin"`
+			Source            string
+			Duration          int
+			Episodes          int    `json:"episodes"`
+			Format            string `json:"type"`
 			StreamingEpisodes []StreamingEpisode
 			StartDate         struct {
 				Day   int `json:"day"`
@@ -169,16 +164,6 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 		duration
         episodes
         format
-		relations {
-			nodes {
-				title {
-					english
-					native
-					romaji
-					userPreferred 
-				}
-			}
-		}
 		streamingEpisodes {
 			site
 			thumbnail
