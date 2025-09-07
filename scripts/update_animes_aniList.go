@@ -2,7 +2,6 @@ package scripts
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"log"
 	"os"
@@ -70,7 +69,7 @@ func newUpload(url, name string) Upload {
 
 func UpdateAnimes() {
 
-	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 	defer cancel()
 
 	err := godotenv.Load()
@@ -79,7 +78,9 @@ func UpdateAnimes() {
 		return
 	}
 
-	logic.Connect("mongodb://localhost:27017/animeSearch")
+	uri := os.Getenv("DB_URI")
+
+	logic.Connect(uri)
 
 	animes, err := rep.ListPageAnime(ctx, 1, max, bson.M{"aniListApi": bson.M{"$ne": true}})
 	if err != nil {
@@ -90,7 +91,7 @@ func UpdateAnimes() {
 	count := 0
 	for _, anime := range animes {
 
-		ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
+		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 		defer cancel()
 
 		if len(anime.Title) < 5 {
@@ -136,14 +137,6 @@ func UpdateAnimes() {
 			docStreamingEpisodes = append(docStreamingEpisodes, doc)
 		}
 
-		jsonData, err := json.MarshalIndent(combined, "", "  ")
-		if err != nil {
-			log.Fatalf("Erro ao converter para JSON: %v", err)
-			return
-		}
-
-		safeTitle := sanitizeFileName(anime.Title)
-		_, err = utils.SaveJSONToFile(jsonData, safeTitle, "output")
 		if err != nil {
 			log.Fatalf("Erro ao salvar arquivo: %v", err)
 		}

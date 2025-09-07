@@ -6,7 +6,6 @@ toolchain go1.24.6
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/otiai10/gosseract/v2 v2.4.1
 	go.mongodb.org/mongo-driver v1.17.4
 )
 
