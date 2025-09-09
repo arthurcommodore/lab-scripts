@@ -214,6 +214,7 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 				}
         	}
             node {
+			  id
               dateOfBirth {
                 day
                 month
