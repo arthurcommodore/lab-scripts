@@ -35,6 +35,17 @@ type Anime struct {
 	AniListNotFound   bool
 	StreamingEpisodes []StreamingEpisode
 	Studios           []Studio
+	Staffs            []Staff
+}
+
+type Staff struct {
+	ID        primitive.ObjectID
+	Name      string
+	SiteUrl   string
+	PathImage string
+	HomeTown  string
+	Gender    string
+	Age       int
 }
 
 type StartDate struct {
@@ -70,7 +81,7 @@ type Character struct {
 	Age         string
 	DateOfBirth DateOfBirth
 	AniListApi  bool
-	VoiceActors VoiceActor
+	VoiceActors []VoiceActor
 }
 
 type VoiceActor struct {
@@ -81,12 +92,12 @@ type VoiceActor struct {
 	SiteUrl     string
 	HomeTown    string
 	Gender      string
-	Age         string
+	Age         int
 	DateOfBirth DateOfBirth
 	DateOfDeath struct {
-		day   string
-		month string
-		year  string
+		Day   int
+		Month int
+		Year  int
 	}
 }
 

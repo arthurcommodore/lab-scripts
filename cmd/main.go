@@ -18,5 +18,5 @@ func main() {
 	// Redireciona o log padrão para o arquivo
 	log.SetOutput(logFile)
 
-	scripts.UpdateAnimes()
+	scripts.UpdateJustTypeAnimes()
 }

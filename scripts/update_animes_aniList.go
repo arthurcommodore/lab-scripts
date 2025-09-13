@@ -99,6 +99,19 @@ func UpdateAnimes() {
 			continue
 		}
 
+		var staffs []dto.Staff
+		for _, st := range fullResponse.Data.Media.Staff.Edges {
+			staffs = append(staffs, dto.Staff{
+				ID:        primitive.NewObjectID(),
+				Name:      st.Node.Name.Full,
+				SiteUrl:   st.Node.SiteUrl,
+				PathImage: st.Node.Image.Large,
+				HomeTown:  st.Node.HomeTown,
+				Gender:    st.Node.Gender,
+				Age:       st.Node.Age,
+			})
+		}
+
 		/*
 			combined := struct {
 				AllEdges    []logic.CharacterEdge
@@ -157,6 +170,7 @@ func UpdateAnimes() {
 				"studios":           fullResponse.Data.Media.Studios.Nodes,
 				"format":            fullResponse.Data.Media.Format,
 				"aniListApi":        true,
+				"staffs":            staffs,
 			}})
 
 		if err != nil {
@@ -185,13 +199,29 @@ func updateCharacters(ctx context.Context, edges []logic.CharacterEdge, anime dt
 			}
 		}
 
+		var voiceActors []dto.VoiceActor
+		for _, va := range edge.VoiceActors {
+			voiceActors = append(voiceActors, dto.VoiceActor{
+				ID:          primitive.NewObjectID(),
+				Name:        va.Name.Full,
+				Image:       va.Image.Large,
+				LanguageV2:  va.LanguageV2,
+				SiteUrl:     va.SiteUrl,
+				HomeTown:    va.HomeTown,
+				Gender:      va.Gender,
+				Age:         va.Age,
+				DateOfBirth: va.DateOfBirth,
+				DateOfDeath: va.DateOfDeath,
+			})
+		}
+
 		if matchedCharacter.Name != "" {
 			_, err := rep.UpdateOne(ctx, bson.M{"characters.name": bson.M{"$regex": matchedCharacter.Name, "$options": "i"}}, bson.M{"$set": bson.M{
 				"characters.$.bio":         edge.Node.Description,
 				"characters.$.link":        edge.Node.SiteURL,
 				"characters.$.age":         edge.Node.Age,
 				"characters.$.dateOfBirth": edge.Node.DateOfBirth,
-				"characters.$.voiceActors": edge.VoiceActors,
+				"characters.$.voiceActors": voiceActors,
 				"characters.$.aniListApi":  true,
 			}})
 
@@ -230,6 +260,7 @@ func updateCharacters(ctx context.Context, edges []logic.CharacterEdge, anime dt
 						PathImage:   fmt.Sprintf("%s.jpg", utils.SanitizeFilename(edge.Node.Name.Full, "_")),
 						Link:        edge.Node.SiteURL,
 						AniListApi:  true,
+						VoiceActors: voiceActors,
 					},
 				},
 			})

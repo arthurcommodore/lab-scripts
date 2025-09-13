@@ -21,6 +21,25 @@ type ResponseAnilist struct {
 					SiteUrl string
 				}
 			}
+			Type  string
+			Staff struct {
+				Edges []struct {
+					Node struct {
+						ID    int
+						Age   int
+						Image struct {
+							Large string
+						}
+						Gender   string
+						HomeTown string
+						Name     struct {
+							Full   string
+							Native string
+						}
+						SiteUrl string
+					}
+				}
+			}
 			Description       string `json:"description"`
 			AverageScore      int    `json:"averageScore"`
 			CountryOfOrigin   string `json:"countryOfOrigin"`
@@ -51,7 +70,7 @@ type ResponseAnilist struct {
 				} `json:"pageInfo"`
 				Edges []struct {
 					Role        string `json:"role"`
-					VoiceActors []VoiceActor
+					VoiceActors []voiceActor
 					Node        struct {
 						DateOfBirth struct {
 							Day   int `json:"day"`
@@ -84,32 +103,33 @@ type StreamingEpisode struct {
 	Url       string
 }
 
-type VoiceActor struct {
-	name struct {
-		full string
+type voiceActor struct {
+	Name struct {
+		Full string
 	}
-	image struct {
-		large string
+	Image struct {
+		Large string
 	}
-	languageV2  string
-	siteUrl     string
-	homeTown    string
-	gender      string
-	age         int
-	dateOfBirth struct {
-		day   int
-		month int
-		year  int
+	LanguageV2  string
+	SiteUrl     string
+	HomeTown    string
+	Gender      string
+	Age         int
+	DateOfBirth struct {
+		Day   int
+		Month int
+		Year  int
 	}
-	dateOfDeath struct {
-		day   int
-		month int
-		year  int
+	DateOfDeath struct {
+		Day   int
+		Month int
+		Year  int
 	}
 }
+
 type CharacterEdge struct {
 	Role        string `json:"role"`
-	VoiceActors []VoiceActor
+	VoiceActors []voiceActor
 	Node        struct {
 		DateOfBirth dto.DateOfBirth
 		Age         string `json:"age"`
@@ -151,6 +171,25 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 			userPreferred
 			native
 		}
+		type
+		staff {
+			edges {
+				node {
+					id
+					age
+					image {
+						large
+					}
+					gender
+					homeTown
+					name {
+						full
+						native
+					}
+					siteUrl
+				}
+			}
+		}
 		studios {
 			nodes {
 				name
@@ -182,6 +221,7 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
         }
         isAdult
         synonyms
+		status
         characters(page: $page, perPage: $perPage) {
           pageInfo {
             currentPage
@@ -257,6 +297,44 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 		return nil, err
 	}
 	var response ResponseAnilist
+	err = json.Unmarshal(req, &response)
+	if err != nil {
+		return nil, err
+	}
+
+	return &response, nil
+}
+
+type respType struct {
+	Data struct{ Media struct{ Type string } }
+}
+
+func FetchJustType(search string) (*respType, error) {
+	query := `
+    query ($search: String!) {
+      Media(search: $search, type: ANIME, isAdult: false) {
+		type
+      }
+    }
+    `
+	variables := map[string]interface{}{
+		"search": search,
+	}
+
+	body := map[string]interface{}{
+		"query":     query,
+		"variables": variables,
+	}
+
+	headers := map[string]string{
+		"Content-Type": "application/json",
+	}
+
+	req, err := HTTPPostWithHeaders(anilistURL, body, headers)
+	if err != nil {
+		return nil, err
+	}
+	var response respType
 	err = json.Unmarshal(req, &response)
 	if err != nil {
 		return nil, err
