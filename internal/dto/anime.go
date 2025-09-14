@@ -25,7 +25,6 @@ type Anime struct {
 	UpdatedAt         time.Time   `bson:"updatedAt" json:"updatedAt"`
 	Version           int         `bson:"__v" json:"__v"`
 	ChatGpt           bool
-	ChatGptDontFound  bool
 	AverageScore      int
 	CountryOfOrigin   string
 	Source            string
@@ -82,6 +81,16 @@ type Character struct {
 	DateOfBirth DateOfBirth
 	AniListApi  bool
 	VoiceActors []VoiceActor
+	Characteristics
+}
+
+type Characteristics struct {
+	Gender      string
+	EyeColor    string
+	HairColor   string
+	HairLength  string
+	ApparentAge string
+	AnimalEars  string
 }
 
 type VoiceActor struct {

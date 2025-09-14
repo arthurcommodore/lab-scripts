@@ -1,6 +1,7 @@
 package logic
 
 import (
+	"context"
 	"fmt"
 )
 
@@ -9,7 +10,7 @@ type OpenAIRequest struct {
 	Input string `json:"input"`
 }
 
-func CallOpenAI(apiKey, model, input string) ([]byte, error) {
+func CallOpenAI(ctx context.Context, apiKey, model, input string) ([]byte, error) {
 	url := "https://api.openai.com/v1/responses"
 
 	payload := OpenAIRequest{

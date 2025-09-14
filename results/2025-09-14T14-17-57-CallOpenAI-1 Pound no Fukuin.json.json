@@ -1,0 +1,124 @@
+[
+  {
+    "bio": "Kosaku Hatanaka is the pride of Mukouda Gym (向田ジム). He turned pro after only two bouts in high school, known for his powerful punches that opponents universally respect. Despite his natural talent in boxing, he struggles to control his voracious appetite, leading him to binge eat anything in sight. This has forced him to change weight classes multiple times, from flyweight to featherweight, despite his trainer's advice that his frame isn't suited for it. Kosaku also accepts challenges from heavier fighters, causing constant trouble for both himself and his coach.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Teenager",
+      "eyeColor": "Brown",
+      "gender": "Male",
+      "hairColor": "Black",
+      "hairLength": "Short"
+    },
+    "name": "Kosaku Hatanaka",
+    "tags": [
+      "Heavy Drinkers",
+      "Glutton",
+      "Boxers",
+      "Mischievous",
+      "High School Students",
+      "Athletes",
+      "Ruthless",
+      "Persistent"
+    ]
+  },
+  {
+    "bio": "Sister Angela is a novice nun who takes Kosaku under her wing, determined to help him overcome his gluttony and keep in shape. She constantly encourages him to stay disciplined, but their close interactions lead Kosaku to develop romantic feelings for her. Meanwhile, Sister Angela finds herself struggling with the same temptations, complicating her training to become a nun.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Young Adult",
+      "eyeColor": "Blue",
+      "gender": "Female",
+      "hairColor": "Brown",
+      "hairLength": "Medium"
+    },
+    "name": "Sister Angela",
+    "tags": [
+      "Nuns",
+      "Caretakers",
+      "Shy",
+      "Kind",
+      "Person in a Strange World",
+      "Single Parent",
+      "Religious",
+      "Supportive"
+    ]
+  },
+  {
+    "bio": "Jiro Amakusa is an Olympic gold medalist who transitioned into a professional boxing career, known for his disciplined fighting style and strong technique.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Adult",
+      "eyeColor": "Black",
+      "gender": "Male",
+      "hairColor": "Black",
+      "hairLength": "Short"
+    },
+    "name": "Jiro Amakusa",
+    "tags": [
+      "Boxers",
+      "Athletes",
+      "Ruthless",
+      "High School Students",
+      "Martial Artists",
+      "Determined"
+    ]
+  },
+  {
+    "bio": "Ishida serves as the main coach and trainer at Mukouda Gym, responsible for guiding and developing the boxers' skills and strategies.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Middle-Aged",
+      "eyeColor": "Brown",
+      "gender": "Male",
+      "hairColor": "Gray",
+      "hairLength": "Short"
+    },
+    "name": "Ishida",
+    "tags": [
+      "Coaches",
+      "Mentors",
+      "Stern",
+      "Supportive",
+      "Martial Artists",
+      "Trainers"
+    ]
+  },
+  {
+    "bio": "Tabuchi is one of Kosaku's juniors at Mukouda Gym, an aspiring boxer learning the ropes and aiming to follow in his senior's footsteps.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Teenager",
+      "eyeColor": "Black",
+      "gender": "Male",
+      "hairColor": "Black",
+      "hairLength": "Short"
+    },
+    "name": "Tabuchi",
+    "tags": [
+      "High School Students",
+      "Boxers",
+      "Trainees",
+      "Athletes",
+      "Persistent"
+    ]
+  },
+  {
+    "bio": "Coach Mukoda is the head trainer at Mukouda Gym, overseeing the boxers and managing their physical conditioning and match strategies.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Middle-Aged",
+      "eyeColor": "Black",
+      "gender": "Male",
+      "hairColor": "Black",
+      "hairLength": "Short"
+    },
+    "name": "Coach Mukoda",
+    "tags": [
+      "Coaches",
+      "Mentors",
+      "Disciplinary Committee",
+      "Martial Artists",
+      "Stern"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "bio": "A dreamer enchanted by fairies and beastial spirits; lover of Prince Kamar.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Young Adult",
+      "eyeColor": "Unknown",
+      "gender": "Female",
+      "hairColor": "Unknown",
+      "hairLength": "Unknown"
+    },
+    "name": "Princess Budu",
+    "tags": [
+      "Spirit Seers",
+      "Person in a Strange World",
+      "Women",
+      "Mischievous",
+      "Fantasy",
+      "Royalty"
+    ]
+  },
+  {
+    "bio": "The devoted lover of Princess Budu, part of the dreamlike tale of 1001 Nights.",
+    "characteristics": {
+      "animalEars": "No",
+      "apparentAge": "Young Adult",
+      "eyeColor": "Unknown",
+      "gender": "Male",
+      "hairColor": "Unknown",
+      "hairLength": "Unknown"
+    },
+    "name": "Prince Kamar",
+    "tags": [
+      "Royalty",
+      "Person in a Strange World",
+      "Fantasy",
+      "Lovers",
+      "Mischievous",
+      "Spirit Seers"
+    ]
+  }
+]

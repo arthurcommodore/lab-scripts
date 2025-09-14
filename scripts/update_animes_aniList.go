@@ -33,26 +33,24 @@ var (
 	rep        *logic.RepositoryMongo
 )
 
-func init() {
-
-	err := godotenv.Load()
-	if err != nil {
+// Função explícita de inicialização
+func InitUpdateAnimesRepo() error {
+	if err := godotenv.Load(); err != nil {
 		log.Println("Erro iniciar updateAnime")
-		return
+		return err
 	}
 
-	// conecta e inicializa o client só uma vez
 	uri := os.Getenv("DB_URI")
-
 	logic.Connect(uri)
 
 	client = logic.GetDB()
 	if client == nil {
-		log.Fatal("Mongo client retornou nil em GetDB()")
+		return fmt.Errorf("Mongo client retornou nil em GetDB()")
 	}
 
 	collection = client.Database("animeSearch").Collection("animes")
 	rep = logic.NewQueryAnimeMongo(collection)
+	return nil
 }
 
 type Upload struct {
@@ -60,7 +58,13 @@ type Upload struct {
 	Path string
 }
 
-func UpdateAnimes() {
+func UpdateAnimesAniList() {
+	if rep == nil {
+		if err := InitUpdateAnimesRepo(); err != nil {
+			log.Fatal(err)
+			return
+		}
+	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 	defer cancel()
