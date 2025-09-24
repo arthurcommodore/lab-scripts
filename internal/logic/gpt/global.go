@@ -13,7 +13,7 @@ type Schema struct {
 }
 
 type JSONSchema struct {
-	Name   string
+	Name   string `json:"name"`
 	Schema Schema `json:"schema"`
 }
 
@@ -60,7 +60,7 @@ type Message struct {
 type GPTResp struct {
 	ID      string
 	Object  string
-	Created string
+	Created int64
 	Model   string
 	Choices []struct {
 		Index   int

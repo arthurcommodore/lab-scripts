@@ -77,7 +77,7 @@ func updateAnime(animes []dto.Anime) {
 									"type": "string",
 								},
 							},
-							Required:             []string{"sysnopsis"},
+							Required:             []string{"synopsis"},
 							AdditionalProperties: false,
 						},
 					},
@@ -94,14 +94,14 @@ func updateAnime(animes []dto.Anime) {
 				}
 
 				var content struct {
-					synopsis string
+					Synopsis string `json:"synopsis"`
 				}
 				if err := json.Unmarshal([]byte(response.Choices[0].Message.Content), &content); err != nil {
 					log.Fatalf("error parser json in gpt.go %v", err)
 				}
 
-				fmt.Println(content)
-				// rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"synopsis": content.synopsis})
+				rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"synopsis": content.Synopsis})
+				fmt.Println(anime.ID.Hex())
 
 			}(anime)
 		}
@@ -118,7 +118,7 @@ func updateCharacters(animes []dto.Anime) {
 	}
 
 	tagsJSON, _ := json.Marshal(tags)
-	// model := "gpt-4.1-mini"
+	model := "gpt-4.1-mini"
 	batchSize := 2
 
 	type characterGpt struct {
@@ -218,7 +218,7 @@ func updateCharacters(animes []dto.Anime) {
 							Type: "object",
 							Properties: map[string]interface{}{
 								"characters": map[string]interface{}{
-									"type": "Array",
+									"type": "array",
 									"items": map[string]interface{}{
 										"type": "object",
 										"properties": map[string]interface{}{
@@ -250,7 +250,7 @@ func updateCharacters(animes []dto.Anime) {
 					},
 				}
 
-				response, err := gpt.CallOpenAIStructOutPut(ctx, apiKey, "gpt-4o-2024-08-06", messages, responseFormat)
+				response, err := gpt.CallOpenAIStructOutPut(ctx, apiKey, model, messages, responseFormat)
 				if err != nil {
 					log.Fatal(err)
 				}
@@ -272,12 +272,17 @@ func updateCharacters(animes []dto.Anime) {
 					}
 					Tags []string
 				}
-				var charactersGpt []contentGpt
+				// ...existing code...
+				type CharactersResponse struct {
+					Characters []contentGpt `json:"characters"`
+				}
+				// ...existing code...
 
-				if err := json.Unmarshal([]byte(response.Choices[0].Message.Content), &charactersGpt); err != nil {
+				var resp CharactersResponse
+				if err := json.Unmarshal([]byte(response.Choices[0].Message.Content), &resp); err != nil {
 					log.Fatalf("error parser json in gpt.go %v", err)
 				}
-				fmt.Println(charactersGpt)
+				charactersGpt := resp.Characters
 
 				var charactersUpdated []dto.Character
 				for _, characterGpt := range charactersGpt {
@@ -341,7 +346,7 @@ func UpdateAnimeGptOptimized() {
 
 	load()
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
-	animes, err := rep.ListPageAnime(ctx, 1, 25, bson.M{"characters": bson.M{"$exists": true, "$ne": bson.A{}}, "chatGpt": bson.M{"$ne": true}})
+	animes, err := rep.ListPageAnime(ctx, 1, max, bson.M{"characters": bson.M{"$exists": true, "$ne": bson.A{}}, "chatGpt": bson.M{"$ne": true}})
 	if err != nil {
 		log.Fatal("Erro ao listar animes:", err)
 	}

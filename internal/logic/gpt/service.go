@@ -15,7 +15,7 @@ func CallOpenAIStructOutPut(
 	messages []Message,
 	responseFormat ResponseFormat,
 ) (*GPTResp, error) {
-	url := "https://api.openai.com/v1/responses"
+	url := "https://api.openai.com/v1/chat/completions"
 
 	payload := OpenAIRequest{
 		Model:          model,
@@ -32,6 +32,12 @@ func CallOpenAIStructOutPut(
 	if err != nil {
 		return nil, fmt.Errorf("erro ao chamar OpenAI: %w", err)
 	}
+
+	var teste map[string]interface{}
+	if err := json.Unmarshal([]byte(body), &teste); err != nil {
+		log.Fatalf("error parser json in gpt.go %v", err)
+	}
+	fmt.Println(teste)
 
 	var apiResp GPTResp
 
