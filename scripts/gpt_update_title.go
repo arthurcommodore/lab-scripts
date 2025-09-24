@@ -206,15 +206,46 @@ func updateCharacters(animes []dto.Anime) {
 					{Role: "user", Content: prompt},
 				}
 
+				type Prop struct {
+					Type string `json:"type"`
+				}
+
 				responseFormat := gpt.ResponseFormat{
 					Type: "json_schema",
 					Json_schema: gpt.JSONSchema{
-						Name: "",
+						Name: "characters_updated",
 						Schema: gpt.Schema{
-							Type: "array",
+							Type: "object",
 							Properties: map[string]interface{}{
-								"characters": nil,
+								"characters": map[string]interface{}{
+									"type": "Array",
+									"items": map[string]interface{}{
+										"type": "object",
+										"properties": map[string]interface{}{
+											"name": Prop{Type: "string"},
+											"bio":  Prop{Type: "string"},
+											"characteristics": map[string]interface{}{
+												"gender":      Prop{Type: "string"},
+												"eyeColor":    Prop{Type: "string"},
+												"hairColor":   Prop{Type: "string"},
+												"hairLength":  Prop{Type: "string"},
+												"apparentAge": Prop{Type: "string"},
+												"animalEars":  Prop{Type: "string"},
+											},
+											"tags": struct {
+												Type  string `json:"type"`
+												Items Prop   `json:"items"`
+											}{
+												Type:  "array",
+												Items: Prop{Type: "string"},
+											},
+										},
+										"required": []string{"name", "bio", "characteristics", "tags"},
+									},
+								},
 							},
+							Required:             []string{"characters"},
+							AdditionalProperties: false,
 						},
 					},
 				}
@@ -228,36 +259,25 @@ func updateCharacters(animes []dto.Anime) {
 					log.Printf("Resposta GPT vazia para anime %s", anime.Title)
 				}
 
-				var content struct {
-					synopsis string
+				type contentGpt struct {
+					Name            string
+					Bio             string
+					Characteristics struct {
+						Gender      string
+						EyeColor    string
+						HairColor   string
+						HairLength  string
+						ApparentAge string
+						AnimalEars  string
+					}
+					Tags []string
 				}
-				if err := json.Unmarshal([]byte(response.Choices[0].Message.Content), &content); err != nil {
+				var charactersGpt []contentGpt
+
+				if err := json.Unmarshal([]byte(response.Choices[0].Message.Content), &charactersGpt); err != nil {
 					log.Fatalf("error parser json in gpt.go %v", err)
 				}
-
-				fmt.Println(content)
-
-				if err := json.Unmarshal([]byte(response), &apiResp); err != nil {
-					log.Fatalf("Erro ao parsear resposta para anime %s: %v\nResposta bruta: %s", anime.Title, err, response)
-				}
-
-				if len(apiResp.Output) == 0 || len(apiResp.Output[0].Content) == 0 {
-					log.Fatalf("Resposta GPT vazia para anime %s", anime.Title)
-				}
-
-				resp := apiResp.Output[0].Content[0].Text
-
-				type GPTCharacterResponse struct {
-					Name            string `json:"name"`
-					Bio             string `json:"bio"`
-					Characteristics dto.Characteristics
-					Tags            []string `json:"tags"`
-				}
-
-				var charactersGpt []GPTCharacterResponse
-				if err := json.Unmarshal([]byte(resp), &charactersGpt); err != nil {
-					log.Fatalf("JSON inválido updateCharacters %s: %v\nConteúdo: %s", anime.Title, err, resp)
-				}
+				fmt.Println(charactersGpt)
 
 				var charactersUpdated []dto.Character
 				for _, characterGpt := range charactersGpt {
