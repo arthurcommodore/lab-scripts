@@ -14,7 +14,6 @@ import (
 	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo"
 )
 
 const max = 1000000
@@ -26,12 +25,6 @@ func sanitizeFileName(name string) string {
 	}
 	return name
 }
-
-var (
-	client     *mongo.Client
-	collection *mongo.Collection
-	rep        *logic.RepositoryMongo
-)
 
 // Função explícita de inicialização
 func InitUpdateAnimesRepo() error {
@@ -182,13 +175,13 @@ func UpdateAnimesAniList() {
 			continue
 		}
 
-		updateCharacters(ctx, allEdges, anime, &uploadsCharacters)
+		updateCharactersAniList(ctx, allEdges, anime, &uploadsCharacters)
 		uploadImages(uploadsCharacters)
 		uploadImages(uploadEpisodes)
 	}
 }
 
-func updateCharacters(ctx context.Context, edges []logic.CharacterEdge, anime dto.Anime, uploadsCharacters *[]struct {
+func updateCharactersAniList(ctx context.Context, edges []logic.CharacterEdge, anime dto.Anime, uploadsCharacters *[]struct {
 	URL  string
 	Path string
 }) {
