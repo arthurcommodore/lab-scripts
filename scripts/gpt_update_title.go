@@ -91,6 +91,7 @@ func updateAnime(animes []dto.Anime) {
 
 				if len(response.Choices) == 0 || len(response.Choices[0].Message.Content) == 0 {
 					log.Printf("Resposta GPT vazia para anime %s", anime.Title)
+					return
 				}
 
 				var content struct {
@@ -251,11 +252,12 @@ func updateCharacters(animes []dto.Anime) {
 
 				response, err := gpt.CallOpenAIStructOutPut(ctx, apiKey, model, messages, responseFormat)
 				if err != nil {
-					log.Fatal(err)
+					return
 				}
 
 				if len(response.Choices) == 0 || len(response.Choices[0].Message.Content) == 0 {
 					log.Printf("Resposta GPT vazia para anime %s", anime.Title)
+					return
 				}
 
 				type contentGpt struct {
