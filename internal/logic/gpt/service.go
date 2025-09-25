@@ -32,13 +32,6 @@ func CallOpenAIStructOutPut(
 	if err != nil {
 		return nil, fmt.Errorf("erro ao chamar OpenAI: %w", err)
 	}
-
-	var teste map[string]interface{}
-	if err := json.Unmarshal([]byte(body), &teste); err != nil {
-		log.Fatalf("error parser json in gpt.go %v", err)
-	}
-	fmt.Println(teste)
-
 	var apiResp GPTResp
 
 	if err := json.Unmarshal([]byte(body), &apiResp); err != nil {

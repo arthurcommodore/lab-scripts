@@ -100,8 +100,7 @@ func updateAnime(animes []dto.Anime) {
 					log.Fatalf("error parser json in gpt.go %v", err)
 				}
 
-				rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"synopsis": content.Synopsis})
-				fmt.Println(anime.ID.Hex())
+				rep.UpdateOne(ctx, bson.M{"_id": anime.ID}, bson.M{"$set": bson.M{"synopsis": content.Synopsis}})
 
 			}(anime)
 		}
@@ -345,12 +344,23 @@ func load() {
 func UpdateAnimeGptOptimized() {
 
 	load()
-	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
-	animes, err := rep.ListPageAnime(ctx, 1, max, bson.M{"characters": bson.M{"$exists": true, "$ne": bson.A{}}, "chatGpt": bson.M{"$ne": true}})
-	if err != nil {
-		log.Fatal("Erro ao listar animes:", err)
+
+	var page int = 1
+	for {
+		ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
+		defer cancel()
+		animes, err := rep.ListPageAnime(ctx, page, 10, bson.M{"characters": bson.M{"$exists": true, "$ne": bson.A{}}, "chatGpt": bson.M{"$ne": true}})
+		if err != nil {
+			log.Fatal("Erro ao listar animes:", err)
+		}
+
+		if len(animes) < 1 {
+			break
+		}
+
+		updateAnime(animes)
+		updateCharacters(animes)
+		page++
 	}
-	cancel()
-	updateCharacters(animes)
-	updateAnime(animes)
+
 }
