@@ -5,15 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
-	"os"
 	"strings"
 	"sync"
 	"time"
 
 	"github.com/gpt-utils/internal/dto"
-	"github.com/gpt-utils/internal/logic"
 	"github.com/gpt-utils/internal/logic/gpt"
-	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/bson"
 )
 
@@ -324,28 +321,7 @@ func updateCharacters(animes []dto.Anime) {
 	}
 }
 
-func load() {
-
-	if err := godotenv.Load(); err != nil {
-		log.Println("Erro ao carregar .env:", err)
-	}
-
-	uri = os.Getenv("DB_URI")
-	logic.Connect(uri)
-
-	apiKey = os.Getenv("OPENAI_API_KEY")
-	if apiKey == "" {
-		log.Fatal("OPENAI_API_KEY não definido")
-	}
-
-	client = logic.GetDB()
-	collection = client.Database("animeSearch").Collection("animes")
-	rep = logic.NewQueryAnimeMongo(collection)
-}
-
 func UpdateAnimeGptOptimized() {
-
-	load()
 
 	var page int = 1
 	for {

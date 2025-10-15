@@ -9,6 +9,53 @@ import (
 	"time"
 )
 
+func SaveJSONToFileAppend(data []byte, filenamePrefix, outputDir string) (string, error) {
+	// Caminho do arquivo
+	filePath := filepath.Join(outputDir, filenamePrefix+".json")
+
+	// Garante que o diretório existe
+	if err := os.MkdirAll(outputDir, os.ModePerm); err != nil {
+		return "", fmt.Errorf("erro ao criar diretório: %w", err)
+	}
+
+	// Decodifica o novo JSON recebido
+	var newData []interface{}
+	if err := json.Unmarshal(data, &newData); err != nil {
+		return "", fmt.Errorf("erro ao decodificar novo JSON: %w", err)
+	}
+
+	var existingData []interface{}
+
+	// Se o arquivo já existe, lê o conteúdo e junta
+	if _, err := os.Stat(filePath); err == nil {
+		content, err := os.ReadFile(filePath)
+		if err != nil {
+			return "", fmt.Errorf("erro ao ler arquivo existente: %w", err)
+		}
+
+		if len(content) > 0 {
+			if err := json.Unmarshal(content, &existingData); err != nil {
+				return "", fmt.Errorf("erro ao decodificar JSON existente: %w", err)
+			}
+		}
+	}
+
+	// Faz o append dos novos dados
+	existingData = append(existingData, newData...)
+
+	// Regrava o JSON formatado
+	finalData, err := json.MarshalIndent(existingData, "", "  ")
+	if err != nil {
+		return "", fmt.Errorf("erro ao serializar JSON final: %w", err)
+	}
+
+	if err := os.WriteFile(filePath, finalData, 0644); err != nil {
+		return "", fmt.Errorf("erro ao escrever arquivo: %w", err)
+	}
+
+	return filePath, nil
+}
+
 func SaveJSONToFile(data []byte, filenamePrefix, outputDir string) (string, error) {
 	// Decodifica o JSON para interface{}
 	var obj interface{}

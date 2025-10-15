@@ -11,7 +11,6 @@ import (
 	"github.com/gpt-utils/internal/dto"
 	"github.com/gpt-utils/internal/logic"
 	"github.com/gpt-utils/internal/logic/utils"
-	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
@@ -26,39 +25,12 @@ func sanitizeFileName(name string) string {
 	return name
 }
 
-// Função explícita de inicialização
-func InitUpdateAnimesRepo() error {
-	if err := godotenv.Load(); err != nil {
-		log.Println("Erro iniciar updateAnime")
-		return err
-	}
-
-	uri := os.Getenv("DB_URI")
-	logic.Connect(uri)
-
-	client = logic.GetDB()
-	if client == nil {
-		return fmt.Errorf("Mongo client retornou nil em GetDB()")
-	}
-
-	collection = client.Database("animeSearch").Collection("animes")
-	rep = logic.NewQueryAnimeMongo(collection)
-	return nil
-}
-
 type Upload struct {
 	URL  string
 	Path string
 }
 
 func UpdateAnimesAniList() {
-	if rep == nil {
-		if err := InitUpdateAnimesRepo(); err != nil {
-			log.Fatal(err)
-			return
-		}
-	}
-
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 	defer cancel()
 

@@ -306,14 +306,14 @@ func fetchAnimeCharacters(search string, page, perPage int) (*ResponseAnilist, e
 }
 
 type respType struct {
-	Data struct{ Media struct{ Type string } }
+	Data struct{ Media struct{ Format string } }
 }
 
-func FetchJustType(search string) (*respType, error) {
+func FetchJustFormat(search string) (*respType, error) {
 	query := `
     query ($search: String!) {
       Media(search: $search, type: ANIME, isAdult: false) {
-		type
+		format
       }
     }
     `
