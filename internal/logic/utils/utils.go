@@ -109,3 +109,18 @@ func PrintJson(v interface{}) string {
 	}
 	return string(b)
 }
+
+func LoadJSONFromFileAs[T any](filePath string) (T, error) {
+	var result T
+
+	content, err := os.ReadFile(filePath)
+	if err != nil {
+		return result, fmt.Errorf("erro ao ler arquivo JSON: %w", err)
+	}
+
+	if err := json.Unmarshal(content, &result); err != nil {
+		return result, fmt.Errorf("erro ao decodificar JSON: %w", err)
+	}
+
+	return result, nil
+}
